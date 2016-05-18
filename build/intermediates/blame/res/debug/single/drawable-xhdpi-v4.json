@@ -16,16 +16,16 @@
         "source": "D:\\supperWechat\\res\\drawable-xhdpi\\chat_send_btn_pressed.9.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_edit_normal.9.png",
-        "source": "D:\\supperWechat\\res\\drawable-xhdpi\\chat_edit_normal.9.png"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_speaker_normal.png",
+        "source": "D:\\supperWechat\\res\\drawable-xhdpi\\icon_speaker_normal.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\settings_selected.png",
         "source": "D:\\supperWechat\\res\\drawable-xhdpi\\settings_selected.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_speaker_normal.png",
-        "source": "D:\\supperWechat\\res\\drawable-xhdpi\\icon_speaker_normal.png"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_edit_normal.9.png",
+        "source": "D:\\supperWechat\\res\\drawable-xhdpi\\chat_edit_normal.9.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chatting_biaoqing_btn_enable.png",
@@ -44,12 +44,12 @@
         "source": "D:\\supperWechat\\res\\drawable-xhdpi\\groups_icon.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_press_speak_btn_normal.9.png",
-        "source": "D:\\supperWechat\\res\\drawable-xhdpi\\chat_press_speak_btn_normal.9.png"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\new_friends_icon.png",
         "source": "D:\\supperWechat\\res\\drawable-xhdpi\\new_friends_icon.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_press_speak_btn_normal.9.png",
+        "source": "D:\\supperWechat\\res\\drawable-xhdpi\\chat_press_speak_btn_normal.9.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_video_call_pressed.png",
@@ -72,12 +72,12 @@
         "source": "D:\\supperWechat\\res\\drawable-xhdpi\\chat_video_pressed.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\add_public_group.png",
-        "source": "D:\\supperWechat\\res\\drawable-xhdpi\\add_public_group.png"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_item_file.png",
         "source": "D:\\supperWechat\\res\\drawable-xhdpi\\chat_item_file.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\add_public_group.png",
+        "source": "D:\\supperWechat\\res\\drawable-xhdpi\\add_public_group.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\unread_count_bg.9.png",

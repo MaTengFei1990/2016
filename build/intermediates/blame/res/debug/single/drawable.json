@@ -4,20 +4,20 @@
         "source": "D:\\supperWechat\\res\\drawable\\chat_edit.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\timestampe_bg.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\timestampe_bg.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_pressed_shape.xml",
         "source": "D:\\supperWechat\\res\\drawable\\btn_white_pressed_shape.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\type_select_btn.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\type_select_btn.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\timestampe_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\timestampe_bg.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chatting_setmode_voice_btn.xml",
         "source": "D:\\supperWechat\\res\\drawable\\chatting_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\type_select_btn.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\type_select_btn.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_normal_shape.xml",

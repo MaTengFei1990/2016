@@ -3,6 +3,8 @@ manifest
 ADDED from D:\supperWechat\AndroidManifest.xml:2:1-364:12
 	package
 		ADDED from D:\supperWechat\AndroidManifest.xml:3:5-37
+		INJECTED from D:\supperWechat\AndroidManifest.xml
+		INJECTED from D:\supperWechat\AndroidManifest.xml
 	android:versionName
 		ADDED from D:\supperWechat\AndroidManifest.xml:5:5-32
 		INJECTED from D:\supperWechat\AndroidManifest.xml

@@ -295,4 +295,62 @@
     <string name="toast_updatenick_fail">update nickname fail!</string>
     <string name="toast_updatephoto_success">update photo success!</string>
     <string name="toast_updatephoto_fail">update photo fail!</string>
+
+    <string name="MSG_900">MSG:CONNECTION SUCCESS</string>
+    <string name="MSG_901">MSG:CONNECTION FAIL</string>
+    <string name="MSG_902">MSG:UPLOAD AVATAR SUCCESS</string>
+    <string name="MSG_903">MSG:UPLOAD AVATAR FAIL</string>
+    <string name="MSG_101">MSG:REGISTER SUCCESS</string>
+    <string name="MSG_102">MSG:REGISTER USERNAME EXISTS</string>
+    <string name="MSG_103">MSG:REGISTER UPLOAD AVATAR FAIL</string>
+    <string name="MSG_104">MSG:REGISTER UPLOAD AVATAR SUCCESS</string>
+    <string name="MSG_105">MSG:REGISTER FAIL</string>
+    <string name="MSG_106">MSG:UNREGISTER SUCCESS</string>
+    <string name="MSG_107">MSG:UNREGISTER FAIL</string>
+    <string name="MSG_201">MSG:CONTACT FIRENDED</string>
+    <string name="MSG_202">MSG:CONTACT FAIL</string>
+    <string name="MSG_301">MSG:GROUP CREATE SCUUESS</string>
+    <string name="MSG_302">MSG:GROUP HXID EXISTS</string>
+    <string name="MSG_303">MSG:GROUP CREATE FAIL</string>
+    <string name="MSG_304">MSG:GROUP ADD MEMBER FAIL</string>
+    <string name="MSG_305">MSG:GROUP ADD MEMBER SCUUESS</string>
+    <string name="MSG_306">MSG:GROUP UNKONW</string>
+    <string name="MSG_307">MSG:GROUP SAME NAME</string>
+    <string name="MSG_308">MSG:GROUP UPDATE NAME SUCCESS</string>
+    <string name="MSG_309">MSG:GROUP UPDATE NAME FAIL</string>
+    <string name="MSG_310">MSG:GROUP DELETE MEMBER SUCCESS</string>
+    <string name="MSG_311">MSG:GROUP DELETE MEMBER FAIL</string>
+    <string name="MSG_312">MSG:GROUP DELETE SUCCESS</string>
+    <string name="MSG_313">MSG:GROUP DELETE FAIL</string>
+    <string name="MSG_401">MSG:LOGIN UNKNOW USER</string>
+    <string name="MSG_402">MSG:LOGIN ERROR PASSWORD</string>
+    <string name="MSG_403">MSG:LOGIN SUCCESS</string>
+    <string name="MSG_404">MSG:USER SAME NICK</string>
+    <string name="MSG_405">MSG:USER UPDATE NICK SUCCESS</string>
+    <string name="MSG_406">MSG:USER UPDATE NICK FAIL</string>
+    <string name="MSG_407">MSG:USER SAME PASSWORD</string>
+    <string name="MSG_408">MSG:USER UPDATE PASSWORD SUCCESS</string>
+    <string name="MSG_409">MSG:USER UPDATE PASSWORD FAIL</string>
+    <string name="MSG_501">MSG:LOCATION UPLOAD SUCCESS</string>
+    <string name="MSG_502">MSG:LOCATION UPLOAD FAIL</string>
+    <string name="MSG_503">MSG:LOCATION UPDATE SUCCESS</string>
+    <string name="MSG_504">MSG:LOCATION UPDATE FAIL</string>
+    <string name="MSG_999">MSG:UNKNOW</string>
+
+
+
+
+    <string name="send_message">Send Message</string>
+    <string name="Delete_successfully">Removed successfuly</string>
+    <string name="User_name_cannot_be_wd">user name can be num,word！</string>
+    <string name="upload_avatar_failed">upload avatar failed!</string>
+    <string name="cancel_register_failed">cancel register failed</string>
+    <string name="Add_buddy_success">add buddy success</string>
+    <string name="Add_buddy_failed">add buddy failed</string>
+    <string name="Nick_name_cannot_be_empty">Nick name cannot be empty!</string>
+    <string name="Group_name_existed">Group name existed</string>
+    <string name="Create_groups_Success">Success to create groups</string>
+    <string name="Create_groups_Failed">Failed to create groups</string>
+    <string name="photo">photo</string>
+    <string name="near_people_hint">See nearby people\'s function will get your location information, your location information will be kept for a period of time. Through the list of the top right corner to remove functions can be manually remove location information at any time.</string>
 </resources>

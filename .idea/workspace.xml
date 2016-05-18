@@ -1,10 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7953cd2b-4cd9-44a6-9064-a8c056911866" name="Default" comment="" />
+    <list default="true" id="7953cd2b-4cd9-44a6-9064-a8c056911866" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/I.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/BitmapUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/FileUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/HttpUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/ImageLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/MD5.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/Utils.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/generated/source/buildConfig/androidTest/debug/com/easemob/chatuidemo/test/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/easemob/chatuidemo/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/easemob/chatuidemo/Manifest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/easemob/chatuidemo/R.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_chat.xml" afterPath="$PROJECT_DIR$/res/layout/activity_chat.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_group_details.xml" afterPath="$PROJECT_DIR$/res/layout/activity_group_details.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_group_pick_contacts.xml" afterPath="$PROJECT_DIR$/res/layout/activity_group_pick_contacts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_pick_contact_no_checkbox.xml" afterPath="$PROJECT_DIR$/res/layout/activity_pick_contact_no_checkbox.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_show_big_image.xml" afterPath="$PROJECT_DIR$/res/layout/activity_show_big_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_video_call.xml" afterPath="$PROJECT_DIR$/res/layout/activity_video_call.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_voice_call.xml" afterPath="$PROJECT_DIR$/res/layout/activity_voice_call.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/choose_griditem.xml" afterPath="$PROJECT_DIR$/res/layout/choose_griditem.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/expression_gridview.xml" afterPath="$PROJECT_DIR$/res/layout/expression_gridview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment_contact_list.xml" afterPath="$PROJECT_DIR$/res/layout/fragment_contact_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-zh-rCN/strings.xml" afterPath="$PROJECT_DIR$/res/values-zh-rCN/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supperWechat.iml" afterPath="$PROJECT_DIR$/supperWechat.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/applib/controller/HXSDKHelper.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/applib/controller/HXSDKHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/applib/model/DefaultHXSDKModel.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/applib/model/DefaultHXSDKModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/applib/model/GroupRemoveListener.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/applib/model/GroupRemoveListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/applib/model/HXNotifier.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/applib/model/HXNotifier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/applib/model/HXSDKModel.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/applib/model/HXSDKModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/applib/utils/HXPreferenceUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/applib/utils/HXPreferenceUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/Constant.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/Constant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/DemoApplication.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/DemoApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/DemoHXSDKHelper.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/DemoHXSDKHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/DemoHXSDKModel.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/DemoHXSDKModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/UserProfileManager.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/UserProfileManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/AddContactActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/AddContactActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/AlertDialog.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/AlertDialog.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/BaiduMapActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/BaiduMapActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/BaseActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/BaseActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/BlacklistActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/BlacklistActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/CallActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/CallActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/ChatActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ChatActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/ChatAllHistoryFragment.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ChatAllHistoryFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/ChatHistoryFragment.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ChatHistoryFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/ChatRoomActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ChatRoomActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/ChatRoomDetailsActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ChatRoomDetailsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/ContactlistFragment.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ContactlistFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/ContextMenu.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ContextMenu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/DiagnoseActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/DiagnoseActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/EditActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/EditActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/ExitGroupDialog.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ExitGroupDialog.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/ForwardMessageActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ForwardMessageActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/GroupBlacklistActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupBlacklistActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/GroupDetailsActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupDetailsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/GroupPickContactsActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupPickContactsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/GroupSimpleDetailActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupSimpleDetailActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/GroupsActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/ImageGridActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ImageGridActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/ImageGridFragment.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ImageGridFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/LoginActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/LoginActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/MainActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/NewFriendsMsgActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/NewFriendsMsgActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/NewGroupActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/NewGroupActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/OfflinePushNickActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/OfflinePushNickActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/PickContactNoCheckboxActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/PickContactNoCheckboxActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/PublicChatRoomsActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/PublicChatRoomsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/PublicGroupsActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/PublicGroupsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/PublicGroupsSeachActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/PublicGroupsSeachActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/RecorderVideoActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/RecorderVideoActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/RegisterActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/RegisterActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/RobotsActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/RobotsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/SettingsFragment.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/SettingsFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/ShowBigImage.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ShowBigImage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/ShowNormalFileActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ShowNormalFileActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/ShowVideoActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ShowVideoActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/SplashActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/SplashActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/UserProfileActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/UserProfileActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/VideoCallActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/VideoCallActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/activity/VoiceCallActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/VoiceCallActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/adapter/ChatAllHistoryAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/ChatAllHistoryAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/adapter/ChatHistoryAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/ChatHistoryAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/adapter/ChatRoomAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/ChatRoomAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/adapter/ContactAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/ContactAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/adapter/ExpressionAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/ExpressionAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/adapter/ExpressionPagerAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/ExpressionPagerAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/adapter/GroupAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/GroupAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/adapter/MessageAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/MessageAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/adapter/NewFriendsMsgAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/adapter/VoicePlayClickListener.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/VoicePlayClickListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/db/DbOpenHelper.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/db/DbOpenHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/db/DemoDBManager.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/db/DemoDBManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/db/InviteMessgeDao.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/db/InviteMessgeDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/db/UserDao.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/db/UserDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/domain/InviteMessage.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/domain/InviteMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/domain/RobotUser.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/domain/RobotUser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/domain/User.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/domain/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/domain/VideoEntity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/domain/VideoEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/parse/ParseManager.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/parse/ParseManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/receiver/CallReceiver.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/receiver/CallReceiver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/receiver/GCMPushBroadCast.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/receiver/GCMPushBroadCast.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/task/DownloadImageTask.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/task/DownloadImageTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/task/LoadImageTask.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/task/LoadImageTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/task/LoadLocalBigImgTask.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/task/LoadLocalBigImgTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/task/LoadVideoImageTask.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/task/LoadVideoImageTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/utils/CameraHelper.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/CameraHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/utils/CommonUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/CommonUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/utils/DateUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/DateUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/utils/ImageCache.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/ImageCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/utils/ImageUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/ImageUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/utils/PreferenceUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/PreferenceUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/utils/SmileUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/SmileUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/utils/UserUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/UserUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/video/util/ImageCache.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/video/util/ImageCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/video/util/ImageResizer.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/video/util/ImageResizer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/video/util/ImageWorker.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/video/util/ImageWorker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/video/util/RecyclingBitmapDrawable.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/video/util/RecyclingBitmapDrawable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/video/util/Utils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/video/util/Utils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/widget/ExpandGridView.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/ExpandGridView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/widget/MyChronometer.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/MyChronometer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/widget/PasteEditText.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/PasteEditText.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/widget/RecyclingImageView.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/RecyclingImageView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/widget/Sidebar.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/Sidebar.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/widget/photoview/Compat.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/photoview/Compat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/widget/photoview/IPhotoView.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/photoview/IPhotoView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/widget/photoview/PhotoView.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/photoview/PhotoView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/widget/photoview/PhotoViewAttacher.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/photoview/PhotoViewAttacher.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/widget/photoview/SDK16.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/photoview/SDK16.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/widget/photoview/ScrollerProxy.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/photoview/ScrollerProxy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/easemob/chatuidemo/widget/photoview/VersionedGestureDetector.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/photoview/VersionedGestureDetector.java" />
+    </list>
     <ignored path="supperWechat.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -31,18 +181,81 @@
     <favorites_list name="supperWechat" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65625">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.6363637">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values-zh-rCN/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9166666">
+              <caret line="363" column="68" selection-start-line="363" selection-start-column="68" selection-end-line="363" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BitmapUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/utils/BitmapUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="I.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/I.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values-ru-rRU/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.5833333">
+              <caret line="108" column="33" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9166666">
+              <caret line="354" column="289" selection-start-line="354" selection-start-column="289" selection-end-line="354" selection-end-column="289" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -699,7 +912,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1463542522360" />
+        <entry key="$PROJECT_DIR$" value="1463569384630" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -889,14 +1102,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/values-zh-rCN/strings.xml" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/I.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="192" />
-    <option name="y" value="57" />
-    <option name="width" value="1283" />
-    <option name="height" value="749" />
+    <option name="x" value="44" />
+    <option name="y" value="23" />
+    <option name="width" value="1582" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -909,12 +1126,12 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="AndroidView" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -923,8 +1140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -961,12 +1177,12 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+              <option name="myItemId" value="superwechat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -978,10 +1194,24 @@
               <option name="myItemId" value="supperWechat" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supperWechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -991,6 +1221,15 @@
     <property name="android.sdk.path" value="D:/android-sdk-windows" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.ucai.chatuidemo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\supperWechat\src\cn\ucai\superwechat" />
+      <recent name="D:\supperWechat\src\cn\ucai\superwechat\utils" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.supperWechat">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1073,6 +1312,15 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1263,6 +1511,19 @@
       <option name="number" value="Default" />
       <updated>1463541564889</updated>
     </task>
+    <task id="LOCAL-00001" summary="添加applicationId">
+      <created>1463569443646</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1463569443646</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改包名">
+      <created>1463573540122</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1463573540122</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1275,46 +1536,59 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="192" y="57" width="1283" height="749" extended-state="1" />
+    <frame x="44" y="23" width="1582" height="743" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.49739245" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3129771" sideWeight="0.48956975" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3129771" sideWeight="0.5104303" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48091602" sideWeight="0.49739245" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3129771" sideWeight="0.48956975" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3129771" sideWeight="0.5104303" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48091602" sideWeight="0.49739245" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34951457" sideWeight="0.49739245" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.49739245" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.49739245" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41247484" sideWeight="0.5104303" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3769808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17045455" sideWeight="0.5026702" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3671562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17045455" sideWeight="0.49732977" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加applicationId" />
+    <MESSAGE value="修改包名" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改包名" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/app_panel_video_icon.9.png">
       <provider editor-type-id="images">
         <state />
@@ -1346,8 +1620,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65625">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6363637">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-ru-rRU/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5833333">
+          <caret line="108" column="33" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9166666">
+          <caret line="354" column="289" selection-start-line="354" selection-start-column="289" selection-end-line="354" selection-end-column="289" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-zh-rCN/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9166666">
+          <caret line="363" column="68" selection-start-line="363" selection-start-column="68" selection-end-line="363" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/utils/BitmapUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/I.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
