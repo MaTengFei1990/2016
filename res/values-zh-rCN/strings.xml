@@ -121,10 +121,10 @@
     <string name="agree">同意</string>
     <string name="Group_chat">群聊:</string>
     <string name="not_download">未下载:</string>
-	<string name="Please_enter_a_username">请输入用户名</string>
+    <string name="Please_enter_a_username">请输入用户名</string>
     <string name="is_down_please_wait">正在下载视频请稍候</string>
     <string name="Exit_the_group_chat">退出群聊</string>
-    
+
     <string name="not_add_myself">不能添加自己</string>
     <string name="This_user_is_already_your_friend">此用户已是你的好友</string>
     <string name="Add_a_friend">加个好友呗</string>
@@ -256,20 +256,20 @@
     <string name="Is_download_voice_click_later">正在下载语音，稍后点击</string>
     <string name="Send_the_following_pictures">发送以下图片？</string>
     <string name="search_new">搜</string>
-    
+
     <string name="Delete_the_contact">删除联系人</string>
     <string name="Move_into_the_blacklist_new">移入到黑名单</string>
     <string name="Change_the_group_name">改变群名称</string>
     <string name="Sync_Groups_From_Server">从服务器下载群聊信息</string>
-    
+
     <string name="update_contact_list">更新联系人列表</string>
     <string name="update_black_list">更新黑名单</string>
     <string name="update_groups">更新群聊</string>
-    
+
     <string name="update_contact_list_failed">更新联系人列表失败</string>
     <string name="update_black_list_failed">更新黑名单失败</string>
     <string name="update_groups_failed">更新群聊失败</string>
-    
+
     <string name= "no_more_messages">没有更多的消息了</string>
     <string name="gorup_not_found">找不到这个群组</string>
     <string name= "chatroom_allow_owner_leave"> 允许聊天室群主离开</string>
@@ -305,7 +305,6 @@
     <string name="toast_updatenick_fail">更新昵称失败!</string>
     <string name="toast_updatephoto_success">更新头像成功!</string>
     <string name="toast_updatephoto_fail">更新头像失败!</string>
-
     <string name="MSG_900">连接服务器成功</string>
     <string name="MSG_901">连接服务器失败</string>
     <string name="MSG_902">上传头像成功</string>
@@ -346,8 +345,6 @@
     <string name="MSG_503">用户更新地理位置成功</string>
     <string name="MSG_504">用户更新地理位置失败</string>
     <string name="MSG_999">未知错误</string>
-
-
     <string name="send_message">发送消息</string>
     <string name="Delete_successfully">删除成功</string>
     <string name="User_name_cannot_be_wd">用户名只能为数字字母下划线！</string>
@@ -361,5 +358,6 @@
     <string name="Create_groups_Failed">创建群组失败</string>
     <string name="photo">头像</string>
     <string name="near_people_hint">
-    查看附近人的功能将获取你的位置信息，你的位置信息会保留一段时间。通过列表右上角清除功能可随时手动清除位置信息。</string>
+        查看附近人的功能将获取你的位置信息，你的位置信息会保留一段时间。通过列表右上角清除功能可随时手动清除位置信息。
+    </string>
 </resources>

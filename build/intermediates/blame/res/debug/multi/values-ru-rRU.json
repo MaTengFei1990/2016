@@ -7,388 +7,8 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 71,
-                    "endOffset": 122
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 73,
-                        "startColumn": 4,
-                        "startOffset": 4457,
-                        "endColumn": 71,
-                        "endOffset": 4524
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 127,
-                    "endColumn": 61,
-                    "endOffset": 184
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 79,
-                        "startColumn": 4,
-                        "startOffset": 4777,
-                        "endColumn": 61,
-                        "endOffset": 4834
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 189,
-                    "endColumn": 71,
-                    "endOffset": 256
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 89,
-                        "startColumn": 4,
-                        "startOffset": 5392,
-                        "endColumn": 71,
-                        "endOffset": 5459
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 261,
-                    "endColumn": 61,
-                    "endOffset": 318
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 114,
-                        "startColumn": 4,
-                        "startOffset": 6894,
-                        "endColumn": 61,
-                        "endOffset": 6951
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 323,
-                    "endColumn": 43,
-                    "endOffset": 362
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 110,
-                        "startColumn": 4,
-                        "startOffset": 6620,
-                        "endColumn": 43,
-                        "endOffset": 6659
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 367,
-                    "endColumn": 68,
-                    "endOffset": 431
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 93,
-                        "startColumn": 4,
-                        "startOffset": 5672,
-                        "endColumn": 68,
-                        "endOffset": 5736
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 436,
-                    "endColumn": 60,
-                    "endOffset": 492
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 84,
-                        "startColumn": 4,
-                        "startOffset": 5060,
-                        "endColumn": 60,
-                        "endOffset": 5116
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 497,
-                    "endColumn": 55,
-                    "endOffset": 548
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 94,
-                        "startColumn": 4,
-                        "startOffset": 5741,
-                        "endColumn": 55,
-                        "endOffset": 5792
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 553,
-                    "endColumn": 63,
-                    "endOffset": 612
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 104,
-                        "startColumn": 4,
-                        "startOffset": 6300,
-                        "endColumn": 63,
-                        "endOffset": 6359
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 617,
-                    "endColumn": 49,
-                    "endOffset": 662
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 95,
-                        "startColumn": 4,
-                        "startOffset": 5797,
-                        "endColumn": 49,
-                        "endOffset": 5842
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 667,
                     "endColumn": 56,
-                    "endOffset": 719
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 80,
-                        "startColumn": 4,
-                        "startOffset": 4839,
-                        "endColumn": 56,
-                        "endOffset": 4891
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 724,
-                    "endColumn": 57,
-                    "endOffset": 777
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 87,
-                        "startColumn": 4,
-                        "startOffset": 5282,
-                        "endColumn": 57,
-                        "endOffset": 5335
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 782,
-                    "endColumn": 90,
-                    "endOffset": 868
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 86,
-                        "startColumn": 4,
-                        "startOffset": 5191,
-                        "endColumn": 90,
-                        "endOffset": 5277
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 873,
-                    "endColumn": 88,
-                    "endOffset": 957
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 112,
-                        "startColumn": 1,
-                        "startOffset": 6714,
-                        "endColumn": 85,
-                        "endOffset": 6798
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 962,
-                    "endColumn": 70,
-                    "endOffset": 1028
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 92,
-                        "startColumn": 4,
-                        "startOffset": 5601,
-                        "endColumn": 70,
-                        "endOffset": 5667
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1033,
-                    "endColumn": 79,
-                    "endOffset": 1108
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 90,
-                        "startColumn": 4,
-                        "startOffset": 5464,
-                        "endColumn": 79,
-                        "endOffset": 5539
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1113,
-                    "endColumn": 58,
-                    "endOffset": 1167
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 82,
-                        "startColumn": 4,
-                        "startOffset": 4953,
-                        "endColumn": 58,
-                        "endOffset": 5007
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1172,
-                    "endColumn": 72,
-                    "endOffset": 1240
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 96,
-                        "startColumn": 4,
-                        "startOffset": 5847,
-                        "endColumn": 72,
-                        "endOffset": 5915
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1245,
-                    "endColumn": 56,
-                    "endOffset": 1297
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 81,
-                        "startColumn": 4,
-                        "startOffset": 4896,
-                        "endColumn": 56,
-                        "endOffset": 4948
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1302,
-                    "endColumn": 69,
-                    "endOffset": 1367
-                },
-                "from": {
-                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
-                    "position": {
-                        "startLine": 85,
-                        "startColumn": 4,
-                        "startOffset": 5121,
-                        "endColumn": 69,
-                        "endOffset": 5186
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 1372,
-                    "endColumn": 56,
-                    "endOffset": 1424
+                    "endOffset": 107
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -403,11 +23,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 1429,
+                    "startOffset": 112,
                     "endColumn": 49,
-                    "endOffset": 1474
+                    "endOffset": 157
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -422,11 +42,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 1479,
+                    "startOffset": 162,
                     "endColumn": 42,
-                    "endOffset": 1517
+                    "endOffset": 200
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -441,11 +61,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 1522,
+                    "startOffset": 205,
                     "endColumn": 43,
-                    "endOffset": 1561
+                    "endOffset": 244
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -460,11 +80,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 1566,
+                    "startOffset": 249,
                     "endColumn": 60,
-                    "endOffset": 1622
+                    "endOffset": 305
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -479,11 +99,30 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 1627,
+                    "startOffset": 310,
+                    "endColumn": 71,
+                    "endOffset": 377
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 4457,
+                        "endColumn": 71,
+                        "endOffset": 4524
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 382,
                     "endColumn": 48,
-                    "endOffset": 1671
+                    "endOffset": 426
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -498,11 +137,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 1676,
+                    "startOffset": 431,
                     "endColumn": 58,
-                    "endOffset": 1730
+                    "endOffset": 485
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -517,11 +156,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 1735,
+                    "startOffset": 490,
                     "endColumn": 54,
-                    "endOffset": 1785
+                    "endOffset": 540
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -536,11 +175,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1790,
+                    "startOffset": 545,
                     "endColumn": 47,
-                    "endOffset": 1833
+                    "endOffset": 588
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -555,11 +194,11 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1838,
+                    "startOffset": 593,
                     "endColumn": 56,
-                    "endOffset": 1890
+                    "endOffset": 645
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -574,11 +213,11 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1895,
+                    "startOffset": 650,
                     "endColumn": 61,
-                    "endOffset": 1952
+                    "endOffset": 707
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -593,11 +232,11 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1957,
+                    "startOffset": 712,
                     "endColumn": 38,
-                    "endOffset": 1991
+                    "endOffset": 746
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -612,11 +251,11 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1996,
+                    "startOffset": 751,
                     "endColumn": 52,
-                    "endOffset": 2044
+                    "endOffset": 799
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -631,11 +270,11 @@
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 2049,
+                    "startOffset": 804,
                     "endColumn": 51,
-                    "endOffset": 2096
+                    "endOffset": 851
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -650,11 +289,11 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 2101,
+                    "startOffset": 856,
                     "endColumn": 52,
-                    "endOffset": 2149
+                    "endOffset": 904
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -669,11 +308,11 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 2154,
+                    "startOffset": 909,
                     "endColumn": 47,
-                    "endOffset": 2197
+                    "endOffset": 952
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -688,11 +327,11 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 2202,
+                    "startOffset": 957,
                     "endColumn": 51,
-                    "endOffset": 2249
+                    "endOffset": 1004
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -707,11 +346,11 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 2254,
+                    "startOffset": 1009,
                     "endColumn": 47,
-                    "endOffset": 2297
+                    "endOffset": 1052
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -726,11 +365,11 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 2302,
+                    "startOffset": 1057,
                     "endColumn": 57,
-                    "endOffset": 2355
+                    "endOffset": 1110
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -745,11 +384,11 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 2360,
+                    "startOffset": 1115,
                     "endColumn": 49,
-                    "endOffset": 2405
+                    "endOffset": 1160
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -764,11 +403,11 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2410,
+                    "startOffset": 1165,
                     "endColumn": 47,
-                    "endOffset": 2453
+                    "endOffset": 1208
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -783,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2458,
+                    "startOffset": 1213,
                     "endColumn": 47,
-                    "endOffset": 2501
+                    "endOffset": 1256
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -802,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 44,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2506,
+                    "startOffset": 1261,
                     "endColumn": 78,
-                    "endOffset": 2580
+                    "endOffset": 1335
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -821,11 +460,11 @@
             },
             {
                 "to": {
-                    "startLine": 45,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2585,
+                    "startOffset": 1340,
                     "endColumn": 41,
-                    "endOffset": 2622
+                    "endOffset": 1377
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -840,11 +479,11 @@
             },
             {
                 "to": {
-                    "startLine": 46,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2627,
+                    "startOffset": 1382,
                     "endColumn": 53,
-                    "endOffset": 2676
+                    "endOffset": 1431
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -859,11 +498,11 @@
             },
             {
                 "to": {
-                    "startLine": 47,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 2681,
+                    "startOffset": 1436,
                     "endColumn": 89,
-                    "endOffset": 2766
+                    "endOffset": 1521
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -878,11 +517,11 @@
             },
             {
                 "to": {
-                    "startLine": 48,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 2771,
+                    "startOffset": 1526,
                     "endColumn": 57,
-                    "endOffset": 2824
+                    "endOffset": 1579
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -897,11 +536,11 @@
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 2829,
+                    "startOffset": 1584,
                     "endColumn": 89,
-                    "endOffset": 2914
+                    "endOffset": 1669
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -916,11 +555,11 @@
             },
             {
                 "to": {
-                    "startLine": 50,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 2919,
+                    "startOffset": 1674,
                     "endColumn": 94,
-                    "endOffset": 3009
+                    "endOffset": 1764
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -935,11 +574,11 @@
             },
             {
                 "to": {
-                    "startLine": 51,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 3014,
+                    "startOffset": 1769,
                     "endColumn": 62,
-                    "endOffset": 3072
+                    "endOffset": 1827
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -954,11 +593,11 @@
             },
             {
                 "to": {
-                    "startLine": 52,
+                    "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 3077,
+                    "startOffset": 1832,
                     "endColumn": 106,
-                    "endOffset": 3179
+                    "endOffset": 1934
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -973,11 +612,11 @@
             },
             {
                 "to": {
-                    "startLine": 53,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 3184,
+                    "startOffset": 1939,
                     "endColumn": 125,
-                    "endOffset": 3305
+                    "endOffset": 2060
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -992,11 +631,11 @@
             },
             {
                 "to": {
-                    "startLine": 54,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 3310,
+                    "startOffset": 2065,
                     "endColumn": 43,
-                    "endOffset": 3349
+                    "endOffset": 2104
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1011,11 +650,11 @@
             },
             {
                 "to": {
-                    "startLine": 55,
+                    "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 3354,
+                    "startOffset": 2109,
                     "endColumn": 61,
-                    "endOffset": 3411
+                    "endOffset": 2166
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1030,11 +669,30 @@
             },
             {
                 "to": {
-                    "startLine": 56,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 3416,
+                    "startOffset": 2171,
+                    "endColumn": 61,
+                    "endOffset": 2228
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 4777,
+                        "endColumn": 61,
+                        "endOffset": 4834
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2233,
                     "endColumn": 42,
-                    "endOffset": 3454
+                    "endOffset": 2271
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1049,11 +707,11 @@
             },
             {
                 "to": {
-                    "startLine": 57,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 3459,
+                    "startOffset": 2276,
                     "endColumn": 60,
-                    "endOffset": 3515
+                    "endOffset": 2332
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1068,11 +726,11 @@
             },
             {
                 "to": {
-                    "startLine": 58,
+                    "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 3520,
+                    "startOffset": 2337,
                     "endColumn": 54,
-                    "endOffset": 3570
+                    "endOffset": 2387
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1087,11 +745,11 @@
             },
             {
                 "to": {
-                    "startLine": 59,
+                    "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 3575,
+                    "startOffset": 2392,
                     "endColumn": 68,
-                    "endOffset": 3639
+                    "endOffset": 2456
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1106,11 +764,11 @@
             },
             {
                 "to": {
-                    "startLine": 60,
+                    "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 3644,
+                    "startOffset": 2461,
                     "endColumn": 53,
-                    "endOffset": 3693
+                    "endOffset": 2510
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1125,11 +783,11 @@
             },
             {
                 "to": {
-                    "startLine": 61,
+                    "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 3698,
+                    "startOffset": 2515,
                     "endColumn": 56,
-                    "endOffset": 3750
+                    "endOffset": 2567
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1144,11 +802,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 3755,
+                    "startOffset": 2572,
                     "endColumn": 90,
-                    "endOffset": 3841
+                    "endOffset": 2658
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1163,11 +821,11 @@
             },
             {
                 "to": {
-                    "startLine": 63,
+                    "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 3846,
+                    "startOffset": 2663,
                     "endColumn": 85,
-                    "endOffset": 3927
+                    "endOffset": 2744
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1182,11 +840,11 @@
             },
             {
                 "to": {
-                    "startLine": 64,
+                    "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 3932,
+                    "startOffset": 2749,
                     "endColumn": 73,
-                    "endOffset": 4001
+                    "endOffset": 2818
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1201,11 +859,30 @@
             },
             {
                 "to": {
-                    "startLine": 65,
+                    "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 4006,
+                    "startOffset": 2823,
+                    "endColumn": 71,
+                    "endOffset": 2890
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 5392,
+                        "endColumn": 71,
+                        "endOffset": 5459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2895,
                     "endColumn": 44,
-                    "endOffset": 4046
+                    "endOffset": 2935
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1220,11 +897,11 @@
             },
             {
                 "to": {
-                    "startLine": 66,
+                    "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 4051,
+                    "startOffset": 2940,
                     "endColumn": 90,
-                    "endOffset": 4137
+                    "endOffset": 3026
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1239,11 +916,30 @@
             },
             {
                 "to": {
-                    "startLine": 67,
+                    "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 4142,
+                    "startOffset": 3031,
+                    "endColumn": 61,
+                    "endOffset": 3088
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 6897,
+                        "endColumn": 61,
+                        "endOffset": 6954
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3093,
                     "endColumn": 43,
-                    "endOffset": 4181
+                    "endOffset": 3132
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1258,11 +954,11 @@
             },
             {
                 "to": {
-                    "startLine": 68,
+                    "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 4186,
+                    "startOffset": 3137,
                     "endColumn": 45,
-                    "endOffset": 4227
+                    "endOffset": 3178
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1277,11 +973,30 @@
             },
             {
                 "to": {
-                    "startLine": 69,
+                    "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 4232,
+                    "startOffset": 3183,
+                    "endColumn": 43,
+                    "endOffset": 3222
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 6620,
+                        "endColumn": 43,
+                        "endOffset": 6659
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3227,
                     "endColumn": 42,
-                    "endOffset": 4270
+                    "endOffset": 3265
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1296,11 +1011,49 @@
             },
             {
                 "to": {
-                    "startLine": 70,
+                    "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 4275,
+                    "startOffset": 3270,
+                    "endColumn": 68,
+                    "endOffset": 3334
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 5672,
+                        "endColumn": 68,
+                        "endOffset": 5736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3339,
+                    "endColumn": 60,
+                    "endOffset": 3395
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 5060,
+                        "endColumn": 60,
+                        "endOffset": 5116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 3400,
                     "endColumn": 47,
-                    "endOffset": 4318
+                    "endOffset": 3443
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1315,11 +1068,49 @@
             },
             {
                 "to": {
-                    "startLine": 71,
+                    "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 4323,
+                    "startOffset": 3448,
+                    "endColumn": 55,
+                    "endOffset": 3499
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 5741,
+                        "endColumn": 55,
+                        "endOffset": 5792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 3504,
+                    "endColumn": 63,
+                    "endOffset": 3563
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 6300,
+                        "endColumn": 63,
+                        "endOffset": 6359
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 3568,
                     "endColumn": 45,
-                    "endOffset": 4364
+                    "endOffset": 3609
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1334,30 +1125,49 @@
             },
             {
                 "to": {
-                    "startLine": 72,
+                    "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 4369,
+                    "startOffset": 3614,
+                    "endColumn": 49,
+                    "endOffset": 3659
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 5797,
+                        "endColumn": 49,
+                        "endOffset": 5842
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 3664,
                     "endColumn": 90,
-                    "endOffset": 4455
+                    "endOffset": 3750
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
                     "position": {
                         "startLine": 113,
                         "startColumn": 4,
-                        "startOffset": 6803,
+                        "startOffset": 6806,
                         "endColumn": 90,
-                        "endOffset": 6889
+                        "endOffset": 6892
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 73,
+                    "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 4460,
+                    "startOffset": 3755,
                     "endColumn": 72,
-                    "endOffset": 4528
+                    "endOffset": 3823
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1372,11 +1182,11 @@
             },
             {
                 "to": {
-                    "startLine": 74,
+                    "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 4533,
+                    "startOffset": 3828,
                     "endColumn": 64,
-                    "endOffset": 4593
+                    "endOffset": 3888
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1391,11 +1201,11 @@
             },
             {
                 "to": {
-                    "startLine": 75,
+                    "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 4598,
+                    "startOffset": 3893,
                     "endColumn": 61,
-                    "endOffset": 4655
+                    "endOffset": 3950
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1410,11 +1220,11 @@
             },
             {
                 "to": {
-                    "startLine": 76,
+                    "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 4660,
+                    "startOffset": 3955,
                     "endColumn": 39,
-                    "endOffset": 4695
+                    "endOffset": 3990
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1429,11 +1239,11 @@
             },
             {
                 "to": {
-                    "startLine": 77,
+                    "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 4700,
+                    "startOffset": 3995,
                     "endColumn": 40,
-                    "endOffset": 4736
+                    "endOffset": 4031
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1448,11 +1258,11 @@
             },
             {
                 "to": {
-                    "startLine": 78,
+                    "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 4741,
+                    "startOffset": 4036,
                     "endColumn": 127,
-                    "endOffset": 4864
+                    "endOffset": 4159
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1467,11 +1277,11 @@
             },
             {
                 "to": {
-                    "startLine": 79,
+                    "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 4869,
+                    "startOffset": 4164,
                     "endColumn": 80,
-                    "endOffset": 4945
+                    "endOffset": 4240
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1486,11 +1296,11 @@
             },
             {
                 "to": {
-                    "startLine": 80,
+                    "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 4950,
+                    "startOffset": 4245,
                     "endColumn": 42,
-                    "endOffset": 4988
+                    "endOffset": 4283
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1505,11 +1315,11 @@
             },
             {
                 "to": {
-                    "startLine": 81,
+                    "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 4993,
+                    "startOffset": 4288,
                     "endColumn": 67,
-                    "endOffset": 5056
+                    "endOffset": 4351
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1524,11 +1334,11 @@
             },
             {
                 "to": {
-                    "startLine": 82,
+                    "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 5061,
+                    "startOffset": 4356,
                     "endColumn": 118,
-                    "endOffset": 5175
+                    "endOffset": 4470
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1543,11 +1353,11 @@
             },
             {
                 "to": {
-                    "startLine": 83,
+                    "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 5180,
+                    "startOffset": 4475,
                     "endColumn": 47,
-                    "endOffset": 5223
+                    "endOffset": 4518
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1562,11 +1372,11 @@
             },
             {
                 "to": {
-                    "startLine": 84,
+                    "startLine": 74,
                     "startColumn": 4,
-                    "startOffset": 5228,
+                    "startOffset": 4523,
                     "endColumn": 82,
-                    "endOffset": 5306
+                    "endOffset": 4601
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1581,11 +1391,30 @@
             },
             {
                 "to": {
-                    "startLine": 85,
+                    "startLine": 75,
                     "startColumn": 4,
-                    "startOffset": 5311,
+                    "startOffset": 4606,
+                    "endColumn": 56,
+                    "endOffset": 4658
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 4839,
+                        "endColumn": 56,
+                        "endOffset": 4891
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 4663,
                     "endColumn": 52,
-                    "endOffset": 5359
+                    "endOffset": 4711
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1600,11 +1429,11 @@
             },
             {
                 "to": {
-                    "startLine": 86,
+                    "startLine": 77,
                     "startColumn": 4,
-                    "startOffset": 5364,
+                    "startOffset": 4716,
                     "endColumn": 64,
-                    "endOffset": 5424
+                    "endOffset": 4776
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1619,11 +1448,11 @@
             },
             {
                 "to": {
-                    "startLine": 87,
+                    "startLine": 78,
                     "startColumn": 4,
-                    "startOffset": 5429,
+                    "startOffset": 4781,
                     "endColumn": 70,
-                    "endOffset": 5495
+                    "endOffset": 4847
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1638,11 +1467,49 @@
             },
             {
                 "to": {
-                    "startLine": 88,
+                    "startLine": 79,
                     "startColumn": 4,
-                    "startOffset": 5500,
+                    "startOffset": 4852,
+                    "endColumn": 57,
+                    "endOffset": 4905
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 5282,
+                        "endColumn": 57,
+                        "endOffset": 5335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 4910,
+                    "endColumn": 90,
+                    "endOffset": 4996
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 5191,
+                        "endColumn": 90,
+                        "endOffset": 5277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 5001,
                     "endColumn": 43,
-                    "endOffset": 5539
+                    "endOffset": 5040
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1657,11 +1524,11 @@
             },
             {
                 "to": {
-                    "startLine": 89,
+                    "startLine": 82,
                     "startColumn": 4,
-                    "startOffset": 5544,
+                    "startOffset": 5045,
                     "endColumn": 49,
-                    "endOffset": 5589
+                    "endOffset": 5090
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1676,11 +1543,30 @@
             },
             {
                 "to": {
-                    "startLine": 90,
+                    "startLine": 83,
                     "startColumn": 4,
-                    "startOffset": 5594,
+                    "startOffset": 5095,
+                    "endColumn": 88,
+                    "endOffset": 5179
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 6717,
+                        "endColumn": 88,
+                        "endOffset": 6801
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 5184,
                     "endColumn": 45,
-                    "endOffset": 5635
+                    "endOffset": 5225
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1695,11 +1581,11 @@
             },
             {
                 "to": {
-                    "startLine": 91,
+                    "startLine": 85,
                     "startColumn": 4,
-                    "startOffset": 5640,
+                    "startOffset": 5230,
                     "endColumn": 100,
-                    "endOffset": 5736
+                    "endOffset": 5326
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1714,11 +1600,11 @@
             },
             {
                 "to": {
-                    "startLine": 92,
+                    "startLine": 86,
                     "startColumn": 4,
-                    "startOffset": 5741,
+                    "startOffset": 5331,
                     "endColumn": 57,
-                    "endOffset": 5794
+                    "endOffset": 5384
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1733,11 +1619,11 @@
             },
             {
                 "to": {
-                    "startLine": 93,
+                    "startLine": 87,
                     "startColumn": 4,
-                    "startOffset": 5799,
+                    "startOffset": 5389,
                     "endColumn": 48,
-                    "endOffset": 5843
+                    "endOffset": 5433
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1752,11 +1638,11 @@
             },
             {
                 "to": {
-                    "startLine": 94,
+                    "startLine": 88,
                     "startColumn": 4,
-                    "startOffset": 5848,
+                    "startOffset": 5438,
                     "endColumn": 81,
-                    "endOffset": 5925
+                    "endOffset": 5515
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1771,11 +1657,11 @@
             },
             {
                 "to": {
-                    "startLine": 95,
+                    "startLine": 89,
                     "startColumn": 4,
-                    "startOffset": 5930,
+                    "startOffset": 5520,
                     "endColumn": 53,
-                    "endOffset": 5979
+                    "endOffset": 5569
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1790,11 +1676,11 @@
             },
             {
                 "to": {
-                    "startLine": 96,
+                    "startLine": 90,
                     "startColumn": 4,
-                    "startOffset": 5984,
+                    "startOffset": 5574,
                     "endColumn": 42,
-                    "endOffset": 6022
+                    "endOffset": 5612
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1809,11 +1695,11 @@
             },
             {
                 "to": {
-                    "startLine": 97,
+                    "startLine": 91,
                     "startColumn": 4,
-                    "startOffset": 6027,
+                    "startOffset": 5617,
                     "endColumn": 40,
-                    "endOffset": 6063
+                    "endOffset": 5653
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1828,11 +1714,11 @@
             },
             {
                 "to": {
-                    "startLine": 98,
+                    "startLine": 92,
                     "startColumn": 4,
-                    "startOffset": 6068,
+                    "startOffset": 5658,
                     "endColumn": 47,
-                    "endOffset": 6111
+                    "endOffset": 5701
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1847,11 +1733,11 @@
             },
             {
                 "to": {
-                    "startLine": 99,
+                    "startLine": 93,
                     "startColumn": 4,
-                    "startOffset": 6116,
+                    "startOffset": 5706,
                     "endColumn": 67,
-                    "endOffset": 6179
+                    "endOffset": 5769
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1866,11 +1752,30 @@
             },
             {
                 "to": {
-                    "startLine": 100,
+                    "startLine": 94,
                     "startColumn": 4,
-                    "startOffset": 6184,
+                    "startOffset": 5774,
+                    "endColumn": 70,
+                    "endOffset": 5840
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 5601,
+                        "endColumn": 70,
+                        "endOffset": 5667
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 5845,
                     "endColumn": 68,
-                    "endOffset": 6248
+                    "endOffset": 5909
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1885,11 +1790,11 @@
             },
             {
                 "to": {
-                    "startLine": 101,
+                    "startLine": 96,
                     "startColumn": 4,
-                    "startOffset": 6253,
+                    "startOffset": 5914,
                     "endColumn": 42,
-                    "endOffset": 6291
+                    "endOffset": 5952
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1904,11 +1809,11 @@
             },
             {
                 "to": {
-                    "startLine": 102,
+                    "startLine": 97,
                     "startColumn": 4,
-                    "startOffset": 6296,
+                    "startOffset": 5957,
                     "endColumn": 41,
-                    "endOffset": 6333
+                    "endOffset": 5994
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1923,11 +1828,11 @@
             },
             {
                 "to": {
-                    "startLine": 103,
+                    "startLine": 98,
                     "startColumn": 4,
-                    "startOffset": 6338,
+                    "startOffset": 5999,
                     "endColumn": 45,
-                    "endOffset": 6379
+                    "endOffset": 6040
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1942,11 +1847,11 @@
             },
             {
                 "to": {
-                    "startLine": 104,
+                    "startLine": 99,
                     "startColumn": 4,
-                    "startOffset": 6384,
+                    "startOffset": 6045,
                     "endColumn": 42,
-                    "endOffset": 6422
+                    "endOffset": 6083
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1961,11 +1866,30 @@
             },
             {
                 "to": {
-                    "startLine": 105,
+                    "startLine": 100,
                     "startColumn": 4,
-                    "startOffset": 6427,
+                    "startOffset": 6088,
+                    "endColumn": 79,
+                    "endOffset": 6163
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 5464,
+                        "endColumn": 79,
+                        "endOffset": 5539
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 6168,
                     "endColumn": 52,
-                    "endOffset": 6475
+                    "endOffset": 6216
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1980,11 +1904,11 @@
             },
             {
                 "to": {
-                    "startLine": 106,
+                    "startLine": 102,
                     "startColumn": 4,
-                    "startOffset": 6480,
+                    "startOffset": 6221,
                     "endColumn": 57,
-                    "endOffset": 6533
+                    "endOffset": 6274
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -1999,11 +1923,49 @@
             },
             {
                 "to": {
-                    "startLine": 107,
+                    "startLine": 103,
                     "startColumn": 4,
-                    "startOffset": 6538,
+                    "startOffset": 6279,
+                    "endColumn": 58,
+                    "endOffset": 6333
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 4953,
+                        "endColumn": 58,
+                        "endOffset": 5007
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 6338,
+                    "endColumn": 72,
+                    "endOffset": 6406
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 5847,
+                        "endColumn": 72,
+                        "endOffset": 5915
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 6411,
                     "endColumn": 74,
-                    "endOffset": 6608
+                    "endOffset": 6481
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -2018,11 +1980,30 @@
             },
             {
                 "to": {
-                    "startLine": 108,
+                    "startLine": 106,
                     "startColumn": 4,
-                    "startOffset": 6613,
+                    "startOffset": 6486,
+                    "endColumn": 56,
+                    "endOffset": 6538
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 4896,
+                        "endColumn": 56,
+                        "endOffset": 4948
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 6543,
                     "endColumn": 55,
-                    "endOffset": 6664
+                    "endOffset": 6594
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -2037,11 +2018,11 @@
             },
             {
                 "to": {
-                    "startLine": 109,
+                    "startLine": 108,
                     "startColumn": 4,
-                    "startOffset": 6669,
+                    "startOffset": 6599,
                     "endColumn": 54,
-                    "endOffset": 6719
+                    "endOffset": 6649
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -2056,11 +2037,11 @@
             },
             {
                 "to": {
-                    "startLine": 110,
+                    "startLine": 109,
                     "startColumn": 4,
-                    "startOffset": 6724,
+                    "startOffset": 6654,
                     "endColumn": 41,
-                    "endOffset": 6761
+                    "endOffset": 6691
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -2075,11 +2056,11 @@
             },
             {
                 "to": {
-                    "startLine": 111,
+                    "startLine": 110,
                     "startColumn": 4,
-                    "startOffset": 6766,
+                    "startOffset": 6696,
                     "endColumn": 43,
-                    "endOffset": 6805
+                    "endOffset": 6735
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -2094,11 +2075,11 @@
             },
             {
                 "to": {
-                    "startLine": 112,
+                    "startLine": 111,
                     "startColumn": 4,
-                    "startOffset": 6810,
+                    "startOffset": 6740,
                     "endColumn": 56,
-                    "endOffset": 6862
+                    "endOffset": 6792
                 },
                 "from": {
                     "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
@@ -2108,6 +2089,25 @@
                         "startOffset": 2565,
                         "endColumn": 56,
                         "endOffset": 2617
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 6797,
+                    "endColumn": 69,
+                    "endOffset": 6862
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 5121,
+                        "endColumn": 69,
+                        "endOffset": 5186
                     }
                 }
             },

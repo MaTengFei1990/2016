@@ -276,12 +276,12 @@
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\dx_checkbox_on.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_4.png",
-        "source": "D:\\supperWechat\\res\\drawable-hdpi\\ee_4.png"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_image.png",
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\default_image.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_4.png",
+        "source": "D:\\supperWechat\\res\\drawable-hdpi\\ee_4.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chatto_voice_playing_f1.png",
@@ -456,24 +456,24 @@
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\ee_12.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chat_video_mask_to.9.png",
-        "source": "D:\\supperWechat\\res\\drawable-hdpi\\chat_video_mask_to.9.png"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chatting_setmode_voice_btn_normal.png",
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\chatting_setmode_voice_btn_normal.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chat_video_mask_to.9.png",
+        "source": "D:\\supperWechat\\res\\drawable-hdpi\\chat_video_mask_to.9.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\video_play_btn_small_nor.png",
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\video_play_btn_small_nor.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_8.png",
-        "source": "D:\\supperWechat\\res\\drawable-hdpi\\ee_8.png"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mm_listitem_grey_normal.9.png",
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\mm_listitem_grey_normal.9.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_8.png",
+        "source": "D:\\supperWechat\\res\\drawable-hdpi\\ee_8.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_22.png",

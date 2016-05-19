@@ -1,52 +1,29 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/splash_root"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/splash" >
+    android:background="@color/btn_white_normal"
+     >
 
     <ImageView
         android:id="@+id/iv_splash_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/splash_logo" />
+        android:src="@drawable/geek"
 
+
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/iv_splash_logo"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dip"
-        android:text="即时通讯云领导者"
-        android:textColor="#fff"
-        android:textSize="30sp" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:text="超级微信2.2.5"
+        android:textColor="@color/black_deep"
+        android:textSize="20dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dip"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal" >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="环信DEMO"
-            android:textColor="#fff"
-            android:textSize="20dip"
-            android:typeface="normal" >
-        </TextView>
-
-        <TextView
-            android:id="@+id/tv_version"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dip"
-            android:text="2.1.7"
-            android:textColor="#fff"
-            android:textSize="20sp" >
-        </TextView>
-    </LinearLayout>
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        />
 
 </RelativeLayout>

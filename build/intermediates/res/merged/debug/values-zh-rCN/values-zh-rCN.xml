@@ -270,7 +270,8 @@
     <string name="move_up_to_cancel">手指上滑，取消发送</string>
     <string name="mute">静音</string>
     <string name="near_people_hint">
-    查看附近人的功能将获取你的位置信息，你的位置信息会保留一段时间。通过列表右上角清除功能可随时手动清除位置信息。</string>
+        查看附近人的功能将获取你的位置信息，你的位置信息会保留一段时间。通过列表右上角清除功能可随时手动清除位置信息。
+    </string>
     <string name="network_anomalies">网络异常，请检查网络！</string>
     <string name="network_isnot_available">网络不可用</string>
     <string name="network_unavailable">网络连接不可用，请检查网络</string>
