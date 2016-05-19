@@ -19,6 +19,7 @@ import android.content.Context;
 import com.easemob.EMCallBack;
 
 public class SuperweChatApplication extends Application {
+	public static String SERVER_ROOT= "http://localhost:8080/SuperWeChatServer/Server";
 
 	public static Context applicationContext;
 	private static SuperweChatApplication instance;
