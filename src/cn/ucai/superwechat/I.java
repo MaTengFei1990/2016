@@ -84,6 +84,7 @@ public interface I {
 	String AVATAR_TYPE_GROUP_PATH 					=		"group_icon";					//群组头像保存目录
 	String AVATAR_SUFFIX_PNG						=		".png";							//PNG图片后缀名
 	String AVATAR_SUFFIX_JPG						=		".jpg";							//JPG图片后缀名
+	String MSG_PREFIX_MSG							=		"msg_";							//返回消息的前缀
 	int LOCATION_IS_SEARCH_ALLOW					=		1;								//可以被搜索到地理位置
 	int LOCATION_IS_SEARCH_INHIBIT					=		0;								//禁止被搜索到地理位置
 	int MSG_CONNECTION_SUCCESS						=  		900;							//连接服务器成功

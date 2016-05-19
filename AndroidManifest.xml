@@ -39,7 +39,7 @@
     
     
     <application
-        android:name="DemoApplication"
+        android:name=".SuperweChatApplication"
         android:allowBackup="true"
         android:icon="@drawable/logo_uidemo"
         android:label="@string/app_name" >

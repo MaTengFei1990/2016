@@ -35,7 +35,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import cn.ucai.superwechat.Constant;
-import cn.ucai.superwechat.DemoApplication;
+import cn.ucai.superwechat.SuperweChatApplication;
 import cn.ucai.superwechat.db.InviteMessgeDao;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMConversation;
@@ -88,7 +88,7 @@ public class ChatAllHistoryFragment extends Fragment implements View.OnClickList
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				EMConversation conversation = adapter.getItem(position);
 				String username = conversation.getUserName();
-				if (username.equals(DemoApplication.getInstance().getUserName()))
+				if (username.equals(SuperweChatApplication.getInstance().getUserName()))
 					Toast.makeText(getActivity(), st2, 0).show();
 				else {
 				    // 进入聊天页面

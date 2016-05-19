@@ -67,7 +67,7 @@ import android.widget.Toast;
 
 import cn.ucai.superwechat.applib.controller.HXSDKHelper;
 import cn.ucai.superwechat.applib.model.GroupRemoveListener;
-import cn.ucai.superwechat.DemoApplication;
+import cn.ucai.superwechat.SuperweChatApplication;
 import cn.ucai.superwechat.DemoHXSDKHelper;
 import cn.ucai.superwechat.adapter.ExpressionPagerAdapter;
 import cn.ucai.superwechat.adapter.MessageAdapter;
@@ -856,7 +856,7 @@ public class ChatActivity extends BaseActivity implements OnClickListener, EMEve
 			return;
 		}
 
-		cameraFile = new File(PathUtil.getInstance().getImagePath(), DemoApplication.getInstance().getUserName()
+		cameraFile = new File(PathUtil.getInstance().getImagePath(), SuperweChatApplication.getInstance().getUserName()
 				+ System.currentTimeMillis() + ".jpg");
 		cameraFile.getParentFile().mkdirs();
 		startActivityForResult(

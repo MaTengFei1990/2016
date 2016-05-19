@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\logout_actionsheet.xml",
-        "source": "D:\\supperWechat\\res\\layout\\logout_actionsheet.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_contact.xml",
         "source": "D:\\supperWechat\\res\\layout\\activity_add_contact.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\logout_actionsheet.xml",
+        "source": "D:\\supperWechat\\res\\layout\\logout_actionsheet.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",

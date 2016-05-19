@@ -20,7 +20,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import cn.ucai.superwechat.DemoApplication;
+import cn.ucai.superwechat.SuperweChatApplication;
 import com.easemob.EMError;
 import com.easemob.chat.EMChatManager;
 import cn.ucai.superwechat.R;
@@ -85,7 +85,7 @@ public class RegisterActivity extends BaseActivity {
 								if (!RegisterActivity.this.isFinishing())
 									pd.dismiss();
 								// 保存用户名
-								DemoApplication.getInstance().setUserName(username);
+								SuperweChatApplication.getInstance().setUserName(username);
 								Toast.makeText(getApplicationContext(), getResources().getString(R.string.Registered_successfully), 0).show();
 								finish();
 							}
