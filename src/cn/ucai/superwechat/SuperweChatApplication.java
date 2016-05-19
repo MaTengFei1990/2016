@@ -18,6 +18,15 @@ import android.content.Context;
 
 import com.easemob.EMCallBack;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import cn.ucai.superwechat.bean.Contact;
+import cn.ucai.superwechat.bean.Group;
+import cn.ucai.superwechat.bean.Member;
+import cn.ucai.superwechat.bean.User;
+
 public class SuperweChatApplication extends Application {
 	public static String SERVER_ROOT= "http://localhost:8080/SuperWeChatServer/Server";
 
@@ -107,5 +116,59 @@ public class SuperweChatApplication extends Application {
 	public void logout(final boolean isGCM,final EMCallBack emCallBack) {
 		// 先调用sdk logout，在清理app中自己的数据
 	    hxSDKHelper.logout(isGCM,emCallBack);
+	}
+	private User user;
+	private ArrayList<Contact> contactList = new ArrayList<Contact>();
+	private HashMap<String, Contact> userList = new HashMap<String, Contact>();
+	private ArrayList<Group> gropList = new ArrayList<Group>();
+	private ArrayList<Group> publicGroupList = new ArrayList<Group>();
+	private HashMap<String, ArrayList<Member>> groupMamber = new HashMap<String, ArrayList<Member>>();
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+
+	public ArrayList<Contact> getContactList() {
+		return contactList;
+	}
+
+	public void setContactList(ArrayList<Contact> contactList) {
+		this.contactList = contactList;
+	}
+
+	public HashMap<String, Contact> getUserList() {
+		return userList;
+	}
+
+	public void setUserList(HashMap<String, Contact> userList) {
+		this.userList = userList;
+	}
+
+	public ArrayList<Group> getGropList() {
+		return gropList;
+	}
+
+	public void setGropList(ArrayList<Group> gropList) {
+		this.gropList = gropList;
+	}
+
+	public ArrayList<Group> getPublicGroupList() {
+		return publicGroupList;
+	}
+
+	public void setPublicGroupList(ArrayList<Group> publicGroupList) {
+		this.publicGroupList = publicGroupList;
+	}
+
+	public HashMap<String, ArrayList<Member>> getGroupMamber() {
+		return groupMamber;
+	}
+
+	public void setGroupMamber(HashMap<String, ArrayList<Member>> groupMamber) {
+		this.groupMamber = groupMamber;
 	}
 }

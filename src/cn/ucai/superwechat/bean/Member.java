@@ -16,8 +16,8 @@ public class Member extends User implements java.io.Serializable {
 	private Integer mmemberUserId;
 	private String mmemberUserName;
 	private Integer mmemberGroupId;
-	private String mmemberGroupHxid;
-	private Integer mmemberPermission;
+	private String mmemberGroupHxid;//群组
+	private Integer mmemberPermission;//权限
 
 	// Constructors
 
@@ -93,6 +93,27 @@ public class Member extends User implements java.io.Serializable {
 				+ mmemberGroupHxid + ", MMemberPermission=" + mmemberPermission
 				+ "]";
 	}
-	
 
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+
+		Member member = (Member) o;
+
+		if (!mmemberUserId.equals(member.mmemberUserId)) return false;
+		if (!mmemberUserName.equals(member.mmemberUserName)) return false;
+		if (!mmemberGroupId.equals(member.mmemberGroupId)) return false;
+		return mmemberGroupHxid.equals(member.mmemberGroupHxid);
+
+	}
+
+	@Override
+	public int hashCode() {
+		int result = mmemberUserId.hashCode();
+		result = 31 * result + mmemberUserName.hashCode();
+		result = 31 * result + mmemberGroupId.hashCode();
+		result = 31 * result + mmemberGroupHxid.hashCode();
+		return result;
+	}
 }
