@@ -140,12 +140,12 @@
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\seabar_input.9.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_7.png",
-        "source": "D:\\supperWechat\\res\\drawable-hdpi\\ee_7.png"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\contact_list_normal.png",
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\contact_list_normal.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_7.png",
+        "source": "D:\\supperWechat\\res\\drawable-hdpi\\ee_7.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\show_head_toast_bg.9.png",
@@ -364,12 +364,12 @@
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\chatting_biaoqing_btn_normal.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chatto_bg_focused.9.png",
-        "source": "D:\\supperWechat\\res\\drawable-hdpi\\chatto_bg_focused.9.png"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\input_bar_bg_active.9.png",
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\input_bar_bg_active.9.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chatto_bg_focused.9.png",
+        "source": "D:\\supperWechat\\res\\drawable-hdpi\\chatto_bg_focused.9.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\record_animate_07.png",

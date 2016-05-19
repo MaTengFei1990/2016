@@ -60,12 +60,12 @@
         "source": "D:\\supperWechat\\res\\drawable\\recording_text_hint_bg.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chatting_setmode_keyboard_btn.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\chatting_setmode_keyboard_btn.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_selector.xml",
         "source": "D:\\supperWechat\\res\\drawable\\btn_green_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chatting_setmode_keyboard_btn.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\chatting_setmode_keyboard_btn.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\button_myprofile_selector.xml",
@@ -88,12 +88,12 @@
         "source": "D:\\supperWechat\\res\\drawable\\chatfrom_bg.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_gray_pressed_shape.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\btn_gray_pressed_shape.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_selector.xml",
         "source": "D:\\supperWechat\\res\\drawable\\btn_blue_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_gray_pressed_shape.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\btn_gray_pressed_shape.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\button_normal_shape.xml",
