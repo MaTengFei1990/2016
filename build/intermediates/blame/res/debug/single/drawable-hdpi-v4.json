@@ -364,12 +364,12 @@
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\chatting_biaoqing_btn_normal.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\input_bar_bg_active.9.png",
-        "source": "D:\\supperWechat\\res\\drawable-hdpi\\input_bar_bg_active.9.png"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chatto_bg_focused.9.png",
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\chatto_bg_focused.9.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\input_bar_bg_active.9.png",
+        "source": "D:\\supperWechat\\res\\drawable-hdpi\\input_bar_bg_active.9.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\record_animate_07.png",
@@ -456,12 +456,12 @@
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\ee_12.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chatting_setmode_voice_btn_normal.png",
-        "source": "D:\\supperWechat\\res\\drawable-hdpi\\chatting_setmode_voice_btn_normal.png"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chat_video_mask_to.9.png",
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\chat_video_mask_to.9.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chatting_setmode_voice_btn_normal.png",
+        "source": "D:\\supperWechat\\res\\drawable-hdpi\\chatting_setmode_voice_btn_normal.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\video_play_btn_small_nor.png",
