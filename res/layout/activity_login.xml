@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#eff2f6"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:id="@+id/Layout_Login">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -143,6 +144,6 @@
         android:text="设置服务器的IP地址"
         android:textColor="@color/black_deep"
         android:background="#eff2f6"
-        />
+        android:id="@+id/btn_setupInternetIP"/>
 
 </LinearLayout>
