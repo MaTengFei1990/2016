@@ -29,10 +29,10 @@ public class SplashActivity extends BaseActivity {
 		setContentView(R.layout.activity_splash);
 		super.onCreate(arg0);
 
-		rootLayout = (RelativeLayout) findViewById(R.id.splash_root);
+		rootLayout = (RelativeLayout) findViewById(R.id.Splash_Root);
 		versionText = (TextView) findViewById(R.id.tv_version);
 
-		versionText.setText(getVersion());
+		//versionText.setText(getVersion());
 		AlphaAnimation animation = new AlphaAnimation(0.3f, 1.0f);
 		animation.setDuration(1500);
 		rootLayout.startAnimation(animation);
@@ -80,6 +80,7 @@ public class SplashActivity extends BaseActivity {
 	 * 获取当前应用程序的版本号
 	 */
 	private String getVersion() {
+
 		String st = getResources().getString(R.string.Version_number_is_wrong);
 		PackageManager pm = getPackageManager();
 		try {

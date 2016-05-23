@@ -160,6 +160,10 @@
         "source": "D:\\supperWechat\\res\\layout\\row_received_picture.xml"
     },
     {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\popu_show_avatar.xml",
+        "source": "D:\\supperWechat\\res\\layout\\popu_show_avatar.xml"
+    },
+    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_simle_details.xml",
         "source": "D:\\supperWechat\\res\\layout\\activity_group_simle_details.xml"
     },

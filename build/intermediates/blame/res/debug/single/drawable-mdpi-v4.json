@@ -1,10 +1,18 @@
 [
     {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pop_bg_press.9.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\pop_bg_press.9.png"
+    },
+    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "D:\\supperWechat\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\unread_count_bg.9.png",
         "source": "D:\\supperWechat\\res\\drawable-mdpi\\unread_count_bg.9.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pop_bg.9.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\pop_bg.9.png"
     }
 ]

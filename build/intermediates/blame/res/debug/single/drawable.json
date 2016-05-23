@@ -328,6 +328,10 @@
         "source": "D:\\supperWechat\\res\\drawable\\smiley_add_btn.xml"
     },
     {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_pop_avatar.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\selector_pop_avatar.xml"
+    },
+    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\find_erweima.png",
         "source": "D:\\supperWechat\\res\\drawable\\find_erweima.png"
     },

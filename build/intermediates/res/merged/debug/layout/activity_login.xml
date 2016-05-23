@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#eff2f6"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:id="@+id/Layout_Login">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -107,6 +108,7 @@
             android:orientation="horizontal" >
 
             <Button
+                android:id="@+id/btn_Regiter"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dip"
@@ -114,7 +116,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_register_bg"
                 android:gravity="center"
-                android:onClick="register"
                 android:paddingBottom="7dp"
                 android:paddingTop="7dp"
                 android:text="注册"
@@ -122,6 +123,7 @@
                 android:textSize="18sp" />
 
             <Button
+                android:id="@+id/btn_Login"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dip"
@@ -129,7 +131,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_login_bg"
                 android:gravity="center"
-                android:onClick="login"
                 android:paddingBottom="7dp"
                 android:paddingTop="7dp"
                 android:text="登录"
@@ -143,6 +144,6 @@
         android:text="设置服务器的IP地址"
         android:textColor="@color/black_deep"
         android:background="#eff2f6"
-        />
+        android:id="@+id/btn_setupInternetIP"/>
 
 </LinearLayout>

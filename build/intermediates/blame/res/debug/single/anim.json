@@ -20,6 +20,10 @@
         "source": "D:\\supperWechat\\res\\anim\\push_bottom_in.xml"
     },
     {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\anim\\pop_exit.xml",
+        "source": "D:\\supperWechat\\res\\anim\\pop_exit.xml"
+    },
+    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_left.xml",
         "source": "D:\\supperWechat\\res\\anim\\slide_out_to_left.xml"
     },
@@ -62,6 +66,10 @@
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out2.xml",
         "source": "D:\\supperWechat\\res\\anim\\push_top_out2.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter.xml",
+        "source": "D:\\supperWechat\\res\\anim\\pop_enter.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_left.xml",

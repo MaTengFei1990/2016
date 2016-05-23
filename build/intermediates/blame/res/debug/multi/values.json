@@ -8627,6 +8627,27 @@
                         "endOffset": 3537
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 576,
+                    "startColumn": 4,
+                    "startOffset": 37995,
+                    "endLine": 579,
+                    "endColumn": 12,
+                    "endOffset": 38186
+                },
+                "from": {
+                    "file": "D:\\supperWechat\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 171,
+                        "startColumn": 4,
+                        "startOffset": 7327,
+                        "endLine": 174,
+                        "endColumn": 12,
+                        "endOffset": 7518
+                    }
+                }
             }
         ]
     }

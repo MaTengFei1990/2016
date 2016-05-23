@@ -13,8 +13,13 @@
  */
 package cn.ucai.superwechat.utils;
 
+import android.content.Context;
+import android.os.Environment;
+
 import com.easemob.util.EMLog;
 import com.easemob.util.PathUtil;
+
+import java.io.File;
 
 public class ImageUtils {
 //	public static String getThumbnailImagePath(String imagePath) {
@@ -24,23 +29,32 @@ public class ImageUtils {
 //		EMLog.d("msg", "thum image path:" + path);
 //		return path;
 //	}
-	
-	public static String getImagePath(String remoteUrl)
-	{
-		String imageName= remoteUrl.substring(remoteUrl.lastIndexOf("/") + 1, remoteUrl.length());
-		String path =PathUtil.getInstance().getImagePath()+"/"+ imageName;
-        EMLog.d("msg", "image path:" + path);
-        return path;
-		
+
+	public static String getImagePath(String remoteUrl) {
+		String imageName = remoteUrl.substring(remoteUrl.lastIndexOf("/") + 1, remoteUrl.length());
+		String path = PathUtil.getInstance().getImagePath() + "/" + imageName;
+		EMLog.d("msg", "image path:" + path);
+		return path;
+
 	}
-	
-	
+
+
 	public static String getThumbnailImagePath(String thumbRemoteUrl) {
-		String thumbImageName= thumbRemoteUrl.substring(thumbRemoteUrl.lastIndexOf("/") + 1, thumbRemoteUrl.length());
-		String path =PathUtil.getInstance().getImagePath()+"/"+ "th"+thumbImageName;
-        EMLog.d("msg", "thum image path:" + path);
-        return path;
-    }
-	
-	
+		String thumbImageName = thumbRemoteUrl.substring(thumbRemoteUrl.lastIndexOf("/") + 1, thumbRemoteUrl.length());
+		String path = PathUtil.getInstance().getImagePath() + "/" + "th" + thumbImageName;
+		EMLog.d("msg", "thum image path:" + path);
+		return path;
+	}
+	/*
+	* 获得头像的地址*/
+
+	public static String getAvatarPath(Context context, String path) {
+		File dir = context.getExternalFilesDir(Environment.DIRECTORY_PICTURES);
+		File folder = new File(dir, path);
+		if (!folder.exists()) {
+			folder.mkdir();
+		}
+		return folder.getAbsolutePath();
+	}
+
 }

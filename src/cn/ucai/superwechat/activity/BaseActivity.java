@@ -22,10 +22,11 @@ import cn.ucai.superwechat.applib.controller.HXSDKHelper;
 import com.umeng.analytics.MobclickAgent;
 
 public class BaseActivity extends FragmentActivity {
-
+    BaseActivity activity;
     @Override
     protected void onCreate(Bundle arg0) {
         super.onCreate(arg0);
+        activity =this;
     }
 
     @Override

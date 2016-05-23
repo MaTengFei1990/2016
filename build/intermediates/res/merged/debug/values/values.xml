@@ -574,4 +574,8 @@
         <item name="android:windowAnimationStyle">@style/AnimFade2</item>
     </style>
     <style name="nornal_style" parent="android:Theme.NoTitleBar"/>
+    <style name="styles_pop_window">
+        <item name="@android:windowEnterAnimation">@anim/pop_enter</item>
+        <item name="@android:windowExitAnimation">@anim/pop_exit</item>
+    </style>
 </resources>
