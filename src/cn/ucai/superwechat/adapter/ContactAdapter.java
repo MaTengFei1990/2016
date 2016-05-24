@@ -24,6 +24,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
 import android.widget.Filter;
 import android.widget.ImageView;
 import android.widget.SectionIndexer;
@@ -31,6 +32,7 @@ import android.widget.TextView;
 
 import cn.ucai.superwechat.Constant;
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.bean.Contact;
 import cn.ucai.superwechat.domain.EMUser;
 import cn.ucai.superwechat.utils.UserUtils;
 
@@ -41,23 +43,24 @@ import com.easemob.util.EMLog;
  * 简单的好友Adapter实现
  *
  */
-public class ContactAdapter extends ArrayAdapter<EMUser>  implements SectionIndexer{
+public class ContactAdapter extends BaseAdapter implements SectionIndexer{
 	private static final String TAG = "ContactAdapter";
 	List<String> list;
-	List<EMUser> userList;
-	List<EMUser> copyUserList;
+	ArrayList<Contact>userList;
+	ArrayList<Contact> copyUserList;
+
 	private LayoutInflater layoutInflater;
 	private SparseIntArray positionOfSection;
 	private SparseIntArray sectionOfPosition;
 	private int res;
 	private MyFilter myFilter;
 	private boolean notiyfyByFilter;
-
-	public ContactAdapter(Context context, int resource, List<EMUser> objects) {
-		super(context, resource, objects);
+	Context mContext;
+	public ContactAdapter(Context context, int resource, ArrayList<Contact> objects) {
+		mContext = context;
 		this.res = resource;
 		this.userList = objects;
-		copyUserList = new ArrayList<EMUser>();
+		copyUserList = new ArrayList<Contact>();
 		copyUserList.addAll(objects);
 		layoutInflater = LayoutInflater.from(context);
 	}
@@ -83,11 +86,11 @@ public class ContactAdapter extends ArrayAdapter<EMUser>  implements SectionInde
 			holder = (ViewHolder) convertView.getTag();
 		}
 
-		EMUser user = getItem(position);
+		Contact user = getItem(position);
 		if(user == null)
 			Log.d("ContactAdapter", position + "");
 		//设置nick，demo里不涉及到完整user，用username代替nick显示
-		String username = user.getUsername();
+		String username = user.getMUserName();
 		String header = user.getHeader();
 		if (position == 0 || header != null && !header.equals(getItem(position - 1).getHeader())) {
 			if (TextUtils.isEmpty(header)) {
@@ -101,9 +104,9 @@ public class ContactAdapter extends ArrayAdapter<EMUser>  implements SectionInde
 		}
 		//显示申请与通知item
 		if(username.equals(Constant.NEW_FRIENDS_USERNAME)){
-			holder.nameTextview.setText(user.getNick());
+			holder.nameTextview.setText(user.getMUserNick());
 			holder.avatar.setDefaultImageResId(R.drawable.new_friends_icon);
-			if(user.getUnreadMsgCount() > 0){
+			if(user.getMUserUnreadMsgCount() > 0){
 				holder.unreadMsgView.setVisibility(View.VISIBLE);
 //			    holder.unreadMsgView.setText(user.getUnreadMsgCount()+"");
 			}else{
@@ -111,18 +114,18 @@ public class ContactAdapter extends ArrayAdapter<EMUser>  implements SectionInde
 			}
 		}else if(username.equals(Constant.GROUP_USERNAME)){
 			//群聊item
-			holder.nameTextview.setText(user.getNick());
+			holder.nameTextview.setText(user.getMUserNick());
 			holder.avatar.setDefaultImageResId(R.drawable.groups_icon);
 		}else if(username.equals(Constant.CHAT_ROOM)){
 			//群聊item
-			holder.nameTextview.setText(user.getNick());
+			holder.nameTextview.setText(user.getMUserNick());
 			holder.avatar.setDefaultImageResId(R.drawable.groups_icon);
 		}else if(username.equals(Constant.CHAT_ROBOT)){
 			//Robot item
-			holder.nameTextview.setText(user.getNick());
+			holder.nameTextview.setText(user.getMUserNick());
 			holder.avatar.setImageResource(R.drawable.groups_icon);
 		}else{
-			holder.nameTextview.setText(user.getNick());
+			holder.nameTextview.setText(user.getMUserNick());
 			//设置用户头像
 			UserUtils.setUserBeanAvatar(username, holder.avatar);
 			if(holder.unreadMsgView != null)
@@ -133,13 +136,18 @@ public class ContactAdapter extends ArrayAdapter<EMUser>  implements SectionInde
 	}
 
 	@Override
-	public EMUser getItem(int position) {
-		return super.getItem(position);
+	public Contact getItem(int position) {
+		return userList.get(position);
+	}
+
+	@Override
+	public long getItemId(int position) {
+		return 0;
 	}
 
 	@Override
 	public int getCount() {
-		return super.getCount();
+		return userList == null ? 0 : userList.size();
 	}
 
 	public int getPositionForSection(int section) {
@@ -156,13 +164,13 @@ public class ContactAdapter extends ArrayAdapter<EMUser>  implements SectionInde
 		sectionOfPosition = new SparseIntArray();
 		int count = getCount();
 		list = new ArrayList<String>();
-		list.add(getContext().getString(R.string.search_header));
+		list.add(mContext.getString(R.string.search_header));
 		positionOfSection.put(0, 0);
 		sectionOfPosition.put(0, 0);
 		for (int i = 1; i < count; i++) {
 
 			String letter = getItem(i).getHeader();
-			EMLog.d(TAG, "contactadapter getsection getHeader:" + letter + " name:" + getItem(i).getUsername());
+			EMLog.d(TAG, "contactadapter getsection getHeader:" + letter + " name:" + getItem(i).getMContactCname());
 			int section = list.size() - 1;
 			if (list.get(section) != null && !list.get(section).equals(letter)) {
 				list.add(letter);
@@ -174,7 +182,7 @@ public class ContactAdapter extends ArrayAdapter<EMUser>  implements SectionInde
 		return list.toArray(new String[list.size()]);
 	}
 
-	@Override
+
 	public Filter getFilter() {
 		if(myFilter==null){
 			myFilter = new MyFilter(userList);
@@ -236,7 +244,7 @@ public class ContactAdapter extends ArrayAdapter<EMUser>  implements SectionInde
 		protected synchronized void publishResults(CharSequence constraint,
 												   FilterResults results) {
 			userList.clear();
-			userList.addAll((List<EMUser>)results.values);
+			userList.addAll((ArrayList<Contact>)results.values);
 			EMLog.d(TAG, "publish contacts filter results size: " + results.count);
 			if (results.count > 0) {
 				notiyfyByFilter = true;

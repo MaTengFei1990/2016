@@ -6,6 +6,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.animation.AlphaAnimation;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -53,8 +54,10 @@ public class SplashActivity extends BaseActivity {
 		if (DemoHXSDKHelper.getInstance().isLogined()) {
 
 			String username = SuperweChatApplication.getInstance().getUserName();
+			Log.i("main", "username="+username);
 			UserDao dao = new UserDao(mContext);
 			User user = dao.findUserByUserName(username);
+			Log.i("main", "user"+user);
 			SuperweChatApplication.getInstance().setUser(user);
 			new DownloadContactListTask(mContext, username).excute();
 			new DownloadPublicGroupTask(mContext, username, I.PAGE_ID_DEFULT,I.PAGE_SIZE_DEFULT).excute();

@@ -288,6 +288,7 @@ public class LoginActivity extends BaseActivity {
 						public void onResponse(com.squareup.okhttp.Response response) throws IOException {
 							String avatarPath = I.AVATAR_TYPE_USER_PATH + I.BACKSLASH
 									+ currentUsername + I.AVATAR_SUFFIX_JPG;
+							Log.e("main", "avatarPath =" + avatarPath);
 							File file = OnSetAvatarListener.getAvatarFile(mContext,avatarPath);
 							FileOutputStream out = null;
 							out = new FileOutputStream(file);

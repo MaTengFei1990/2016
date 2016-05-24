@@ -53,6 +53,8 @@ import android.widget.Toast;
 
 import cn.ucai.superwechat.Constant;
 import cn.ucai.superwechat.activity.UserProfileActivity;
+
+import com.android.volley.toolbox.NetworkImageView;
 import com.easemob.EMCallBack;
 import com.easemob.EMError;
 import cn.ucai.superwechat.applib.controller.HXSDKHelper;
@@ -324,7 +326,7 @@ public class MessageAdapter extends BaseAdapter{
 			if (message.getType() == EMMessage.Type.IMAGE) {
 				try {
 					holder.iv = ((ImageView) convertView.findViewById(R.id.iv_sendPicture));
-					holder.iv_avatar = (ImageView) convertView.findViewById(R.id.iv_userhead);
+					holder.iv_avatar = (NetworkImageView) convertView.findViewById(R.id.iv_userhead);
 					holder.tv = (TextView) convertView.findViewById(R.id.percentage);
 					holder.pb = (ProgressBar) convertView.findViewById(R.id.progressBar);
 					holder.staus_iv = (ImageView) convertView.findViewById(R.id.msg_status);
@@ -337,7 +339,7 @@ public class MessageAdapter extends BaseAdapter{
 				try {
 					holder.pb = (ProgressBar) convertView.findViewById(R.id.pb_sending);
 					holder.staus_iv = (ImageView) convertView.findViewById(R.id.msg_status);
-					holder.iv_avatar = (ImageView) convertView.findViewById(R.id.iv_userhead);
+					holder.iv_avatar = (NetworkImageView) convertView.findViewById(R.id.iv_userhead);
 					// 这里是文字内容
 					holder.tv = (TextView) convertView.findViewById(R.id.tv_chatcontent);
 					holder.tv_usernick = (TextView) convertView.findViewById(R.id.tv_userid);
@@ -357,7 +359,7 @@ public class MessageAdapter extends BaseAdapter{
 			} else if (message.getType() == EMMessage.Type.VOICE) {
 				try {
 					holder.iv = ((ImageView) convertView.findViewById(R.id.iv_voice));
-					holder.iv_avatar = (ImageView) convertView.findViewById(R.id.iv_userhead);
+					holder.iv_avatar = (NetworkImageView) convertView.findViewById(R.id.iv_userhead);
 					holder.tv = (TextView) convertView.findViewById(R.id.tv_length);
 					holder.pb = (ProgressBar) convertView.findViewById(R.id.pb_sending);
 					holder.staus_iv = (ImageView) convertView.findViewById(R.id.msg_status);
@@ -367,7 +369,7 @@ public class MessageAdapter extends BaseAdapter{
 				}
 			} else if (message.getType() == EMMessage.Type.LOCATION) {
 				try {
-					holder.iv_avatar = (ImageView) convertView.findViewById(R.id.iv_userhead);
+					holder.iv_avatar = (NetworkImageView) convertView.findViewById(R.id.iv_userhead);
 					holder.tv = (TextView) convertView.findViewById(R.id.tv_location);
 					holder.pb = (ProgressBar) convertView.findViewById(R.id.pb_sending);
 					holder.staus_iv = (ImageView) convertView.findViewById(R.id.msg_status);
@@ -377,7 +379,7 @@ public class MessageAdapter extends BaseAdapter{
 			} else if (message.getType() == EMMessage.Type.VIDEO) {
 				try {
 					holder.iv = ((ImageView) convertView.findViewById(R.id.chatting_content_iv));
-					holder.iv_avatar = (ImageView) convertView.findViewById(R.id.iv_userhead);
+					holder.iv_avatar = (NetworkImageView) convertView.findViewById(R.id.iv_userhead);
 					holder.tv = (TextView) convertView.findViewById(R.id.percentage);
 					holder.pb = (ProgressBar) convertView.findViewById(R.id.progressBar);
 					holder.staus_iv = (ImageView) convertView.findViewById(R.id.msg_status);
@@ -391,7 +393,7 @@ public class MessageAdapter extends BaseAdapter{
 				}
 			} else if (message.getType() == EMMessage.Type.FILE) {
 				try {
-					holder.iv_avatar = (ImageView) convertView.findViewById(R.id.iv_userhead);
+					holder.iv_avatar = (NetworkImageView) convertView.findViewById(R.id.iv_userhead);
 					holder.tv_file_name = (TextView) convertView.findViewById(R.id.tv_file_name);
 					holder.tv_file_size = (TextView) convertView.findViewById(R.id.tv_file_size);
 					holder.pb = (ProgressBar) convertView.findViewById(R.id.pb_sending);
@@ -568,10 +570,10 @@ public class MessageAdapter extends BaseAdapter{
 	 * @param message
 	 * @param imageView
 	 */
-	private void setUserAvatar(final EMMessage message, ImageView imageView){
+	private void setUserAvatar(final EMMessage message, NetworkImageView imageView){
 	    if(message.direct == Direct.SEND){
 	        //显示自己头像
-	        UserUtils.setCurrentUserAvatar(context, imageView);
+	        UserUtils.setCurrentUserBeanAvatar(imageView);
 	    }else{
 	        UserUtils.setUserAvatar(context, message.getFrom(), imageView);
 	    }
@@ -1532,7 +1534,7 @@ public class MessageAdapter extends BaseAdapter{
 		TextView tv;
 		ProgressBar pb;
 		ImageView staus_iv;
-		ImageView iv_avatar;
+		NetworkImageView iv_avatar;
 		TextView tv_usernick;
 		ImageView playBtn;
 		TextView timeLength;
