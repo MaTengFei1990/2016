@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Set;
 
 import cn.ucai.superwechat.I;
-import cn.ucai.superwechat.SuperWeChatApplication;
+import cn.ucai.superwechat.SuperweChatApplication;
 
 public class ApiParams extends HashMap<String, String> {
 	private static final long serialVersionUID = 8112047472727256876L;
@@ -57,7 +57,7 @@ public class ApiParams extends HashMap<String, String> {
 	}
 
 	public String getRequestUrl(String request) throws Exception {
-		StringBuilder url = new StringBuilder(SuperWeChatApplication.SERVER_ROOT);
+		StringBuilder url = new StringBuilder(SuperweChatApplication.SERVER_ROOT);
 		if (this == null || this.isEmpty()) {
 			return url.toString();
 		}

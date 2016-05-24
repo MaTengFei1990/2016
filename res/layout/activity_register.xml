@@ -217,20 +217,20 @@
                 android:textSize="20sp"
                 android:id="@+id/btn_login"/>
 
-            <View
-                android:layout_width="10dp"
-                android:layout_height="10dp"
-                android:layout_weight="1"/>
             <Button
+                android:id="@+id/btn_register"
                 android:layout_weight="4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_login_bg"
-                android:onClick="Register"
                 android:text="注册"
                 android:textColor="@android:color/white"
                 android:textSize="20sp"
-                android:id="@+id/btn_register"/>
+                />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"/>
         </LinearLayout>
     </LinearLayout>
 

@@ -15,21 +15,21 @@ package cn.ucai.superwechat.activity;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import cn.ucai.superwechat.I;
-import cn.ucai.superwechat.SuperweChatApplication;
 import com.easemob.EMError;
 import com.easemob.chat.EMChatManager;
+
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.SuperweChatApplication;
 import cn.ucai.superwechat.bean.Message;
 import cn.ucai.superwechat.data.OkHttpUtils;
 import cn.ucai.superwechat.listener.OnSetAvatarListener;
@@ -42,46 +42,47 @@ import java.io.File;
 
 /**
  * 注册页
- * 
+ *
  */
 public class RegisterActivity extends BaseActivity {
-	OnSetAvatarListener mOnSetAvatarListener;
+	private final static String TAG = RegisterActivity.class.getName();
+	Activity mcontext;
+	private EditText userNameEditText;
+	private EditText userNickEditText;
+	private EditText passwordEditText;
+	private EditText confirmPwdEditText;
+	ImageView mIVAvatar;
 	String avatarName;
-	Activity mContext;
+
+	OnSetAvatarListener mOnSetAvatarListener;
+
 	String username;
 	String pwd;
 	String nick;
+
 	ProgressDialog pd;
 
-	private final  static String TAG=RegisterActivity.class.getName();
-	private EditText userNickEditText;
-	private EditText userNameEditText;
-	private EditText passwordEditText;
-	private EditText confirmPwdEditText;
-	ImageView mAvatar;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		mContext=this;
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_register);
-
+		mcontext = this;
 		initView();
-		setOnListener();
+		setListener();
 
 	}
 
-	private void setOnListener() {
-		onLoginClickListener();
-		onRigisterClickListener();
-
-		onSetAvatarlistener();
+	private void setListener() {
+		OnSetRegisterListener();
+		OnSetLoginListener();
+		OnSetAvatarListener();
 	}
 
-	private void onSetAvatarlistener() {
+	private void OnSetAvatarListener() {
 		findViewById(R.id.iv_user_Avtar).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				mOnSetAvatarListener = new OnSetAvatarListener(mContext, R.id.Layout_Register, getAvatarName(), I.AVATAR_TYPE_USER_PATH);
+				mOnSetAvatarListener = new OnSetAvatarListener(mcontext, R.id.Layout_Register, getAvatarName(), I.AVATAR_TYPE_USER_PATH);
 			}
 		});
 	}
@@ -89,85 +90,81 @@ public class RegisterActivity extends BaseActivity {
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
-		if (requestCode == RESULT_OK) {
-			mOnSetAvatarListener.setAvatar(requestCode, data, mAvatar);
+		if (resultCode == RESULT_OK) {
+			mOnSetAvatarListener.setAvatar(requestCode, data, mIVAvatar);
 		}
 	}
 
-	private void onLoginClickListener() {
-		findViewById(R.id.btn_login).setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				finish();
-			}
-		});
-	}
 	private String getAvatarName() {
-		avatarName = System.currentTimeMillis()+"";
+		avatarName = System.currentTimeMillis() + "";
 		return avatarName;
 	}
 	private void initView() {
-		userNameEditText = (EditText) findViewById(R.id.username);
-		userNickEditText = (EditText) findViewById(R.id.et_usernick);
-		passwordEditText = (EditText) findViewById(R.id.password);
+		userNameEditText = (EditText) findViewById(R.id.et_username);
+		passwordEditText = (EditText) findViewById(R.id.et_password);
 		confirmPwdEditText = (EditText) findViewById(R.id.et_comfirmPassword);
-		mAvatar = (ImageView) findViewById(R.id.iv_avatar);
-
+		userNickEditText = (EditText) findViewById(R.id.et_usernick);
+		mIVAvatar = (ImageView) findViewById(R.id.iv_user_Avtar);
 	}
 
-
-	private void onRigisterClickListener() {
+	/**
+	 * 注册
+	 */
+	private void OnSetRegisterListener() {
 		findViewById(R.id.btn_register).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				username = userNameEditText.getText().toString().trim();
-				 pwd = passwordEditText.getText().toString().trim();
 				nick = userNickEditText.getText().toString().trim();
+				pwd = passwordEditText.getText().toString().trim();
 				String confirm_pwd = confirmPwdEditText.getText().toString().trim();
 				if (TextUtils.isEmpty(username)) {
 					userNameEditText.requestFocus();
 					userNameEditText.setError(getResources().getString(R.string.User_name_cannot_be_empty));
 					return;
-				} else if (!username.matches("[\\w][\\w\\d_]+")) {
+				}else if (!username.matches("[\\w][\\w\\d_]+")){
 					userNameEditText.requestFocus();
 					userNameEditText.setError(getResources().getString(R.string.User_name_cannot_be_wd));
 					return;
-				}else if (TextUtils.isEmpty(nick)) {
+				} else if (TextUtils.isEmpty(nick)) {
 					userNickEditText.requestFocus();
 					userNickEditText.setError(getResources().getString(R.string.Nick_name_cannot_be_empty));
 					return;
-				}
-				else if (TextUtils.isEmpty(pwd)) {
+				} else if (TextUtils.isEmpty(pwd)) {
 					passwordEditText.requestFocus();
 					passwordEditText.setError(getResources().getString(R.string.Password_cannot_be_empty));
 					return;
-				}else if (TextUtils.isEmpty(confirm_pwd)) {
+				} else if (TextUtils.isEmpty(confirm_pwd)) {
 					confirmPwdEditText.requestFocus();
 					confirmPwdEditText.setError(getResources().getString(R.string.Confirm_password_cannot_be_empty));
 					return;
 				} else if (!pwd.equals(confirm_pwd)) {
-
-					Toast.makeText(mContext, getResources().getString(R.string.Two_input_password), Toast.LENGTH_SHORT).show();
+					confirmPwdEditText.requestFocus();
+					confirmPwdEditText.setError(getResources().getString(R.string.Two_input_password));
 					return;
 				}
 
 				if (!TextUtils.isEmpty(username) && !TextUtils.isEmpty(pwd)) {
-					final ProgressDialog pd = new ProgressDialog(mContext);
+					pd = new ProgressDialog(mcontext);
 					pd.setMessage(getResources().getString(R.string.Is_the_registered));
 					pd.show();
 
-
+					registerAppServer();
 				}
 			}
 		});
 
 	}
+
 	private void registerAppServer() {
-		File file =new File (ImageUtils.getAvatarPath(mContext,I.AVATAR_TYPE_USER_PATH),
-				avatarName+I.AVATAR_SUFFIX_JPG);
+		//首先注册远端服务器账号，并上传头像----okhttp
+		//注册环信的账号
+		//如果环信注册失败，调用取消注册的方法，删除远端账号和图片
+		File file = new File(ImageUtils.getAvatarPath(mcontext, I.AVATAR_TYPE_USER_PATH),
+				avatarName + I.AVATAR_SUFFIX_JPG);
 		OkHttpUtils<Message> utils = new OkHttpUtils<Message>();
 		utils.url(SuperweChatApplication.SERVER_ROOT)
-				.addParam(I.KEY_REQUEST, I.REQUEST_REGISTER)
+				.addParam(I.KEY_REQUEST,I.REQUEST_REGISTER)
 				.addParam(I.User.USER_NAME,username)
 				.addParam(I.User.NICK,nick)
 				.addParam(I.User.PASSWORD,pwd)
@@ -178,22 +175,26 @@ public class RegisterActivity extends BaseActivity {
 					public void onSuccess(Message result) {
 						if (result.isResult()) {
 							registerEMServer();
-
 						} else {
-							Utils.showToast(mContext, Utils.getResourceString(mContext, result.getMsg()), Toast.LENGTH_SHORT);
 							pd.dismiss();
-
-
+							Utils.showToast(mcontext, Utils.getResourceString(mcontext, result.getMsg()), Toast.LENGTH_SHORT);
+							Log.e(TAG, "register fail,error:" + result.getMsg());
 						}
 					}
 
 					@Override
 					public void onError(String error) {
-
+						pd.dismiss();
+						Utils.showToast(mcontext, error, Toast.LENGTH_SHORT);
+						Log.e(TAG, "register fail,error: " + error);
 					}
 				});
 	}
-	private void registerEMServer() {
+
+	/**
+	 * 注册环信账号
+	 */
+	private void registerEMServer(){
 		new Thread(new Runnable() {
 			public void run() {
 				try {
@@ -205,11 +206,12 @@ public class RegisterActivity extends BaseActivity {
 								pd.dismiss();
 							// 保存用户名
 							SuperweChatApplication.getInstance().setUserName(username);
-							Toast.makeText(getApplicationContext(), getResources().getString(R.string.Registered_successfully), Toast.LENGTH_LONG).show();
+							Toast.makeText(getApplicationContext(), getResources().getString(R.string.Registered_successfully), Toast.LENGTH_SHORT).show();
 							finish();
 						}
 					});
 				} catch (final EaseMobException e) {
+					unRegister();
 					runOnUiThread(new Runnable() {
 						public void run() {
 							if (!RegisterActivity.this.isFinishing())
@@ -232,14 +234,45 @@ public class RegisterActivity extends BaseActivity {
 			}
 		}).start();
 
+	}
+
+	private void unRegister() {
+		//url=http://10.0.2.2:8080/SuperWeChatServer/Server?request=unregister&m_user_name=
+		OkHttpUtils<Message> utils = new OkHttpUtils<Message>();
+		utils.url(SuperweChatApplication.SERVER_ROOT)
+				.addParam(I.KEY_REQUEST,I.REQUEST_UNREGISTER)
+				.addParam(I.User.USER_NAME,username)
+				.targetClass(Message.class)
+				.execute(new OkHttpUtils.OnCompleteListener<Message>() {
+					@Override
+					public void onSuccess(Message result) {
+
+					}
+
+					@Override
+					public void onError(String error) {
+
+					}
+				});
+	}
+
+	/**
+	 * 登录
+	 */
+
+	private void OnSetLoginListener() {
+		findViewById(R.id.btn_login).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				finish();
+			}
+		});
+//		Intent intent = new Intent(this,LoginActivity.class);
+//		startActivity(intent);
 
 	}
 	public void back(View view) {
 		finish();
 	}
 
-	public void Login(View view) {
-		Intent intent = new Intent();
-
-	}
 }

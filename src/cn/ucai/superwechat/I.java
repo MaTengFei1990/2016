@@ -69,6 +69,8 @@ public interface I {
 	String UTF_8 									= 		"utf-8";
 	String PAGE_ID 									= 		"page_id";						//分页的起始下标
 	String PAGE_SIZE 								= 		"page_size";					//分页的每页数量
+	int  PAGE_ID_DEFULT 							= 		0;								//分页的起始下标默认值
+	int PAGE_SIZE_DEFULT 						    = 		20;								//分页的每页数量默认值
 	int ID_DEFAULT									=		0;								//ID默认值
 	int UN_READ_MSG_COUNT_DEFAULT					=		0;								//未读消息数量默认值
 	int GROUP_MAX_USERS_DEFAULT 					= 		-1;								//群组最大人数默认值

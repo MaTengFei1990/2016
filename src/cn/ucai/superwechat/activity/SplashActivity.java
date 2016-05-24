@@ -1,5 +1,6 @@
 package cn.ucai.superwechat.activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -12,13 +13,21 @@ import android.widget.TextView;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMGroupManager;
 import cn.ucai.superwechat.DemoHXSDKHelper;
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.SuperweChatApplication;
+import cn.ucai.superwechat.bean.User;
+import cn.ucai.superwechat.db.UserDao;
+import cn.ucai.superwechat.task.DownloadAllGroupTask;
+import cn.ucai.superwechat.task.DownloadContactListTask;
+import cn.ucai.superwechat.task.DownloadPublicGroupTask;
 
 /**
  * 开屏页
  *
  */
 public class SplashActivity extends BaseActivity {
+	Context mContext;
 	private RelativeLayout rootLayout;
 	private TextView versionText;
 	
@@ -41,7 +50,16 @@ public class SplashActivity extends BaseActivity {
 	@Override
 	protected void onStart() {
 		super.onStart();
+		if (DemoHXSDKHelper.getInstance().isLogined()) {
 
+			String username = SuperweChatApplication.getInstance().getUserName();
+			UserDao dao = new UserDao(mContext);
+			User user = dao.findUserByUserName(username);
+			SuperweChatApplication.getInstance().setUser(user);
+			new DownloadContactListTask(mContext, username).excute();
+			new DownloadPublicGroupTask(mContext, username, I.PAGE_ID_DEFULT,I.PAGE_SIZE_DEFULT).excute();
+			new DownloadAllGroupTask(mContext, username).excute();
+		}
 		new Thread(new Runnable() {
 			public void run() {
 				if (DemoHXSDKHelper.getInstance().isLogined()) {

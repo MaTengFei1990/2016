@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 
+import fragments.ImageGridFragment;
+
 public class ImageGridActivity extends FragmentActivity {
 
 	private static final String TAG = "ImageGridActivity";

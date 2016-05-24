@@ -197,6 +197,7 @@ public class OnSetAvatarListener implements View.OnClickListener {
         if (avatar == null) {
             return;
         }
+        Log.i("main", "shkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh");
         ivAvatar.setImageBitmap(avatar);
         File file = FileUtils.getAvatarPath(mActivity,mAvatarType, mUserName + ".jpg");
         if(!file.getParentFile().exists()){
