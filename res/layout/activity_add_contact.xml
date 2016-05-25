@@ -95,6 +95,15 @@
                 android:text="@string/button_add"
                 android:textSize="14sp" />
         </RelativeLayout>
+
+
     </LinearLayout>
+    <TextView
+        android:id="@+id/tv_show_nothing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="无结果"
+        android:textSize="25dp"
+        android:visibility="gone"/>
 
 </LinearLayout>

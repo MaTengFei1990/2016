@@ -1,6 +1,8 @@
 package cn.ucai.superwechat.data;
 
 import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Set;
 
@@ -15,29 +17,29 @@ public class ApiParams extends HashMap<String, String> {
 		return this;
 	}
 
-//	/**
-//	 * 将服务端根地址和请求参数集合转换为GET格式的url
-//	 * @param rootUrl:根地址
-//	 * @param params：GET请求参数集合
-//	 * @return
-//	 * @throws Exception
-//	 */
-//	public static String getUrl(String rootUrl, ArrayList<ApiParams> params) throws Exception {
-//		StringBuilder url = new StringBuilder(rootUrl);
-//		if (params == null || params.isEmpty()) {
-//			return rootUrl;
-//		}
-//		url.append("?");
-//
-//		for (ApiParams param : params) {
-//			url.append(param.getKey())
-//					.append("=")
-//					.append(URLEncoder.encode(param.getValue(), "utf-8"))
-//					.append("&");
-//		}
-//		url.deleteCharAt(url.length() - 1);
-//		return url.toString();
-//	}
+	/**
+	 * 将服务端根地址和请求参数集合转换为GET格式的url
+	 * @param rootUrl:根地址
+	 * @param params：GET请求参数集合
+	 * @return
+	 * @throws Exception
+	 */
+	public static String getUrl(String rootUrl, ArrayList<ApiParams> params) throws Exception {
+		StringBuilder url = new StringBuilder(rootUrl);
+		if (params == null || params.isEmpty()) {
+			return rootUrl;
+		}
+		url.append("?");
+
+		for (ApiParams param : params) {
+			url.append(param.getKey())
+					.append("=")
+					.append(URLEncoder.encode(param.getValue(), "utf-8"))
+					.append("&");
+		}
+		url.deleteCharAt(url.length() - 1);
+		return url.toString();
+	}
 
 	public String getUrl(String rootUrl) throws Exception {
 		StringBuilder url = new StringBuilder(rootUrl);
@@ -77,20 +79,20 @@ public class ApiParams extends HashMap<String, String> {
 		return url.toString();
 	}
 
-//	public String getKey() {
-//		Set<String> set = this.keySet();
-//		for (String key : set) {
-//			return key;
-//		}
-//		return null;
-//	}
-//
-//	public String getValue() {
-//		Collection<String> values = this.values();
-//		for (String value : values) {
-//			return value;
-//		}
-//		return null;
-//	}
+	public String getKey() {
+		Set<String> set = this.keySet();
+		for (String key : set) {
+			return key;
+		}
+		return null;
+	}
+
+	public String getValue() {
+		Collection<String> values = this.values();
+		for (String value : values) {
+			return value;
+		}
+		return null;
+	}
 
 }

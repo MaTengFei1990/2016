@@ -44,12 +44,12 @@
         "source": "D:\\supperWechat\\res\\layout\\choose_griditem.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_emojicon.xml",
-        "source": "D:\\supperWechat\\res\\layout\\fragment_emojicon.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_invite_msg.xml",
         "source": "D:\\supperWechat\\res\\layout\\row_invite_msg.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_emojicon.xml",
+        "source": "D:\\supperWechat\\res\\layout\\fragment_emojicon.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_picture.xml",

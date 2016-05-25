@@ -13,14 +13,6 @@
  */
 package cn.ucai.superwechat.activity;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -37,18 +29,25 @@ import android.widget.Toast;
 
 import com.android.volley.Response;
 import com.easemob.EMCallBack;
-
-import cn.ucai.superwechat.I;
-import cn.ucai.superwechat.applib.controller.HXSDKHelper;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMGroupManager;
 import com.squareup.okhttp.Callback;
 import com.squareup.okhttp.Request;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import cn.ucai.superwechat.Constant;
-import cn.ucai.superwechat.SuperweChatApplication;
 import cn.ucai.superwechat.DemoHXSDKHelper;
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.SuperweChatApplication;
+import cn.ucai.superwechat.applib.controller.HXSDKHelper;
 import cn.ucai.superwechat.bean.Message;
 import cn.ucai.superwechat.bean.User;
 import cn.ucai.superwechat.data.ApiParams;
@@ -281,7 +280,7 @@ public class LoginActivity extends BaseActivity {
 					.doInBackground(new Callback() {
 						@Override
 						public void onFailure(Request request, IOException e) {
-							Toast.makeText(mContext,e.getMessage(),Toast.LENGTH_SHORT).show();
+//							Toast.makeText(mContext,e.getMessage(),Toast.LENGTH_SHORT).show();
 						}
 
 						@Override
@@ -296,15 +295,15 @@ public class LoginActivity extends BaseActivity {
 						}
 					}).execute(null);
 
-//			runOnUiThread(new Runnable() {
-//				@Override
-//				public void run() {
-//					new DownloadContactListTask(mContext,currentUsername).execute();
-//					new DownloadAllGroupTask(mContext,currentUsername).execute();
-//					new DownloadPublicGroupTask(mContext,currentUsername,
-//							I.PAGE_ID_DEFAULT,I.PAGE_SIZE_DEFAULT).execute();
-//				}
-//			});
+			runOnUiThread(new Runnable() {
+				@Override
+				public void run() {
+					new DownloadContactListTask(mContext,currentUsername).excute();
+					new DownloadAllGroupTask(mContext,currentUsername).excute();
+					new DownloadPublicGroupTask(mContext,currentUsername,
+							I.PAGE_ID_DEFULT,I.PAGE_SIZE_DEFULT).excute();
+				}
+			});
 
 
 		} catch (Exception e) {
