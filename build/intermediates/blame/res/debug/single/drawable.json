@@ -68,12 +68,12 @@
         "source": "D:\\supperWechat\\res\\drawable\\recording_text_hint_bg.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chatting_setmode_keyboard_btn.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\chatting_setmode_keyboard_btn.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_selector.xml",
         "source": "D:\\supperWechat\\res\\drawable\\btn_green_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chatting_setmode_keyboard_btn.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\chatting_setmode_keyboard_btn.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\find_icon.png",
@@ -200,12 +200,12 @@
         "source": "D:\\supperWechat\\res\\drawable\\btn_bottom_selector.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\call_hangup_bg.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\call_hangup_bg.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_press_speak_btn.xml",
         "source": "D:\\supperWechat\\res\\drawable\\chat_press_speak_btn.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\call_hangup_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\call_hangup_bg.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_send_btn_selector.xml",

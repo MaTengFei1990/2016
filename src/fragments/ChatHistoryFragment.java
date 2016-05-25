@@ -13,12 +13,6 @@
  */
 package fragments;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -46,19 +40,25 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import cn.ucai.superwechat.SuperweChatApplication;
-import cn.ucai.superwechat.activity.ChatActivity;
-import cn.ucai.superwechat.activity.MainActivity;
-import cn.ucai.superwechat.applib.controller.HXSDKHelper;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMContact;
 import com.easemob.chat.EMConversation;
 import com.easemob.chat.EMGroup;
 import com.easemob.chat.EMGroupManager;
 import com.easemob.chat.EMMessage;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Map;
+
 import cn.ucai.superwechat.DemoHXSDKHelper;
-import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.SuperweChatApplication;
+import cn.ucai.superwechat.activity.ChatActivity;
+import cn.ucai.superwechat.activity.MainActivity;
 import cn.ucai.superwechat.adapter.ChatHistoryAdapter;
+import cn.ucai.superwechat.applib.controller.HXSDKHelper;
 import cn.ucai.superwechat.db.InviteMessgeDao;
 import cn.ucai.superwechat.domain.EMUser;
 
@@ -80,28 +80,28 @@ public class ChatHistoryFragment extends Fragment {
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		return inflater.inflate(R.layout.fragment_conversation_history, container, false);
+		return inflater.inflate(cn.ucai.superwechat.R.layout.fragment_conversation_history, container, false);
 	}
 
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
 		inputMethodManager = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
-		errorText = (TextView) errorItem.findViewById(R.id.tv_connect_errormsg);
+		errorText = (TextView) errorItem.findViewById(cn.ucai.superwechat.R.id.tv_connect_errormsg);
 		// contact list
-		contactList = ((DemoHXSDKHelper)HXSDKHelper.getInstance()).getContactList();
-		listView = (ListView) getView().findViewById(R.id.list);
+		contactList = ((DemoHXSDKHelper) HXSDKHelper.getInstance()).getContactList();
+		listView = (ListView) getView().findViewById(cn.ucai.superwechat.R.id.list);
 		adapter = new ChatHistoryAdapter(getActivity(), 1, loadUsersWithRecentChat());
 		// 设置adapter
 		listView.setAdapter(adapter);
-		final String st = getResources().getString(R.string.Cant_chat_with_yourself);
+		final String st = getResources().getString(cn.ucai.superwechat.R.string.Cant_chat_with_yourself);
 		listView.setOnItemClickListener(new OnItemClickListener() {
 
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				EMContact emContact = adapter.getItem(position);
 				if (adapter.getItem(position).getUsername().equals(SuperweChatApplication.getInstance().getUserName()))
-					Toast.makeText(getActivity(), st, 0).show();
+					Toast.makeText(getActivity(), st, Toast.LENGTH_SHORT).show();
 				else {
 					// 进入聊天页面
 					  Intent intent = new Intent(getActivity(), ChatActivity.class);
@@ -134,9 +134,9 @@ public class ChatHistoryFragment extends Fragment {
 			}
 		});
 		// 搜索框
-		query = (EditText) getView().findViewById(R.id.query);
+		query = (EditText) getView().findViewById(cn.ucai.superwechat.R.id.query);
 		// 搜索框中清除button
-		clearSearch = (ImageButton) getView().findViewById(R.id.search_clear);
+		clearSearch = (ImageButton) getView().findViewById(cn.ucai.superwechat.R.id.search_clear);
 		query.addTextChangedListener(new TextWatcher() {
 			public void onTextChanged(CharSequence s, int start, int before, int count) {
 				
@@ -168,13 +168,13 @@ public class ChatHistoryFragment extends Fragment {
 	public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
 		super.onCreateContextMenu(menu, v, menuInfo);
 		// if(((AdapterContextMenuInfo)menuInfo).position > 0){ m,
-		getActivity().getMenuInflater().inflate(R.menu.delete_message, menu);
+		getActivity().getMenuInflater().inflate(cn.ucai.superwechat.R.menu.delete_message, menu);
 		// }
 	}
 
 	@Override
 	public boolean onContextItemSelected(MenuItem item) {
-		if (item.getItemId() == R.id.delete_message) {
+		if (item.getItemId() == cn.ucai.superwechat.R.id.delete_message) {
 			EMContact tobeDeleteUser = adapter.getItem(((AdapterContextMenuInfo) item.getMenuInfo()).position);
 			boolean isGroup = false;
 			if(tobeDeleteUser instanceof EMGroup)
@@ -198,27 +198,24 @@ public class ChatHistoryFragment extends Fragment {
 	 * 刷新页面
 	 */
 	public void refresh() {
-		adapter = new ChatHistoryAdapter(getActivity(), R.layout.row_chat_history, loadUsersWithRecentChat());
+		adapter = new ChatHistoryAdapter(getActivity(), cn.ucai.superwechat.R.layout.row_chat_history, loadUsersWithRecentChat());
 		listView.setAdapter(adapter);
 		adapter.notifyDataSetChanged();
 	}
 
-	
-	
+
 	/**
 	 * 获取有聊天记录的users和groups
-	 * 
-	 * @param context
 	 * @return
-	 */
+     */
 	private List<EMContact> loadUsersWithRecentChat() {
 		List<EMContact> resultList = new ArrayList<EMContact>();
 		//获取有聊天记录的users，不包括陌生人
 		for (EMUser user : contactList.values()) {
-			EMConversation conversation = EMChatManager.getInstance().getConversation(user.getUsername());
-			if (conversation.getMsgCount() > 0) {
-				resultList.add(user);
-			}
+				EMConversation conversation = EMChatManager.getInstance().getConversation(user.getUsername());
+				if (conversation.getMsgCount() > 0) {
+					resultList.add(user);
+				}
 		}
 		for(EMGroup group : EMGroupManager.getInstance().getAllGroups()){
 			EMConversation conversation = EMChatManager.getInstance().getConversation(group.getGroupId());
@@ -235,9 +232,8 @@ public class ChatHistoryFragment extends Fragment {
 
 	/**
 	 * 根据最后一条消息的时间排序
-	 * 
-	 * @param usernames
-	 */
+	 * @param contactList
+     */
 	private void sortUserByLastChatTime(List<EMContact> contactList) {
 		Collections.sort(contactList, new Comparator<EMContact>() {
 			@Override

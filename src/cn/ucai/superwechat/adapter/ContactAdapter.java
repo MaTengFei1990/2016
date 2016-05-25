@@ -13,9 +13,6 @@
  */
 package cn.ucai.superwechat.adapter;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Log;
@@ -23,21 +20,21 @@ import android.util.SparseIntArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Filter;
-import android.widget.ImageView;
 import android.widget.SectionIndexer;
 import android.widget.TextView;
+
+import com.android.volley.toolbox.NetworkImageView;
+import com.easemob.util.EMLog;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import cn.ucai.superwechat.Constant;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.bean.Contact;
-import cn.ucai.superwechat.domain.EMUser;
 import cn.ucai.superwechat.utils.UserUtils;
-
-import com.android.volley.toolbox.NetworkImageView;
-import com.easemob.util.EMLog;
 
 /**
  * 简单的好友Adapter实现
@@ -46,7 +43,7 @@ import com.easemob.util.EMLog;
 public class ContactAdapter extends BaseAdapter implements SectionIndexer{
 	private static final String TAG = "ContactAdapter";
 	List<String> list;
-	ArrayList<Contact>userList;
+	ArrayList<Contact> userList;
 	ArrayList<Contact> copyUserList;
 
 	private LayoutInflater layoutInflater;
@@ -63,6 +60,10 @@ public class ContactAdapter extends BaseAdapter implements SectionIndexer{
 		copyUserList = new ArrayList<Contact>();
 		copyUserList.addAll(objects);
 		layoutInflater = LayoutInflater.from(context);
+	}
+
+	public void remove(Contact tobeDeleteUser) {
+
 	}
 
 	private static class ViewHolder {
@@ -191,9 +192,9 @@ public class ContactAdapter extends BaseAdapter implements SectionIndexer{
 	}
 
 	private class  MyFilter extends Filter{
-		List<EMUser> mOriginalList = null;
+		List<Contact> mOriginalList = null;
 
-		public MyFilter(List<EMUser> myList) {
+		public MyFilter(List<Contact> myList) {
 			this.mOriginalList = myList;
 		}
 
@@ -201,7 +202,7 @@ public class ContactAdapter extends BaseAdapter implements SectionIndexer{
 		protected synchronized FilterResults performFiltering(CharSequence prefix) {
 			FilterResults results = new FilterResults();
 			if(mOriginalList==null){
-				mOriginalList = new ArrayList<EMUser>();
+				mOriginalList = new ArrayList<Contact>();
 			}
 			EMLog.d(TAG, "contacts original size: " + mOriginalList.size());
 			EMLog.d(TAG, "contacts copy size: " + copyUserList.size());
@@ -212,10 +213,10 @@ public class ContactAdapter extends BaseAdapter implements SectionIndexer{
 			}else{
 				String prefixString = prefix.toString();
 				final int count = mOriginalList.size();
-				final ArrayList<EMUser> newValues = new ArrayList<EMUser>();
+				final ArrayList<Contact> newValues = new ArrayList<Contact>();
 				for(int i=0;i<count;i++){
-					final EMUser user = mOriginalList.get(i);
-					String username = user.getUsername();
+					final Contact user = mOriginalList.get(i);
+					String username = user.getMContactCname();
 
 					if(username.startsWith(prefixString)){
 						newValues.add(user);

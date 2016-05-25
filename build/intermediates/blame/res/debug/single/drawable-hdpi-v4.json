@@ -184,12 +184,12 @@
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\chatting_setmode_voice_btn_pressed.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_33.png",
-        "source": "D:\\supperWechat\\res\\drawable-hdpi\\ee_33.png"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_30.png",
         "source": "D:\\supperWechat\\res\\drawable-hdpi\\ee_30.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_33.png",
+        "source": "D:\\supperWechat\\res\\drawable-hdpi\\ee_33.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dx_checkbox_gray_on.png",

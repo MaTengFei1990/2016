@@ -22,23 +22,33 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import cn.ucai.superwechat.applib.controller.HXSDKHelper;
-import cn.ucai.superwechat.SuperweChatApplication;
+import com.android.volley.Response;
+import com.android.volley.toolbox.NetworkImageView;
 import com.easemob.chat.EMContactManager;
+
+import java.util.HashMap;
+
 import cn.ucai.superwechat.DemoHXSDKHelper;
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.SuperweChatApplication;
+import cn.ucai.superwechat.applib.controller.HXSDKHelper;
+import cn.ucai.superwechat.bean.Contact;
+import cn.ucai.superwechat.bean.User;
+import cn.ucai.superwechat.data.ApiParams;
+import cn.ucai.superwechat.data.GsonRequest;
+import cn.ucai.superwechat.utils.UserUtils;
 
 public class AddContactActivity extends BaseActivity{
 	private EditText editText;
 	private LinearLayout searchedUserLayout;
-	private TextView nameText,mTextView;
+	private TextView nameText,mTextView ,mTvNothing;
 	private Button searchBtn;
-	private ImageView avatar;
+	private NetworkImageView avatar;
 	private InputMethodManager inputMethodManager;
 	private String toAddUsername;
 	private ProgressDialog progressDialog;
@@ -48,7 +58,7 @@ public class AddContactActivity extends BaseActivity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_add_contact);
 		mTextView = (TextView) findViewById(R.id.add_list_friends);
-		
+		mTvNothing= (TextView) findViewById(R.id.tv_show_nothing);
 		editText = (EditText) findViewById(R.id.edit_note);
 		String strAdd = getResources().getString(R.string.add_friend);
 		mTextView.setText(strAdd);
@@ -57,7 +67,7 @@ public class AddContactActivity extends BaseActivity{
 		searchedUserLayout = (LinearLayout) findViewById(R.id.ll_user);
 		nameText = (TextView) findViewById(R.id.name);
 		searchBtn = (Button) findViewById(R.id.search);
-		avatar = (ImageView) findViewById(R.id.avatar);
+		avatar = (NetworkImageView) findViewById(R.id.avatar);
 		inputMethodManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
 	}
 	
@@ -69,34 +79,68 @@ public class AddContactActivity extends BaseActivity{
 	public void searchContact(View v) {
 		final String name = editText.getText().toString();
 		String saveText = searchBtn.getText().toString();
-		
-		if (getString(R.string.button_search).equals(saveText)) {
-			toAddUsername = name;
+
 			if(TextUtils.isEmpty(name)) {
 				String st = getResources().getString(R.string.Please_enter_a_username);
 				startActivity(new Intent(this, AlertDialog.class).putExtra("msg", st));
 				return;
 			}
-			
-			// TODO 从服务器获取此contact,如果不存在提示不存在此用户
-			
-			//服务器存在此用户，显示此用户和添加按钮
-			searchedUserLayout.setVisibility(View.VISIBLE);
-			nameText.setText(toAddUsername);
-			
-		} 
-	}	
-	
-	/**
-	 *  添加contact
-	 * @param view
-	 */
-	public void addContact(View view){
+
 		if(SuperweChatApplication.getInstance().getUserName().equals(nameText.getText().toString())){
 			String str = getString(R.string.not_add_myself);
 			startActivity(new Intent(this, AlertDialog.class).putExtra("msg", str));
 			return;
 		}
+		toAddUsername = name;
+
+		try {
+			String path = new ApiParams()
+					.with(I.User.USER_NAME, toAddUsername)
+					.getRequestUrl(I.REQUEST_FIND_USER);
+			executeRequest(new GsonRequest<User>(path,User.class,responseFindUserListener(),errorListener()));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		// TODO 从服务器获取此contact,如果不存在提示不存在此用户
+
+
+
+	}
+
+	private Response.Listener<User> responseFindUserListener() {
+		return new Response.Listener<User>() {
+			@Override
+			public void onResponse(User user) {
+				if (user != null) {
+					HashMap<String, Contact> userList = SuperweChatApplication
+							.getInstance().getUserList();
+					if (userList.containsKey(user.getMUserName())) {
+						startActivity(new Intent(AddContactActivity.this, UserProfileActivity.class)
+								.putExtra("username", user.getMUserName()));
+					} else {
+
+						//服务器存在此用户，显示此用户和添加按钮
+						searchedUserLayout.setVisibility(View.VISIBLE);
+						UserUtils.setUserBeanAvatar(user, avatar);
+						UserUtils.setUserNick(user, nameText);
+
+					}
+					mTvNothing.setVisibility(View.GONE);
+				} else {
+					searchedUserLayout.setVisibility(View.GONE);
+					mTvNothing.setVisibility(View.VISIBLE);
+
+				}
+			}
+		};
+	}
+
+	/**
+	 *  添加contact
+	 * @param view
+	 */
+	public void addContact(View view){
+
 		
 		if(((DemoHXSDKHelper) HXSDKHelper.getInstance()).getContactList().containsKey(nameText.getText().toString())){
 		    //提示已在好友列表中，无需添加
@@ -126,7 +170,7 @@ public class AddContactActivity extends BaseActivity{
 						public void run() {
 							progressDialog.dismiss();
 							String s1 = getResources().getString(R.string.send_successful);
-							Toast.makeText(getApplicationContext(), s1, 1).show();
+							Toast.makeText(getApplicationContext(), s1, Toast.LENGTH_LONG).show();
 						}
 					});
 				} catch (final Exception e) {
@@ -134,7 +178,7 @@ public class AddContactActivity extends BaseActivity{
 						public void run() {
 							progressDialog.dismiss();
 							String s2 = getResources().getString(R.string.Request_add_buddy_failure);
-							Toast.makeText(getApplicationContext(), s2 + e.getMessage(), 1).show();
+							Toast.makeText(getApplicationContext(), s2 + e.getMessage(), Toast.LENGTH_LONG).show();
 						}
 					});
 				}

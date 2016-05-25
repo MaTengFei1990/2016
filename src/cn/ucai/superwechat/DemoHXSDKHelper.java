@@ -13,12 +13,6 @@
  */
 package cn.ucai.superwechat;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-
-import org.json.JSONObject;
-
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -28,15 +22,6 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
-import cn.ucai.superwechat.applib.controller.HXSDKHelper;
-import cn.ucai.superwechat.applib.model.HXNotifier;
-import cn.ucai.superwechat.applib.model.HXSDKModel;
-import cn.ucai.superwechat.activity.MainActivity;
-import cn.ucai.superwechat.activity.VoiceCallActivity;
-import cn.ucai.superwechat.domain.EMUser;
-import cn.ucai.superwechat.domain.RobotUser;
-import cn.ucai.superwechat.receiver.CallReceiver;
-import cn.ucai.superwechat.utils.CommonUtils;
 import com.easemob.EMCallBack;
 import com.easemob.EMChatRoomChangeListener;
 import com.easemob.EMEventListener;
@@ -47,11 +32,26 @@ import com.easemob.chat.EMChatOptions;
 import com.easemob.chat.EMMessage;
 import com.easemob.chat.EMMessage.ChatType;
 import com.easemob.chat.EMMessage.Type;
-import cn.ucai.superwechat.activity.ChatActivity;
-import cn.ucai.superwechat.activity.VideoCallActivity;
-
 import com.easemob.util.EMLog;
 import com.easemob.util.EasyUtils;
+
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import cn.ucai.superwechat.activity.ChatActivity;
+import cn.ucai.superwechat.activity.MainActivity;
+import cn.ucai.superwechat.activity.VideoCallActivity;
+import cn.ucai.superwechat.activity.VoiceCallActivity;
+import cn.ucai.superwechat.applib.controller.HXSDKHelper;
+import cn.ucai.superwechat.applib.model.HXNotifier;
+import cn.ucai.superwechat.applib.model.HXSDKModel;
+import cn.ucai.superwechat.domain.EMUser;
+import cn.ucai.superwechat.domain.RobotUser;
+import cn.ucai.superwechat.receiver.CallReceiver;
+import cn.ucai.superwechat.utils.CommonUtils;
 
 /**
  * Demo UI HX SDK helper class which subclass HXSDKHelper
@@ -61,7 +61,7 @@ import com.easemob.util.EasyUtils;
 public class DemoHXSDKHelper extends HXSDKHelper {
 
     private static final String TAG = "DemoHXSDKHelper";
-    
+
     /**
      * EMEventListener
      */
@@ -71,51 +71,51 @@ public class DemoHXSDKHelper extends HXSDKHelper {
      * contact list in cache
      */
     private Map<String, EMUser> contactList;
-    
+
     /**
      * robot list in cache
      */
     private Map<String, RobotUser> robotList;
     private CallReceiver callReceiver;
-    
+
     private UserProfileManager  userProManager;
-    
+
     /**
      * 用来记录foreground Activity
      */
     private List<Activity> activityList = new ArrayList<Activity>();
-    
+
     public void pushActivity(Activity activity){
         if(!activityList.contains(activity)){
-            activityList.add(0,activity); 
+            activityList.add(0,activity);
         }
     }
-    
+
     public void popActivity(Activity activity){
         activityList.remove(activity);
     }
-    
+
     @Override
     public synchronized boolean onInit(Context context){
         if(super.onInit(context)){
             getUserProfileManager().onInit(context);
-            
+
             //if your app is supposed to user Google Push, please set project number
             String projectNumber = "562451699741";
             EMChatManager.getInstance().setGCMProjectNumber(projectNumber);
             return true;
         }
-        
+
         return false;
     }
-    
+
     @Override
     protected void initHXOptions(){
         super.initHXOptions();
 
         // you can also get EMChatOptions to set related SDK options
         EMChatOptions options = EMChatManager.getInstance().getChatOptions();
-        options.allowChatroomOwnerLeave(getModel().isChatroomOwnerLeaveAllowed());  
+        options.allowChatroomOwnerLeave(getModel().isChatroomOwnerLeaveAllowed());
     }
 
     @Override
@@ -127,11 +127,11 @@ public class DemoHXSDKHelper extends HXSDKHelper {
         }
 
         //注册通话广播接收者
-        appContext.registerReceiver(callReceiver, callFilter);    
+        appContext.registerReceiver(callReceiver, callFilter);
         //注册消息事件监听
         initEventListener();
     }
-    
+
     /**
      * 全局事件监听
      * 因为可能会有UI页面先处理到这个消息，所以一般如果UI页面已经处理，这里就不需要再次处理
@@ -140,7 +140,7 @@ public class DemoHXSDKHelper extends HXSDKHelper {
     protected void initEventListener() {
         eventListener = new EMEventListener() {
             private BroadcastReceiver broadCastReceiver = null;
-            
+
             @Override
             public void onEvent(EMNotifierEvent event) {
                 EMMessage message = null;
@@ -148,100 +148,100 @@ public class DemoHXSDKHelper extends HXSDKHelper {
                     message = (EMMessage)event.getData();
                     EMLog.d(TAG, "receive the event : " + event.getEvent() + ",id : " + message.getMsgId());
                 }
-                
+
                 switch (event.getEvent()) {
-                case EventNewMessage:
-                    //应用在后台，不需要刷新UI,通知栏提示新消息
-                    if(activityList.size() <= 0){
-                        HXSDKHelper.getInstance().getNotifier().onNewMsg(message);
-                    }
-                    break;
-                case EventOfflineMessage:
-                    if(activityList.size() <= 0){
-                        EMLog.d(TAG, "received offline messages");
-                        List<EMMessage> messages = (List<EMMessage>) event.getData();
-                        HXSDKHelper.getInstance().getNotifier().onNewMesg(messages);
-                    }
-                    break;
-                // below is just giving a example to show a cmd toast, the app should not follow this
-                // so be careful of this
-                case EventNewCMDMessage:
-                {
-                    
-                    EMLog.d(TAG, "收到透传消息");
-                    //获取消息body
-                    CmdMessageBody cmdMsgBody = (CmdMessageBody) message.getBody();
-                    final String action = cmdMsgBody.action;//获取自定义action
-                    
-                    //获取扩展属性 此处省略
-                    //message.getStringAttribute("");
-                    EMLog.d(TAG, String.format("透传消息：action:%s,message:%s", action,message.toString()));
-                    final String str = appContext.getString(R.string.receive_the_passthrough);
-                    
-                    final String CMD_TOAST_BROADCAST = "easemob.demo.cmd.toast";
-                    IntentFilter cmdFilter = new IntentFilter(CMD_TOAST_BROADCAST);
-                    
-                    if(broadCastReceiver == null){
-                        broadCastReceiver = new BroadcastReceiver(){
+                    case EventNewMessage:
+                        //应用在后台，不需要刷新UI,通知栏提示新消息
+                        if(activityList.size() <= 0){
+                            HXSDKHelper.getInstance().getNotifier().onNewMsg(message);
+                        }
+                        break;
+                    case EventOfflineMessage:
+                        if(activityList.size() <= 0){
+                            EMLog.d(TAG, "received offline messages");
+                            List<EMMessage> messages = (List<EMMessage>) event.getData();
+                            HXSDKHelper.getInstance().getNotifier().onNewMesg(messages);
+                        }
+                        break;
+                    // below is just giving a example to show a cmd toast, the app should not follow this
+                    // so be careful of this
+                    case EventNewCMDMessage:
+                    {
 
-                            @Override
-                            public void onReceive(Context context, Intent intent) {
-                                // TODO Auto-generated method stub
-                                Toast.makeText(appContext, intent.getStringExtra("cmd_value"), Toast.LENGTH_SHORT).show();
-                            }
-                        };
-                        
-                      //注册广播接收者
-                        appContext.registerReceiver(broadCastReceiver,cmdFilter);
-                    }
+                        EMLog.d(TAG, "收到透传消息");
+                        //获取消息body
+                        CmdMessageBody cmdMsgBody = (CmdMessageBody) message.getBody();
+                        final String action = cmdMsgBody.action;//获取自定义action
 
-                    Intent broadcastIntent = new Intent(CMD_TOAST_BROADCAST);
-                    broadcastIntent.putExtra("cmd_value", str+action);
-                    appContext.sendBroadcast(broadcastIntent, null);
-                    
-                    break;
+                        //获取扩展属性 此处省略
+                        //message.getStringAttribute("");
+                        EMLog.d(TAG, String.format("透传消息：action:%s,message:%s", action,message.toString()));
+                        final String str = appContext.getString(R.string.receive_the_passthrough);
+
+                        final String CMD_TOAST_BROADCAST = "easemob.demo.cmd.toast";
+                        IntentFilter cmdFilter = new IntentFilter(CMD_TOAST_BROADCAST);
+
+                        if(broadCastReceiver == null){
+                            broadCastReceiver = new BroadcastReceiver(){
+
+                                @Override
+                                public void onReceive(Context context, Intent intent) {
+                                    // TODO Auto-generated method stub
+                                    Toast.makeText(appContext, intent.getStringExtra("cmd_value"), Toast.LENGTH_SHORT).show();
+                                }
+                            };
+
+                            //注册广播接收者
+                            appContext.registerReceiver(broadCastReceiver,cmdFilter);
+                        }
+
+                        Intent broadcastIntent = new Intent(CMD_TOAST_BROADCAST);
+                        broadcastIntent.putExtra("cmd_value", str+action);
+                        appContext.sendBroadcast(broadcastIntent, null);
+
+                        break;
+                    }
+                    case EventDeliveryAck:
+                        message.setDelivered(true);
+                        break;
+                    case EventReadAck:
+                        message.setAcked(true);
+                        break;
+                    // add other events in case you are interested in
+                    default:
+                        break;
                 }
-                case EventDeliveryAck:
-                    message.setDelivered(true);
-                    break;
-                case EventReadAck:
-                    message.setAcked(true);
-                    break;
-                // add other events in case you are interested in
-                default:
-                    break;
-                }
-                
+
             }
         };
-        
+
         EMChatManager.getInstance().registerEventListener(eventListener);
-        
+
         EMChatManager.getInstance().addChatRoomChangeListener(new EMChatRoomChangeListener(){
             private final static String ROOM_CHANGE_BROADCAST = "easemob.demo.chatroom.changeevent.toast";
             private final IntentFilter filter = new IntentFilter(ROOM_CHANGE_BROADCAST);
             private boolean registered = false;
-            
+
             private void showToast(String value){
                 if(!registered){
-                  //注册广播接收者
+                    //注册广播接收者
                     appContext.registerReceiver(new BroadcastReceiver(){
 
                         @Override
                         public void onReceive(Context context, Intent intent) {
                             Toast.makeText(appContext, intent.getStringExtra("value"), Toast.LENGTH_SHORT).show();
                         }
-                        
+
                     }, filter);
-                    
+
                     registered = true;
                 }
-                
+
                 Intent broadcastIntent = new Intent(ROOM_CHANGE_BROADCAST);
                 broadcastIntent.putExtra("value", value);
                 appContext.sendBroadcast(broadcastIntent, null);
             }
-            
+
             @Override
             public void onChatRoomDestroyed(String roomId, String roomName) {
                 showToast(" room : " + roomId + " with room name : " + roomName + " was destroyed");
@@ -252,23 +252,23 @@ public class DemoHXSDKHelper extends HXSDKHelper {
             public void onMemberJoined(String roomId, String participant) {
                 showToast("member : " + participant + " join the room : " + roomId);
                 Log.i("info", "onmemberjoined="+participant);
-                
+
             }
 
             @Override
             public void onMemberExited(String roomId, String roomName,
-                    String participant) {
+                                       String participant) {
                 showToast("member : " + participant + " leave the room : " + roomId + " room name : " + roomName);
                 Log.i("info", "onMemberExited="+participant);
-                
+
             }
 
             @Override
             public void onMemberKicked(String roomId, String roomName,
-                    String participant) {
+                                       String participant) {
                 showToast("member : " + participant + " was kicked from the room : " + roomId + " room name : " + roomName);
                 Log.i("info", "onMemberKicked="+participant);
-                
+
             }
 
         });
@@ -282,19 +282,19 @@ public class DemoHXSDKHelper extends HXSDKHelper {
     protected HXNotifier.HXNotificationInfoProvider getNotificationListener() {
         //可以覆盖默认的设置
         return new HXNotifier.HXNotificationInfoProvider() {
-            
+
             @Override
             public String getTitle(EMMessage message) {
-              //修改标题,这里使用默认
+                //修改标题,这里使用默认
                 return null;
             }
-            
+
             @Override
             public int getSmallIcon(EMMessage message) {
-              //设置小图标，这里为默认
+                //设置小图标，这里为默认
                 return 0;
             }
-            
+
             @Override
             public String getDisplayedText(EMMessage message) {
                 // 设置状态栏的消息提示，可以根据message的类型做相应提示
@@ -303,24 +303,24 @@ public class DemoHXSDKHelper extends HXSDKHelper {
                     ticker = ticker.replaceAll("\\[.{2,3}\\]", "[表情]");
                 }
                 Map<String,RobotUser> robotMap=((DemoHXSDKHelper)HXSDKHelper.getInstance()).getRobotList();
-    			if(robotMap!=null&&robotMap.containsKey(message.getFrom())){
-    				String nick = robotMap.get(message.getFrom()).getNick();
-    				if(!TextUtils.isEmpty(nick)){
-    					return nick + ": " + ticker;
-    				}else{
-    					return message.getFrom() + ": " + ticker;
-    				}
-    			}else{
-    				return message.getFrom() + ": " + ticker;
-    			}
+                if(robotMap!=null&&robotMap.containsKey(message.getFrom())){
+                    String nick = robotMap.get(message.getFrom()).getNick();
+                    if(!TextUtils.isEmpty(nick)){
+                        return nick + ": " + ticker;
+                    }else{
+                        return message.getFrom() + ": " + ticker;
+                    }
+                }else{
+                    return message.getFrom() + ": " + ticker;
+                }
             }
-            
+
             @Override
             public String getLatestText(EMMessage message, int fromUsersNum, int messageNum) {
                 return null;
                 // return fromUsersNum + "个基友，发来了" + messageNum + "条消息";
             }
-            
+
             @Override
             public Intent getLaunchIntent(EMMessage message) {
                 //设置点击通知栏跳转事件
@@ -343,16 +343,16 @@ public class DemoHXSDKHelper extends HXSDKHelper {
                         }else{
                             intent.putExtra("chatType", ChatActivity.CHATTYPE_CHATROOM);
                         }
-                        
+
                     }
                 }
                 return intent;
             }
         };
     }
-    
-    
-    
+
+
+
     @Override
     protected void onConnectionConflict(){
         Intent intent = new Intent(appContext, MainActivity.class);
@@ -360,21 +360,21 @@ public class DemoHXSDKHelper extends HXSDKHelper {
         intent.putExtra("conflict", true);
         appContext.startActivity(intent);
     }
-    
+
     @Override
     protected void onCurrentAccountRemoved(){
-    	Intent intent = new Intent(appContext, MainActivity.class);
+        Intent intent = new Intent(appContext, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.putExtra(Constant.ACCOUNT_REMOVED, true);
         appContext.startActivity(intent);
     }
-    
+
 
     @Override
     protected HXSDKModel createModel() {
         return new DemoHXSDKModel(appContext);
     }
-    
+
     @Override
     public HXNotifier createNotifier(){
         return new HXNotifier(){
@@ -382,7 +382,7 @@ public class DemoHXSDKHelper extends HXSDKHelper {
                 if(EMChatManager.getInstance().isSlientMessage(message)){
                     return;
                 }
-                
+
                 String chatUsename = null;
                 List<String> notNotifyIds = null;
                 // 获取设置的不提示新消息的用户或者群组ids
@@ -403,20 +403,20 @@ public class DemoHXSDKHelper extends HXSDKHelper {
                         sendNotification(message, true);
 
                     }
-                    
+
                     viberateAndPlayTone(message);
                 }
             }
         };
     }
-    
+
     /**
      * get demo HX SDK Model
      */
     public DemoHXSDKModel getModel(){
         return (DemoHXSDKModel) hxModel;
     }
-    
+
     /**
      * 获取内存中好友user list
      *
@@ -426,50 +426,50 @@ public class DemoHXSDKHelper extends HXSDKHelper {
         if (getHXId() != null && contactList == null) {
             contactList = ((DemoHXSDKModel) getModel()).getContactList();
         }
-        
+
         return contactList;
     }
-    
-	public Map<String, RobotUser> getRobotList() {
-		if (getHXId() != null && robotList == null) {
-			robotList = ((DemoHXSDKModel) getModel()).getRobotList();
-		}
-		return robotList;
-	}
-	
-	
-	public boolean isRobotMenuMessage(EMMessage message) {
 
-		try {
-			JSONObject jsonObj = message.getJSONObjectAttribute(Constant.MESSAGE_ATTR_ROBOT_MSGTYPE);
-			if (jsonObj.has("choice")) {
-				return true;
-			}
-		} catch (Exception e) {
-		}
-		return false;
-	}
-	
-	public String getRobotMenuMessageDigest(EMMessage message) {
-		String title = "";
-		try {
-			JSONObject jsonObj = message.getJSONObjectAttribute(Constant.MESSAGE_ATTR_ROBOT_MSGTYPE);
-			if (jsonObj.has("choice")) {
-				JSONObject jsonChoice = jsonObj.getJSONObject("choice");
-				title = jsonChoice.getString("title");
-			}
-		} catch (Exception e) {
-		}
-		return title;
-	}
-	
-	
-	
+    public Map<String, RobotUser> getRobotList() {
+        if (getHXId() != null && robotList == null) {
+            robotList = ((DemoHXSDKModel) getModel()).getRobotList();
+        }
+        return robotList;
+    }
+
+
+    public boolean isRobotMenuMessage(EMMessage message) {
+
+        try {
+            JSONObject jsonObj = message.getJSONObjectAttribute(Constant.MESSAGE_ATTR_ROBOT_MSGTYPE);
+            if (jsonObj.has("choice")) {
+                return true;
+            }
+        } catch (Exception e) {
+        }
+        return false;
+    }
+
+    public String getRobotMenuMessageDigest(EMMessage message) {
+        String title = "";
+        try {
+            JSONObject jsonObj = message.getJSONObjectAttribute(Constant.MESSAGE_ATTR_ROBOT_MSGTYPE);
+            if (jsonObj.has("choice")) {
+                JSONObject jsonChoice = jsonObj.getJSONObject("choice");
+                title = jsonChoice.getString("title");
+            }
+        } catch (Exception e) {
+        }
+        return title;
+    }
+
+
+
 
     public void setRobotList(Map<String, RobotUser> robotList){
-    	this.robotList = robotList;
+        this.robotList = robotList;
     }
-    
+
     /**
      * 设置好友user list到内存中
      *
@@ -478,15 +478,15 @@ public class DemoHXSDKHelper extends HXSDKHelper {
     public void setContactList(Map<String, EMUser> contactList) {
         this.contactList = contactList;
     }
-    
+
     /**
-     * 保存单个user 
+     * 保存单个user
      */
     public void saveContact(EMUser user){
-    	contactList.put(user.getUsername(), user);
-    	((DemoHXSDKModel) getModel()).saveContact(user);
+        contactList.put(user.getUsername(), user);
+        ((DemoHXSDKModel) getModel()).saveContact(user);
     }
-    
+
     @Override
     public void logout(final boolean unbindDeviceToken,final EMCallBack callback){
         endCall();
@@ -507,7 +507,7 @@ public class DemoHXSDKHelper extends HXSDKHelper {
             @Override
             public void onError(int code, String message) {
                 // TODO Auto-generated method stub
-            	if(callback != null){
+                if(callback != null){
                     callback.onError(code, message);
                 }
             }
@@ -519,10 +519,10 @@ public class DemoHXSDKHelper extends HXSDKHelper {
                     callback.onProgress(progress, status);
                 }
             }
-            
+
         });
-    }   
-    
+    }
+
     void endCall(){
         try {
             EMChatManager.getInstance().endCall();
@@ -532,24 +532,23 @@ public class DemoHXSDKHelper extends HXSDKHelper {
     }
 
     /**
-     * update EMUser cach And db
+     * update User cach And db
      *
-     * @param contactList
      */
     public void updateContactList(List<EMUser> contactInfoList) {
-         for (EMUser u : contactInfoList) {
-			contactList.put(u.getUsername(), u);
-         }
-         ArrayList<EMUser> mList = new ArrayList<EMUser>();
-         mList.addAll(contactList.values());
+        for (EMUser u : contactInfoList) {
+            contactList.put(u.getUsername(), u);
+        }
+        ArrayList<EMUser> mList = new ArrayList<EMUser>();
+        mList.addAll(contactList.values());
         ((DemoHXSDKModel)getModel()).saveContactList(mList);
     }
-    
+
     public UserProfileManager getUserProfileManager(){
-    	if(userProManager == null){
-    		userProManager = new UserProfileManager();
-    	}
-    	return userProManager;
+        if(userProManager == null){
+            userProManager = new UserProfileManager();
+        }
+        return userProManager;
     }
-    
+
 }

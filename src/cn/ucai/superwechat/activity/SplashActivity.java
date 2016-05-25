@@ -38,6 +38,7 @@ public class SplashActivity extends BaseActivity {
 	protected void onCreate(Bundle arg0) {
 		setContentView(R.layout.activity_splash);
 		super.onCreate(arg0);
+		mContext = this;
 
 		rootLayout = (RelativeLayout) findViewById(R.id.Splash_Root);
 		versionText = (TextView) findViewById(R.id.tv_version);
@@ -54,10 +55,11 @@ public class SplashActivity extends BaseActivity {
 		if (DemoHXSDKHelper.getInstance().isLogined()) {
 
 			String username = SuperweChatApplication.getInstance().getUserName();
-			Log.i("main", "username="+username);
+			Log.e("main", "username="+username);
 			UserDao dao = new UserDao(mContext);
 			User user = dao.findUserByUserName(username);
-			Log.i("main", "user"+user);
+			Log.e("main", "user"+user);
+
 			SuperweChatApplication.getInstance().setUser(user);
 			new DownloadContactListTask(mContext, username).excute();
 			new DownloadPublicGroupTask(mContext, username, I.PAGE_ID_DEFULT,I.PAGE_SIZE_DEFULT).excute();

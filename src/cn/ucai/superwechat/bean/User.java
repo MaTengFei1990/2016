@@ -16,7 +16,7 @@ public class User extends Location implements java.io.Serializable {
 	private String muserName;
 	private String muserPassword;
 	private String muserNick;
-	private Integer muserUnreadMsgCount;
+	private Integer muserUnreadMsgCount=0;
 	private String header;
 	// Constructors
 

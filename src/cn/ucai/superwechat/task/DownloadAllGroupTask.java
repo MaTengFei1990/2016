@@ -45,25 +45,25 @@ public class DownloadAllGroupTask extends BaseActivity {
     }
 
     private Response.Listener<Group[]> responseDownloadAllGroupTaskListener() {
-//        return  new Response.Listener<Group[]>() {
-//            @Override
-//            public void onResponse(Group[] groups) {
-//                if (groups != null) {
-//                    ArrayList<Group> groupList = SuperweChatApplication.getInstance()
-//                            .getGropList();
-//                    ArrayList<Group> list = Utils.array2List(groups);
-//                    groupList.clear();
-//                    groupList.addAll(list);
-//                    ArrayList<Group> gropList =
-//                            SuperweChatApplication.getInstance().getGropList();
-//                    gropList.clear();
-//                    gropList.addAll(list);
-//
-//                    mContext.sendStickyBroadcast(new Intent("update_group_list"));
-        return null;
-//                }
-//            }
-//        };
+        return  new Response.Listener<Group[]>() {
+            @Override
+            public void onResponse(Group[] groups) {
+                if (groups != null) {
+                    ArrayList<Group> groupList = SuperweChatApplication.getInstance()
+                            .getGroupList();
+                    ArrayList<Group> list = Utils.array2List(groups);
+                    groupList.clear();
+                    groupList.addAll(list);
+                    ArrayList<Group> gropList =
+                            SuperweChatApplication.getInstance().getGroupList();
+                    gropList.clear();
+                    gropList.addAll(list);
+
+                    mContext.sendStickyBroadcast(new Intent("update_group_list"));
+                }
+
+            }
+        };
         }
     }
 
