@@ -67,6 +67,11 @@ public class UserUtils {
 			setUserAvatar(getAvatarPath(username), imageView);
 		}
 	}
+	public static void setUserBeanAvatar(User user, NetworkImageView imageView) {
+		if (user != null && user.getMUserName()!= null) {
+			setUserAvatar(getAvatarPath(user.getMUserName()), imageView);
+		}
+	}
 
 	private static void setUserAvatar(String url, NetworkImageView imageView) {
 		Log.e(TAG, "setUserAvatar");
@@ -111,6 +116,13 @@ public class UserUtils {
 			textView.setText(username);
 		}
 	}
+	public static void setUserNick(User  user,TextView textView){
+		if(user != null){
+			textView.setText(user.getMUserNick());
+		}else{
+			textView.setText(user.getMUserName());
+		}
+	}
 	/**
 	 * 设置显示自己设置的昵称
 	 * @param username
@@ -139,6 +151,12 @@ public class UserUtils {
 		EMUser user = ((DemoHXSDKHelper)HXSDKHelper.getInstance()).getUserProfileManager().getCurrentUserInfo();
 		if(textView != null){
 			textView.setText(user.getNick());
+		}
+	}
+	public static void setCurrentUserBeanNick(TextView textView){
+		User user = SuperweChatApplication.getInstance().getUser();
+		if(user!=null&&textView != null){
+			textView.setText(user.getMUserNick());
 		}
 	}
 
