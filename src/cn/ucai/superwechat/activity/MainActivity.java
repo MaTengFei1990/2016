@@ -496,6 +496,7 @@ public class MainActivity extends BaseActivity implements EMEventListener {
 		if (((DemoHXSDKHelper)HXSDKHelper.getInstance()).getContactList().get(Constant.NEW_FRIENDS_USERNAME) != null)
 			unreadAddressCountTotal = ((DemoHXSDKHelper)HXSDKHelper.getInstance()).getContactList().get(Constant.NEW_FRIENDS_USERNAME)
 					.getUnreadMsgCount();
+
 		return unreadAddressCountTotal;
 	}
 

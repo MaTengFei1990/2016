@@ -65,6 +65,8 @@ public class UserUtils {
 		Log.e(TAG, "setUserBeanAvatar.contack  " + contact);
 		if (contact != null && contact.getMContactCname() != null) {
 			setUserAvatar(getAvatarPath(username), imageView);
+		} else {
+			imageView.setDefaultImageResId(R.drawable.default_avatar);
 		}
 	}
 	public static void setUserBeanAvatar(User user, NetworkImageView imageView) {
@@ -81,7 +83,7 @@ public class UserUtils {
 		imageView.setErrorImageResId(R.drawable.default_avatar);
 	}
 
-	private static String getAvatarPath(String username) {
+	public static String getAvatarPath(String username) {
 		Log.e("main", "getAvatar_username=" + username);
 		if (username==null || username.isEmpty())return null;
 		return I.REQUEST_DOWNLOAD_AVATAR_USER+username;
