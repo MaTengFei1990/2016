@@ -1,7 +1,9 @@
 package fragments;
 
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.Editable;
@@ -299,4 +301,29 @@ public class ChatAllHistoryFragment extends Fragment implements OnClickListener 
     @Override
     public void onClick(View v) {        
     }
+
+	class ContactListChangedReceiver extends BroadcastReceiver {
+
+		@Override
+		public void onReceive(Context context, Intent intent) {
+			adapter.notifyDataSetChanged();
+
+		}
+	}
+
+	private ContactListChangedReceiver mContactListChangedReceiver;
+	private void ContactListChangedReceiver() {
+		mContactListChangedReceiver = new ContactListChangedReceiver();
+		IntentFilter intentFilter = new IntentFilter("updata_contact_list");
+		getActivity().registerReceiver(mContactListChangedReceiver, intentFilter);
+	}
+
+	@Override
+	public void onDestroyView() {
+		super.onDestroyView();
+		if (mContactListChangedReceiver != null) {
+			getActivity().unregisterReceiver(mContactListChangedReceiver);
+
+		}
+	}
 }

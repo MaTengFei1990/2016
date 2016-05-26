@@ -32,8 +32,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.ucai.superwechat.Constant;
+import cn.ucai.superwechat.DemoHXSDKHelper;
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.applib.controller.HXSDKHelper;
 import cn.ucai.superwechat.bean.Contact;
+import cn.ucai.superwechat.data.RequestManager;
 import cn.ucai.superwechat.utils.UserUtils;
 
 /**
@@ -107,8 +110,15 @@ public class ContactAdapter extends BaseAdapter implements SectionIndexer{
 		if(username.equals(Constant.NEW_FRIENDS_USERNAME)){
 			holder.nameTextview.setText(user.getMUserNick());
 			holder.avatar.setDefaultImageResId(R.drawable.new_friends_icon);
-			if(user.getMUserUnreadMsgCount() > 0){
+			holder.avatar.setImageUrl("", RequestManager.getImageLoader());
+			int unreadMsgCount = ((DemoHXSDKHelper) HXSDKHelper.getInstance())
+					.getContactList()
+					.get(Constant.NEW_FRIENDS_USERNAME)
+					.getUnreadMsgCount();
+
+			if( unreadMsgCount > 0||user.getMUserUnreadMsgCount()>0){
 				holder.unreadMsgView.setVisibility(View.VISIBLE);
+
 //			    holder.unreadMsgView.setText(user.getUnreadMsgCount()+"");
 			}else{
 				holder.unreadMsgView.setVisibility(View.INVISIBLE);
