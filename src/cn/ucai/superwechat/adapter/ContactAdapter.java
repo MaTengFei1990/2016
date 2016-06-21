@@ -30,6 +30,7 @@ import com.easemob.util.EMLog;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import cn.ucai.superwechat.Constant;
 import cn.ucai.superwechat.DemoHXSDKHelper;
@@ -37,6 +38,7 @@ import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.applib.controller.HXSDKHelper;
 import cn.ucai.superwechat.bean.Contact;
 import cn.ucai.superwechat.data.RequestManager;
+import cn.ucai.superwechat.domain.EMUser;
 import cn.ucai.superwechat.utils.UserUtils;
 
 /**
@@ -111,10 +113,20 @@ public class ContactAdapter extends BaseAdapter implements SectionIndexer{
 			holder.nameTextview.setText(user.getMUserNick());
 			holder.avatar.setDefaultImageResId(R.drawable.new_friends_icon);
 			holder.avatar.setImageUrl("", RequestManager.getImageLoader());
-			int unreadMsgCount = ((DemoHXSDKHelper) HXSDKHelper.getInstance())
-					.getContactList()
-					.get(Constant.NEW_FRIENDS_USERNAME)
-					.getUnreadMsgCount();
+			int unreadMsgCount = 0;
+
+			Map<String, EMUser> contactList = ((DemoHXSDKHelper) HXSDKHelper.getInstance())
+					.getContactList();
+			if (contactList != null) {
+				EMUser emUser = contactList.get(Constant.NEW_FRIENDS_USERNAME);
+				if (emUser != null) {
+
+					unreadMsgCount=emUser.getUnreadMsgCount();
+
+				}
+			}
+
+
 
 			if( unreadMsgCount > 0||user.getMUserUnreadMsgCount()>0){
 				holder.unreadMsgView.setVisibility(View.VISIBLE);
@@ -131,10 +143,10 @@ public class ContactAdapter extends BaseAdapter implements SectionIndexer{
 			//群聊item
 			holder.nameTextview.setText(user.getMUserNick());
 			holder.avatar.setDefaultImageResId(R.drawable.groups_icon);
-		}else if(username.equals(Constant.CHAT_ROBOT)){
-			//Robot item
-			holder.nameTextview.setText(user.getMUserNick());
-			holder.avatar.setImageResource(R.drawable.groups_icon);
+//		}else if(username.equals(Constant.CHAT_ROBOT)){
+//			//Robot item
+//			holder.nameTextview.setText(user.getMUserNick());
+//			holder.avatar.setImageResource(R.drawable.groups_icon);
 		}else{
 			holder.nameTextview.setText(user.getMUserNick());
 			//设置用户头像

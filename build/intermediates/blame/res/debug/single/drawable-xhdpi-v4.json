@@ -72,12 +72,12 @@
         "source": "D:\\supperWechat\\res\\drawable-xhdpi\\chat_video_pressed.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\add_public_group.png",
-        "source": "D:\\supperWechat\\res\\drawable-xhdpi\\add_public_group.png"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_item_file.png",
         "source": "D:\\supperWechat\\res\\drawable-xhdpi\\chat_item_file.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\add_public_group.png",
+        "source": "D:\\supperWechat\\res\\drawable-xhdpi\\add_public_group.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\unread_count_bg.9.png",

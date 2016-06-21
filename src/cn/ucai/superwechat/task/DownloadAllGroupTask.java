@@ -2,11 +2,11 @@ package cn.ucai.superwechat.task;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 
 import com.android.volley.Response;
 
 import java.util.ArrayList;
-
 
 import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.SuperweChatApplication;
@@ -33,8 +33,9 @@ public class DownloadAllGroupTask extends BaseActivity {
 
     private void initPath()  {
         try {
-            path = new ApiParams().with(I.Contact.USER_NAME, username)
+            path = new ApiParams().with(I.User.USER_NAME, username)
                      .getRequestUrl(I.REQUEST_DOWNLOAD_GROUPS);
+            Log.i("main", "path=" + path);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -45,20 +46,22 @@ public class DownloadAllGroupTask extends BaseActivity {
     }
 
     private Response.Listener<Group[]> responseDownloadAllGroupTaskListener() {
+
         return  new Response.Listener<Group[]>() {
             @Override
             public void onResponse(Group[] groups) {
+                Log.i("main", "groups=" + groups.length);
                 if (groups != null) {
                     ArrayList<Group> groupList = SuperweChatApplication.getInstance()
                             .getGroupList();
                     ArrayList<Group> list = Utils.array2List(groups);
                     groupList.clear();
                     groupList.addAll(list);
-                    ArrayList<Group> gropList =
-                            SuperweChatApplication.getInstance().getGroupList();
-                    gropList.clear();
-                    gropList.addAll(list);
-
+//                    ArrayList<Group> gropList =
+//                            SuperweChatApplication.getInstance().getGroupList();
+//                    gropList.clear();
+//                    gropList.addAll(list);
+                    Log.i("main", "groupList="+groupList.size());
                     mContext.sendStickyBroadcast(new Intent("update_group_list"));
                 }
 

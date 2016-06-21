@@ -77,6 +77,7 @@ public class OnSetAvatarListener implements View.OnClickListener {
         mAvatarType=avatarType;
 
         //获取父容器的view
+        Log.i("main", "parentId=" + parentId);
         View parentLayout = mActivity.findViewById(parentId);
         //获取PopuWindow的布局view
         mLayout= View.inflate(mActivity, R.layout.popu_show_avatar,null);

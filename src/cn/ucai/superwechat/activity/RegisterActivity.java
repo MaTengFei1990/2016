@@ -26,6 +26,9 @@ import android.widget.Toast;
 
 import com.easemob.EMError;
 import com.easemob.chat.EMChatManager;
+import com.easemob.exceptions.EaseMobException;
+
+import java.io.File;
 
 import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
@@ -35,10 +38,6 @@ import cn.ucai.superwechat.data.OkHttpUtils;
 import cn.ucai.superwechat.listener.OnSetAvatarListener;
 import cn.ucai.superwechat.utils.ImageUtils;
 import cn.ucai.superwechat.utils.Utils;
-
-import com.easemob.exceptions.EaseMobException;
-
-import java.io.File;
 
 /**
  * 注册页
@@ -82,7 +81,8 @@ public class RegisterActivity extends BaseActivity {
 		findViewById(R.id.iv_user_Avtar).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				mOnSetAvatarListener = new OnSetAvatarListener(mcontext, R.id.Layout_Register, getAvatarName(), I.AVATAR_TYPE_USER_PATH);
+				mOnSetAvatarListener = new OnSetAvatarListener(mcontext,
+						R.id.Layout_Register, getAvatarName(), I.AVATAR_TYPE_USER_PATH);
 			}
 		});
 	}

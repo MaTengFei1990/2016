@@ -1,16 +1,10 @@
 package cn.ucai.superwechat.parse;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Context;
 import android.text.TextUtils;
 
 import com.easemob.EMValueCallBack;
 import com.easemob.chat.EMChatManager;
-
-import cn.ucai.superwechat.domain.EMUser;
-import cn.ucai.superwechat.utils.UserUtils;
 import com.easemob.util.EMLog;
 import com.easemob.util.HanziToPinyin;
 import com.parse.FindCallback;
@@ -21,6 +15,12 @@ import com.parse.ParseFile;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.SaveCallback;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import cn.ucai.superwechat.domain.EMUser;
+import cn.ucai.superwechat.utils.UserUtils;
 
 public class ParseManager {
 
@@ -114,7 +114,7 @@ public class ParseManager {
 	/**
      * 设置hearder属性，方便通讯中对联系人按header分类显示，以及通过右侧ABCD...字母栏快速定位联系人
      * 
-     * @param username
+     * @param
      * @param user
      */
     private static void setUserHearder(EMUser user) {
@@ -127,7 +127,7 @@ public class ParseManager {
         if (Character.isDigit(headerName.charAt(0))) {
             user.setHeader("#");
         } else {
-            user.setHeader(HanziToPinyin.getInstance().get(headerName.substring(0, 1)).get(0).target.substring(0, 1)
+            user.setHeader(HanziToPinyin.getInstance().get(headerName.trim().substring(0, 1)).get(0).target.substring(0, 1)
                     .toUpperCase());
             char header = user.getHeader().toLowerCase().charAt(0);
             if (header < 'a' || header > 'z') {

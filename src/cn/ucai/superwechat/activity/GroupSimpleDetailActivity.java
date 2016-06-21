@@ -22,12 +22,14 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.toolbox.NetworkImageView;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMGroup;
 import com.easemob.chat.EMGroupInfo;
 import com.easemob.chat.EMGroupManager;
-import cn.ucai.superwechat.R;
 import com.easemob.exceptions.EaseMobException;
+
+import cn.ucai.superwechat.R;
 
 public class GroupSimpleDetailActivity extends BaseActivity {
 	private Button btn_add_group;
@@ -37,16 +39,12 @@ public class GroupSimpleDetailActivity extends BaseActivity {
 	private EMGroup group;
 	private String groupid;
 	private ProgressBar progressBar;
+	private NetworkImageView net_Avatar;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_group_simle_details);
-		tv_name = (TextView) findViewById(R.id.name);
-		tv_admin = (TextView) findViewById(R.id.tv_admin);
-		btn_add_group = (Button) findViewById(R.id.btn_add_to_group);
-		tv_introduction = (TextView) findViewById(R.id.tv_introduction);
-		progressBar = (ProgressBar) findViewById(R.id.loading);
+		initView();
 
 		EMGroupInfo groupInfo = (EMGroupInfo) getIntent().getSerializableExtra("groupinfo");
 		String groupname = null;
@@ -85,7 +83,7 @@ public class GroupSimpleDetailActivity extends BaseActivity {
 					runOnUiThread(new Runnable() {
 						public void run() {
 							progressBar.setVisibility(View.INVISIBLE);
-							Toast.makeText(GroupSimpleDetailActivity.this, st1+e.getMessage(), 1).show();
+							Toast.makeText(GroupSimpleDetailActivity.this, st1+e.getMessage(), Toast.LENGTH_LONG).show();
 						}
 					});
 				}
@@ -94,7 +92,17 @@ public class GroupSimpleDetailActivity extends BaseActivity {
 		}).start();
 		
 	}
-	
+
+	private void initView() {
+		setContentView(R.layout.activity_group_simle_details);
+		tv_name = (TextView) findViewById(R.id.name);
+		tv_admin = (TextView) findViewById(R.id.tv_admin);
+		btn_add_group = (Button) findViewById(R.id.btn_add_to_group);
+		tv_introduction = (TextView) findViewById(R.id.tv_introduction);
+		progressBar = (ProgressBar) findViewById(R.id.loading);
+		net_Avatar = (NetworkImageView) findViewById(R.id.avatar);
+	}
+
 	//加入群聊
 	public void addToGroup(View view){
 		String st1 = getResources().getString(R.string.Is_sending_a_request);
@@ -120,9 +128,9 @@ public class GroupSimpleDetailActivity extends BaseActivity {
 						public void run() {
 							pd.dismiss();
 							if(group.isMembersOnly())
-								Toast.makeText(GroupSimpleDetailActivity.this, st3, 0).show();
+								Toast.makeText(GroupSimpleDetailActivity.this, st3, Toast.LENGTH_LONG).show();
 							else
-								Toast.makeText(GroupSimpleDetailActivity.this, st4, 0).show();
+								Toast.makeText(GroupSimpleDetailActivity.this, st4, Toast.LENGTH_SHORT).show();
 							btn_add_group.setEnabled(false);
 						}
 					});
@@ -131,7 +139,7 @@ public class GroupSimpleDetailActivity extends BaseActivity {
 					runOnUiThread(new Runnable() {
 						public void run() {
 							pd.dismiss();
-							Toast.makeText(GroupSimpleDetailActivity.this, st5+e.getMessage(), 0).show();
+							Toast.makeText(GroupSimpleDetailActivity.this, st5+e.getMessage(), Toast.LENGTH_SHORT).show();
 						}
 					});
 				}

@@ -1,11 +1,13 @@
 package cn.ucai.superwechat.activity;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
@@ -20,18 +22,31 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.Response;
 import com.android.volley.toolbox.NetworkImageView;
 import com.easemob.EMValueCallBack;
 import com.squareup.picasso.Picasso;
 
 import java.io.ByteArrayOutputStream;
+import java.io.File;
 
 import cn.ucai.superwechat.DemoHXSDKHelper;
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperweChatApplication;
 import cn.ucai.superwechat.applib.controller.HXSDKHelper;
+import cn.ucai.superwechat.bean.Message;
+import cn.ucai.superwechat.bean.User;
+import cn.ucai.superwechat.data.ApiParams;
+import cn.ucai.superwechat.data.GsonRequest;
+import cn.ucai.superwechat.data.MultipartRequest;
+import cn.ucai.superwechat.data.RequestManager;
+import cn.ucai.superwechat.db.UserDao;
 import cn.ucai.superwechat.domain.EMUser;
+import cn.ucai.superwechat.listener.OnSetAvatarListener;
+import cn.ucai.superwechat.utils.ImageUtils;
 import cn.ucai.superwechat.utils.UserUtils;
+import cn.ucai.superwechat.utils.Utils;
 
 public class UserProfileActivity extends BaseActivity implements OnClickListener{
 	
@@ -44,6 +59,8 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
 	private TextView tvUsername;
 	private ProgressDialog dialog;
 	private RelativeLayout rlNickName;
+	Activity mContext;
+	OnSetAvatarListener mOnSetAvatarListener;
 	
 	
 	
@@ -53,6 +70,7 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
 		setContentView(R.layout.activity_user_profile);
 		initView();
 		initListener();
+		mContext=this;
 	}
 	
 	private void initView() {
@@ -94,7 +112,10 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.user_head_avatar:
-			uploadHeadPhoto();
+			mOnSetAvatarListener = new OnSetAvatarListener( mContext,
+					R.id.Layout_user_profile, getAvatarName(), I.AVATAR_TYPE_USER_PATH);
+
+//			uploadHeadPhoto();
 			break;
 		case R.id.rl_nickname:
 			final EditText editText = new EditText(this);
@@ -108,7 +129,7 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
 								Toast.makeText(UserProfileActivity.this, getString(R.string.toast_nick_not_isnull), Toast.LENGTH_SHORT).show();
 								return;
 							}
-							updateRemoteNick(nickString);
+							updateUserNick(nickString);
 						}
 					}).setNegativeButton(R.string.dl_cancel, null).show();
 			break;
@@ -117,7 +138,12 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
 		}
 
 	}
-	
+	String avatarName;
+	private String getAvatarName() {
+		avatarName = System.currentTimeMillis() + "";
+		return avatarName;
+	}
+
 	public void asyncFetchUserInfo(String username){
 		((DemoHXSDKHelper)HXSDKHelper.getInstance()).getUserProfileManager().asyncGetUserInfo(username, new EMValueCallBack<EMUser>() {
 			
@@ -167,8 +193,35 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
 				});
 		builder.create().show();
 	}
-	
-	
+
+	private void updateUserNick(String nickName) {
+		try {
+			String  path=new ApiParams().with(I.User.NICK ,nickName)
+					.with(I.User.USER_NAME,
+					SuperweChatApplication.getInstance().getUserName())
+                    .getRequestUrl(I.REQUEST_UPDATE_USER_NICK);
+
+			executeRequest(new GsonRequest<User>(path, User.class, updateUserNickListener(nickName), errorListener()));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+
+	}
+
+	private Response.Listener<User> updateUserNickListener(final String nickName) {
+		return new Response.Listener<User>() {
+			@Override
+			public void onResponse(User user) {
+				if (user != null && user.isResult()) {
+					updateRemoteNick(nickName);
+				} else {
+					Utils.showToast(mContext, Utils.getResourceString(mContext, user.getMsg()), Toast.LENGTH_LONG);
+				}
+			}
+		};
+	}
+
 
 	private void updateRemoteNick(final String nickName) {
 		dialog = ProgressDialog.show(this, getString(R.string.dl_update_nick), getString(R.string.dl_waiting));
@@ -176,7 +229,8 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
 
 			@Override
 			public void run() {
-				boolean updatenick = ((DemoHXSDKHelper)HXSDKHelper.getInstance()).getUserProfileManager().updateParseNickName(nickName);
+				boolean updatenick = ((DemoHXSDKHelper)HXSDKHelper
+						.getInstance()).getUserProfileManager().updateParseNickName(nickName);
 				if (UserProfileActivity.this.isFinishing()) {
 					return;
 				}
@@ -196,6 +250,11 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
 							Toast.makeText(UserProfileActivity.this, getString(R.string.toast_updatenick_success), Toast.LENGTH_SHORT)
 									.show();
 							tvNickName.setText(nickName);
+							SuperweChatApplication.currentUserNick = nickName;
+							User user = SuperweChatApplication.getInstance().getUser();
+							user.setMUserNick(nickName);
+							UserDao dao = new UserDao(mContext);
+							dao.updateUser(user);
 						}
 					});
 				}
@@ -205,23 +264,79 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
 
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-		switch (requestCode) {
-		case REQUESTCODE_PICK:
-			if (data == null || data.getData() == null) {
-				return;
-			}
-			startPhotoZoom(data.getData());
-			break;
-		case REQUESTCODE_CUTTING:
-			if (data != null) {
-				setPicToView(data);
-			}
-			break;
-		default:
-			break;
-		}
+//		switch (requestCode) {
+//		case REQUESTCODE_PICK:
+//			if (data == null || data.getData() == null) {
+//				return;
+//			}
+//			startPhotoZoom(data.getData());
+//			break;
+//		case REQUESTCODE_CUTTING:
+//			if (data != null) {
+//				setPicToView(data);
+//			}
+//			break;
+//		default:
+//			break;
+//		}
 		super.onActivityResult(requestCode, resultCode, data);
+		if (resultCode != RESULT_OK) {
+			return;
+		}
+		//setAvatar裁剪图片
+		mOnSetAvatarListener.setAvatar(requestCode, data, headAvatar);
+		if (requestCode == OnSetAvatarListener.REQUEST_CROP_PHOTO) {
+			updatUserAvatar();
+			dialog.dismiss();
+		}
 	}
+
+	final String boundary = "apiclient-" + System.currentTimeMillis();
+	final String mimeType = "multipart/form-data;boundary=" + boundary;
+	byte[] multipartBody;
+	private void updatUserAvatar() {
+
+		dialog = ProgressDialog.show(this, getString(R.string.dl_update_photo), getString(R.string.dl_waiting));
+		dialog.show();
+		File file = new File(ImageUtils.getAvatarPath(mContext, I.AVATAR_TYPE_USER_PATH),
+				avatarName+ I.AVATAR_SUFFIX_JPG);
+
+		Bitmap bm = BitmapFactory.decodeFile(file.getAbsolutePath());
+		multipartBody = getImageBytes(bm);
+		try {
+			String url = new ApiParams()
+					.with(I.AVATAR_TYPE, I.AVATAR_TYPE_USER_PATH)
+					.with(I.User.USER_NAME, SuperweChatApplication
+							.getInstance().getUserName())
+					.getRequestUrl(I.REQUEST_UPLOAD_AVATAR);
+			executeRequest(new MultipartRequest<Message>(url,
+					Message.class,null,responseUpdateUserAvatarListener(),errorListener(),mimeType,multipartBody));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	public byte[] getImageBytes(Bitmap bmp){
+		if(bmp==null)return null;
+		ByteArrayOutputStream baos = new ByteArrayOutputStream();
+		bmp.compress(Bitmap.CompressFormat.JPEG,100,baos);
+		byte[] imageBytes = baos.toByteArray();
+		return imageBytes;
+	}
+
+	private Response.Listener<Message> responseUpdateUserAvatarListener() {
+		return new Response.Listener<Message>() {
+			@Override
+			public void onResponse(Message msg) {
+				if (msg.isResult()) {
+					RequestManager.getRequestQueue()
+							.getCache().remove(UserUtils
+							.getAvatarPath(SuperweChatApplication
+									.getInstance().getUserName()));
+				}
+			}
+		};
+	}
+
 
 	public void startPhotoZoom(Uri uri) {
 		Intent intent = new Intent("com.android.camera.action.CROP");

@@ -12,12 +12,12 @@
         "source": "D:\\supperWechat\\res\\drawable-nodpi\\find_gouwu.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\find_icon.png",
-        "source": "D:\\supperWechat\\res\\drawable-nodpi\\find_icon.png"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\find_pressed.png",
         "source": "D:\\supperWechat\\res\\drawable-nodpi\\find_pressed.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\find_icon.png",
+        "source": "D:\\supperWechat\\res\\drawable-nodpi\\find_icon.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\empty_photo.png",

@@ -75,7 +75,7 @@ public class UserUtils {
 		}
 	}
 
-	private static void setUserAvatar(String url, NetworkImageView imageView) {
+	public static void setUserAvatar(String url, NetworkImageView imageView) {
 		Log.e(TAG, "setUserAvatar");
 		if (url==null || url.isEmpty())return;
 		imageView.setDefaultImageResId(R.drawable.default_avatar);
@@ -145,6 +145,15 @@ public class UserUtils {
 		}
 
 	}
+	public static void setUserBeanNick(User user, TextView textView) {
+		if (user != null) {
+			if (user.getMUserNick() != null) {
+				textView.setText(user.getMUserNick());
+			} else if (user.getMUserName() != null) {
+				textView.setText(user.getMUserName());
+			}
+		}
+	}
 
 	/**
 	 * 设置当前用户昵称
@@ -198,5 +207,35 @@ public class UserUtils {
 				user.setHeader("#");
 			}
 		}
+	}
+/*设置群组的头像*/
+	public static void setGroupBeanAvatar(String mGroupHxid, NetworkImageView imageView) {
+		if (mGroupHxid != null && !mGroupHxid.isEmpty()) {
+			setGroupAvatar(getGroupAvatarPath(mGroupHxid), imageView);
+		}
+	}
+
+	private static void setGroupAvatar(String url, NetworkImageView imageView) {
+		if (url==null || url.isEmpty())return;
+		imageView.setDefaultImageResId(R.drawable.group_icon);
+		imageView.setImageUrl(url,RequestManager.getImageLoader());
+		imageView.setErrorImageResId(R.drawable.group_icon);
+	}
+
+	public static String getGroupAvatarPath(String hxid) {
+		Log.e("main", "getAvatar_username=" + hxid);
+		if (hxid==null || hxid.isEmpty())return null;
+		return I.REQUEST_DOWNLOAD_GROUP_AVATAR+hxid;
+	}
+	//汉子转拼音
+	public static String getPinYinFromHanZi(String hanzi) {
+		String pinyin = "";
+
+		for(int i=0;i<hanzi.length();i++){
+			String s = hanzi.substring(i,i+1);
+			pinyin = pinyin + HanziToPinyin.getInstance()
+					.get(s).get(0).target.toLowerCase();
+		}
+		return pinyin;
 	}
 }

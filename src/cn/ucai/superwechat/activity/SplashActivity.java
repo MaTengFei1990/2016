@@ -62,8 +62,12 @@ public class SplashActivity extends BaseActivity {
 
 			SuperweChatApplication.getInstance().setUser(user);
 			new DownloadContactListTask(mContext, username).excute();
+			Log.e("main", "DownloadContactListTask======");
+
 			new DownloadPublicGroupTask(mContext, username, I.PAGE_ID_DEFULT,I.PAGE_SIZE_DEFULT).excute();
+			Log.e("main", "DownloadPublicGroupTask======");
 			new DownloadAllGroupTask(mContext, username).excute();
+			Log.e("main", "DownloadAllGroupTask=======");
 		}
 		new Thread(new Runnable() {
 			public void run() {

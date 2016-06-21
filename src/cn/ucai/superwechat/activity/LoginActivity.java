@@ -300,8 +300,7 @@ public class LoginActivity extends BaseActivity {
 				public void run() {
 					new DownloadContactListTask(mContext,currentUsername).excute();
 					new DownloadAllGroupTask(mContext,currentUsername).excute();
-					new DownloadPublicGroupTask(mContext,currentUsername,
-							I.PAGE_ID_DEFULT,I.PAGE_SIZE_DEFULT).excute();
+					new DownloadPublicGroupTask(mContext,currentUsername, I.PAGE_ID_DEFULT,I.PAGE_SIZE_DEFULT).excute();
 				}
 			});
 
