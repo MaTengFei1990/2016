@@ -1,18 +1,218 @@
 [
     {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\category256_1.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\category256_1.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\add_cart.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\add_cart.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\arrow2_up.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\arrow2_up.png"
+    },
+    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pop_bg_press.9.png",
         "source": "D:\\supperWechat\\res\\drawable-mdpi\\pop_bg_press.9.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
-        "source": "D:\\supperWechat\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_good.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\bg_good.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\del_cart.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\del_cart.png"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\unread_count_bg.9.png",
         "source": "D:\\supperWechat\\res\\drawable-mdpi\\unread_count_bg.9.png"
     },
     {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\boutique_normal.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\boutique_normal.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\category256_2.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\category256_2.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_cart_selected.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\bg_cart_selected.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\arrow2_right.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\arrow2_right.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\checkbox_normal.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\checkbox_normal.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\expand_on.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\expand_on.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_item_collect_normal.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\menu_item_collect_normal.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\divide_line_bg.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\divide_line_bg.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_item_contact_list_normal.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\menu_item_contact_list_normal.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\arrow_order_down.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\arrow_order_down.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_item_cart_normal.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\menu_item_cart_normal.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\category_child.jpg",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\category_child.jpg"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_item_cart_selected.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\menu_item_cart_selected.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\wechat.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\wechat.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\goods_thumb.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\goods_thumb.png"
+    },
+    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pop_bg.9.png",
         "source": "D:\\supperWechat\\res\\drawable-mdpi\\pop_bg.9.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_item_personal_center_selected.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\menu_item_personal_center_selected.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_item_new_good_selected.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\menu_item_new_good_selected.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\unionpay.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\unionpay.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\splash.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\splash.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_share_nor.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\bg_share_nor.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\divid_explist_group.9.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\divid_explist_group.9.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\arrow_order_up.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\arrow_order_up.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_share_sel.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\bg_share_sel.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_item_conversation_normal.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\menu_item_conversation_normal.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_item_personal_center_normal.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\menu_item_personal_center_normal.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\alipay.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\alipay.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_collect_out.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\bg_collect_out.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\back_nomal.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\back_nomal.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_item_collect_selected.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\menu_item_collect_selected.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_item_contact_list_selected.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\menu_item_contact_list_selected.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\divide_explist_child.9.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\divide_explist_child.9.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\delete.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\delete.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\boutique_selected.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\boutique_selected.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\arrow2_down.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\arrow2_down.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\checkbox_pressed.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\checkbox_pressed.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_item_category_selected.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\menu_item_category_selected.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_item_new_good_normal.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\menu_item_new_good_normal.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\expand_off.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\expand_off.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_item_category_normal.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\menu_item_category_normal.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\paypal.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\paypal.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_collect_in.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\bg_collect_in.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_item_conversation_selected.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\menu_item_conversation_selected.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\back_press.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\back_press.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\scan.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\scan.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pull_push_arrow_down.png",
+        "source": "D:\\supperWechat\\res\\drawable-mdpi\\pull_push_arrow_down.png"
     }
 ]

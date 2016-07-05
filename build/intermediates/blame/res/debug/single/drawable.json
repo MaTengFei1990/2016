@@ -1,91 +1,75 @@
 [
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_edit.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\chat_edit.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_share_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\selector_share_bg.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\timestampe_bg.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\timestampe_bg.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_item_new_good.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\selector_menu_item_new_good.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_pressed_shape.xml",
         "source": "D:\\supperWechat\\res\\drawable\\btn_white_pressed_shape.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\type_select_btn.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\type_select_btn.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\cart_hint.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\cart_hint.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chatting_setmode_voice_btn.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\chatting_setmode_voice_btn.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ebpay_textview_bg_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\ebpay_textview_bg_selector.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_normal_shape.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\btn_white_normal_shape.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_dialog_btn_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_dialog_btn_selector.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\red_circle.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\red_circle.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_bg_clear_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_bg_clear_selector.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\mm_listitem_grey.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\mm_listitem_grey.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_pwdpay_channel_activity_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_pwdpay_channel_activity_bg.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\find_friends.png",
         "source": "D:\\supperWechat\\res\\drawable\\find_friends.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_gray_selector.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\btn_gray_selector.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_dash_btn_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_dash_btn_selector.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_state_failed_resend.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\msg_state_failed_resend.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_return_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\selector_return_bg.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_classic_progressbar.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\ssdk_oks_classic_progressbar.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chatto_bg.xml",
         "source": "D:\\supperWechat\\res\\drawable\\chatto_bg.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_pressed_shape.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\btn_green_pressed_shape.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\geek.png",
-        "source": "D:\\supperWechat\\res\\drawable\\geek.png"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_normal_shape.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\btn_green_normal_shape.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_chat_bg.xml",
         "source": "D:\\supperWechat\\res\\drawable\\tab_chat_bg.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\recording_text_hint_bg.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\recording_text_hint_bg.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chatting_setmode_keyboard_btn.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\chatting_setmode_keyboard_btn.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_btn_switch.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_btn_switch.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_selector.xml",
         "source": "D:\\supperWechat\\res\\drawable\\btn_green_selector.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\find_icon.png",
-        "source": "D:\\supperWechat\\res\\drawable\\find_icon.png"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chatting_setmode_keyboard_btn.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\chatting_setmode_keyboard_btn.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\button_myprofile_selector.xml",
         "source": "D:\\supperWechat\\res\\drawable\\button_myprofile_selector.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\nickename_input_bg.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\nickename_input_bg.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_video_selector.xml",
@@ -96,16 +80,28 @@
         "source": "D:\\supperWechat\\res\\drawable\\checkbox_bg_gray_selector.xml"
     },
     {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_btn.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_btn.xml"
+    },
+    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chatfrom_bg.xml",
         "source": "D:\\supperWechat\\res\\drawable\\chatfrom_bg.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_delete.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_delete.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_dialog_rightbtn_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_dialog_rightbtn_selector.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_selector.xml",
         "source": "D:\\supperWechat\\res\\drawable\\btn_blue_selector.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_gray_pressed_shape.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\btn_gray_pressed_shape.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_pwdpay_submit_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_pwdpay_submit_selector.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\button_normal_shape.xml",
@@ -132,20 +128,12 @@
         "source": "D:\\supperWechat\\res\\drawable\\chat_video_call_selector.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\mobile.png",
-        "source": "D:\\supperWechat\\res\\drawable\\mobile.png"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_wechat_msg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\menu_wechat_msg.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_style_alert_dialog_special.xml",
         "source": "D:\\supperWechat\\res\\drawable\\btn_style_alert_dialog_special.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_image_selector.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\chat_image_selector.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\common_tab_bg.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\common_tab_bg.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_pressed_shape.xml",
@@ -154,10 +142,6 @@
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\splash_gradient.xml",
         "source": "D:\\supperWechat\\res\\drawable\\splash_gradient.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\context_menu_item_bg.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\context_menu_item_bg.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\photogrid_list_selector.xml",
@@ -172,20 +156,16 @@
         "source": "D:\\supperWechat\\res\\drawable\\tab_setting_bg.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_error_item_bg.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\chat_error_item_bg.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cancel_bj.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\btn_cancel_bj.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\find_piaoliuping.png",
-        "source": "D:\\supperWechat\\res\\drawable\\find_piaoliuping.png"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_corners_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_corners_bg.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\find_pressed.png",
         "source": "D:\\supperWechat\\res\\drawable\\find_pressed.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ebpay_gray_line.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\ebpay_gray_line.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_location_selector.xml",
@@ -200,16 +180,232 @@
         "source": "D:\\supperWechat\\res\\drawable\\btn_bottom_selector.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\call_hangup_bg.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\call_hangup_bg.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_send_btn_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\smiley_minus_btn.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\smiley_minus_btn.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_item_cart.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\selector_menu_item_cart.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_face_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\chat_face_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_neg_btn_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_neg_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_dashed_shape_normal.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_dashed_shape_normal.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\search_clear.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\search_clear.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\button_login_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\button_login_bg.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_normal_shape.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\btn_blue_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\btn_white_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_select_bank_item_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_select_bank_item_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_pwdpay_close_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_pwdpay_close_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\find_gouwu.png",
+        "source": "D:\\supperWechat\\res\\drawable\\find_gouwu.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_item_boutique.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\selector_menu_item_boutique.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\sidebar_background_pressed.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\sidebar_background_pressed.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_info_btn_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_info_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_dialog_leftbtn_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_dialog_leftbtn_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ebpay_list_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\ebpay_list_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ebpay_bg_checkbox_seletor.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\ebpay_bg_checkbox_seletor.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\appitem_del_btn.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\appitem_del_btn.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_edit.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\chat_edit.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_shape_scrollbar.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_shape_scrollbar.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\timestampe_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\timestampe_bg.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\type_select_btn.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\type_select_btn.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chatting_setmode_voice_btn.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\chatting_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_normal_shape.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\btn_white_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\red_circle.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\red_circle.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\mm_listitem_grey.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\mm_listitem_grey.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_gray_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\btn_gray_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_state_failed_resend.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_dashed_shape_press.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_dashed_shape_press.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_pressed_shape.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\btn_green_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\geek.png",
+        "source": "D:\\supperWechat\\res\\drawable\\geek.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_normal_shape.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\btn_green_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\recording_text_hint_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\recording_text_hint_bg.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_cart.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\menu_cart.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\find_icon.png",
+        "source": "D:\\supperWechat\\res\\drawable\\find_icon.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\nickename_input_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\nickename_input_bg.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_pwdpay_middle_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_pwdpay_middle_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_gray_pressed_shape.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\btn_gray_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_service_squared_item_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_service_squared_item_bg.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_person_center.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\menu_person_center.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\mobile.png",
+        "source": "D:\\supperWechat\\res\\drawable\\mobile.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_category.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\menu_category.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_image_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\chat_image_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\common_tab_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\common_tab_bg.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\context_menu_item_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\context_menu_item_bg.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_error_item_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\chat_error_item_bg.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_refresh_loading_small.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_refresh_loading_small.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cancel_bj.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\btn_cancel_bj.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_progressbar.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_progressbar.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_list_item_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\btn_list_item_bg.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\find_piaoliuping.png",
+        "source": "D:\\supperWechat\\res\\drawable\\find_piaoliuping.png"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_menu_item_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_menu_item_bg.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_item_personal_center.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\selector_menu_item_personal_center.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_press_speak_btn.xml",
         "source": "D:\\supperWechat\\res\\drawable\\chat_press_speak_btn.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_send_btn_selector.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\chat_send_btn_selector.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\call_hangup_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\call_hangup_bg.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\find_yaoyiyao.png",
@@ -220,10 +416,6 @@
         "source": "D:\\supperWechat\\res\\drawable\\roominfo_add_btn.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\smiley_minus_btn.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\smiley_minus_btn.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cancel_normal_shape.xml",
         "source": "D:\\supperWechat\\res\\drawable\\btn_cancel_normal_shape.xml"
     },
@@ -232,16 +424,16 @@
         "source": "D:\\supperWechat\\res\\drawable\\chat_voice_call_selector.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_logout_pressed_shape.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\btn_logout_pressed_shape.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cancel_pressed_shape.xml",
         "source": "D:\\supperWechat\\res\\drawable\\btn_cancel_pressed_shape.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_face_selector.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\chat_face_selector.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_logout_pressed_shape.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\btn_logout_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_new_good.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\menu_new_good.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\find_youxi.png",
@@ -252,12 +444,40 @@
         "source": "D:\\supperWechat\\res\\drawable\\recording_hint_bg.xml"
     },
     {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_wechat_centact.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\menu_wechat_centact.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_title_back_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_title_back_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_find.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\tab_find.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_bank_item_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_bank_item_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_loading.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_loading.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_loading_gray.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_loading_gray.xml"
+    },
+    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\mm_title_act_btn.xml",
         "source": "D:\\supperWechat\\res\\drawable\\mm_title_act_btn.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\camera_switch_selector.xml",
         "source": "D:\\supperWechat\\res\\drawable\\camera_switch_selector.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_boutique.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\menu_boutique.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\button_register_bg.xml",
@@ -268,24 +488,24 @@
         "source": "D:\\supperWechat\\res\\drawable\\chat_takepic_selector.xml"
     },
     {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_style.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\checkbox_style.xml"
+    },
+    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\mm_listitem.xml",
         "source": "D:\\supperWechat\\res\\drawable\\mm_listitem.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\search_clear.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\search_clear.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_normal_shape.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\btn_blue_normal_shape.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\button_login_bg.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\button_login_bg.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selector_shape.xml",
         "source": "D:\\supperWechat\\res\\drawable\\button_selector_shape.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_classic_platform_cell_back.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\ssdk_oks_classic_platform_cell_back.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_item_category.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\selector_menu_item_category.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\find_fujin.png",
@@ -294,10 +514,6 @@
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_contact_list_bg.xml",
         "source": "D:\\supperWechat\\res\\drawable\\tab_contact_list_bg.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_selector.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\btn_white_selector.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\friends_icon.png",
@@ -316,12 +532,8 @@
         "source": "D:\\supperWechat\\res\\drawable\\btn_logout_normal_shape.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\find_gouwu.png",
-        "source": "D:\\supperWechat\\res\\drawable\\find_gouwu.png"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\sidebar_background_pressed.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\sidebar_background_pressed.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\wallet_base_refresh_loading.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\wallet_base_refresh_loading.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\smiley_add_btn.xml",
@@ -336,11 +548,11 @@
         "source": "D:\\supperWechat\\res\\drawable\\find_erweima.png"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_text_bg.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\edit_text_bg.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ebpay_title_btn_selector.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\ebpay_title_btn_selector.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\appitem_del_btn.xml",
-        "source": "D:\\supperWechat\\res\\drawable\\appitem_del_btn.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_text_bg.xml",
+        "source": "D:\\supperWechat\\res\\drawable\\edit_text_bg.xml"
     }
 ]

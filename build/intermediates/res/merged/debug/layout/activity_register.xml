@@ -6,37 +6,9 @@
     android:orientation="vertical"
     android:id="@+id/Layout_Register">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp">
+    <include layout="@layout/common_head_title_white" />
 
-        <View
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_weight="1" />
 
-        <ImageView
-            android:id="@+id/Mobile"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_centerInParent="true"
-            android:src="@drawable/mobile"
-            />
-        <TextView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:text="超级微信"
-            android:textSize="10dp"
-            android:textColor="@color/black_deep"
-            android:layout_marginTop="30dp"
-            />
-
-        <View
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_weight="1" />
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -204,33 +176,17 @@
             android:layout_marginRight="8dp"
             android:layout_marginTop="20dp"
             android:orientation="horizontal"
-            android:weightSum="7">
-
-            <Button
-                android:layout_weight="2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button_login_bg"
-                android:onClick="Login"
-                android:text="登录"
-                android:textColor="@android:color/white"
-                android:textSize="20sp"
-                android:id="@+id/btn_login"/>
-
+            >
             <Button
                 android:id="@+id/btn_register"
                 android:layout_weight="4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/button_login_bg"
-                android:text="注册"
+                android:background="@drawable/orange_radius"
+                android:text="免费注册"
                 android:textColor="@android:color/white"
                 android:textSize="20sp"
                 />
-            <View
-                android:layout_width="10dp"
-                android:layout_height="10dp"
-                android:layout_weight="1"/>
         </LinearLayout>
     </LinearLayout>
 

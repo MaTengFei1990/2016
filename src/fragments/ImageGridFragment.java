@@ -34,13 +34,13 @@ import com.easemob.util.TextFormater;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.ucai.superwechat.BuildConfig;
-import cn.ucai.superwechat.activity.RecorderVideoActivity;
-import cn.ucai.superwechat.domain.VideoEntity;
-import cn.ucai.superwechat.video.util.ImageCache;
-import cn.ucai.superwechat.video.util.ImageResizer;
-import cn.ucai.superwechat.video.util.Utils;
-import cn.ucai.superwechat.widget.RecyclingImageView;
+import cn.ucai.fulicenter.BuildConfig;
+import cn.ucai.fulicenter.activity.RecorderVideoActivity;
+import cn.ucai.fulicenter.domain.VideoEntity;
+import cn.ucai.fulicenter.video.util.ImageCache;
+import cn.ucai.fulicenter.video.util.ImageResizer;
+import cn.ucai.fulicenter.video.util.Utils;
+import cn.ucai.fulicenter.widget.RecyclingImageView;
 
 public class ImageGridFragment extends Fragment implements OnItemClickListener {
 
@@ -61,9 +61,9 @@ public class ImageGridFragment extends Fragment implements OnItemClickListener {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		mImageThumbSize = getResources().getDimensionPixelSize(
-				cn.ucai.superwechat.R.dimen.image_thumbnail_size);
+				cn.ucai.fulicenter.R.dimen.image_thumbnail_size);
 		mImageThumbSpacing = getResources().getDimensionPixelSize(
-				cn.ucai.superwechat.R.dimen.image_thumbnail_spacing);
+				cn.ucai.fulicenter.R.dimen.image_thumbnail_spacing);
 		mList=new ArrayList<VideoEntity>();
 		getVideoFile();
 		mAdapter = new ImageAdapter(getActivity());
@@ -76,7 +76,7 @@ public class ImageGridFragment extends Fragment implements OnItemClickListener {
 		// The ImageFetcher takes care of loading images into our ImageView
 		// children asynchronously
 		mImageResizer = new ImageResizer(getActivity(), mImageThumbSize);
-		mImageResizer.setLoadingImage(cn.ucai.superwechat.R.drawable.empty_photo);
+		mImageResizer.setLoadingImage(cn.ucai.fulicenter.R.drawable.empty_photo);
 		mImageResizer.addImageCache(getActivity().getSupportFragmentManager(),
 				cacheParams);
 		
@@ -86,9 +86,9 @@ public class ImageGridFragment extends Fragment implements OnItemClickListener {
 	@Override
 	public View onCreateView(LayoutInflater inflater,
 			 ViewGroup container,  Bundle savedInstanceState) {
-		final View v = inflater.inflate(cn.ucai.superwechat.R.layout.image_grid_fragment,
+		final View v = inflater.inflate(cn.ucai.fulicenter.R.layout.image_grid_fragment,
 				container, false);
-		final GridView mGridView = (GridView) v.findViewById(cn.ucai.superwechat.R.id.gridView);
+		final GridView mGridView = (GridView) v.findViewById(cn.ucai.fulicenter.R.id.gridView);
 		mGridView.setAdapter(mAdapter);
 		mGridView.setOnItemClickListener(this);
 		mGridView.setOnScrollListener(new AbsListView.OnScrollListener() {
@@ -180,7 +180,7 @@ public class ImageGridFragment extends Fragment implements OnItemClickListener {
 			VideoEntity vEntty=mList.get(position-1);
 			// 限制大小不能超过10M
 			if (vEntty.size > 1024 * 1024 * 10) {
-				String st = getResources().getString(cn.ucai.superwechat.R.string.temporary_does_not);
+				String st = getResources().getString(cn.ucai.fulicenter.R.string.temporary_does_not);
 				Toast.makeText(getActivity(), st, Toast.LENGTH_SHORT).show();
 				return;
 			}
@@ -225,11 +225,11 @@ public class ImageGridFragment extends Fragment implements OnItemClickListener {
 			 if(convertView==null)
 			 {
 				 holder=new ViewHolder();
-				 convertView=LayoutInflater.from(mContext).inflate(cn.ucai.superwechat.R.layout.choose_griditem, container,false);
-				 holder.imageView=(RecyclingImageView) convertView.findViewById(cn.ucai.superwechat.R.id.imageView);
-				 holder.icon=(ImageView) convertView.findViewById(cn.ucai.superwechat.R.id.video_icon);
-				 holder.tvDur=(TextView)convertView.findViewById(cn.ucai.superwechat.R.id.chatting_length_iv);
-				 holder.tvSize=(TextView)convertView.findViewById(cn.ucai.superwechat.R.id.chatting_size_iv);
+				 convertView=LayoutInflater.from(mContext).inflate(cn.ucai.fulicenter.R.layout.choose_griditem, container,false);
+				 holder.imageView=(RecyclingImageView) convertView.findViewById(cn.ucai.fulicenter.R.id.imageView);
+				 holder.icon=(ImageView) convertView.findViewById(cn.ucai.fulicenter.R.id.video_icon);
+				 holder.tvDur=(TextView)convertView.findViewById(cn.ucai.fulicenter.R.id.chatting_length_iv);
+				 holder.tvSize=(TextView)convertView.findViewById(cn.ucai.fulicenter.R.id.chatting_size_iv);
 				 holder.imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
 				 holder.imageView.setLayoutParams(mImageViewLayoutParams);
 				 convertView.setTag(holder);
@@ -245,13 +245,13 @@ public class ImageGridFragment extends Fragment implements OnItemClickListener {
 			// Finally load the image asynchronously into the ImageView, this
 			// also takes care of
 			// setting a placeholder image while the background thread runs
-			String st1 = getResources().getString(cn.ucai.superwechat.R.string.Video_footage);
+			String st1 = getResources().getString(cn.ucai.fulicenter.R.string.Video_footage);
 			if(position==0)
 			{
 				holder.icon.setVisibility(View.GONE);
 				holder.tvDur.setVisibility(View.GONE);
 				holder.tvSize.setText(st1);
-				holder.imageView.setImageResource(cn.ucai.superwechat.R.drawable.actionbar_camera_icon);
+				holder.imageView.setImageResource(cn.ucai.fulicenter.R.drawable.actionbar_camera_icon);
 			}else{
 				holder.icon.setVisibility(View.VISIBLE);
 				VideoEntity entty=mList.get(position-1);
@@ -259,7 +259,7 @@ public class ImageGridFragment extends Fragment implements OnItemClickListener {
 				
 				holder.tvDur.setText(DateUtils.toTime(entty.duration));
 				holder.tvSize.setText(TextFormater.getDataSize(entty.size));
-				holder.imageView.setImageResource(cn.ucai.superwechat.R.drawable.empty_photo);
+				holder.imageView.setImageResource(cn.ucai.fulicenter.R.drawable.empty_photo);
 				mImageResizer.loadImage(entty.filePath, holder.imageView);
 			}
 			return convertView;

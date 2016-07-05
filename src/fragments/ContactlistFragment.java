@@ -53,27 +53,27 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import cn.ucai.superwechat.Constant;
-import cn.ucai.superwechat.DemoHXSDKHelper;
-import cn.ucai.superwechat.I;
-import cn.ucai.superwechat.R;
-import cn.ucai.superwechat.SuperweChatApplication;
-import cn.ucai.superwechat.activity.AddContactActivity;
-import cn.ucai.superwechat.activity.ChatActivity;
-import cn.ucai.superwechat.activity.GroupsActivity;
-import cn.ucai.superwechat.activity.MainActivity;
-import cn.ucai.superwechat.activity.NewFriendsMsgActivity;
-import cn.ucai.superwechat.adapter.ContactAdapter;
-import cn.ucai.superwechat.applib.controller.HXSDKHelper;
-import cn.ucai.superwechat.applib.controller.HXSDKHelper.HXSyncListener;
-import cn.ucai.superwechat.bean.Contact;
-import cn.ucai.superwechat.data.ApiParams;
-import cn.ucai.superwechat.data.GsonRequest;
-import cn.ucai.superwechat.db.EMUserDao;
-import cn.ucai.superwechat.db.InviteMessgeDao;
-import cn.ucai.superwechat.domain.EMUser;
-import cn.ucai.superwechat.utils.UserUtils;
-import cn.ucai.superwechat.widget.Sidebar;
+import cn.ucai.fulicenter.Constant;
+import cn.ucai.fulicenter.DemoHXSDKHelper;
+import cn.ucai.fulicenter.I;
+import cn.ucai.fulicenter.R;
+import cn.ucai.fulicenter.FuLiCenterApplication;
+import cn.ucai.fulicenter.activity.AddContactActivity;
+import cn.ucai.fulicenter.activity.ChatActivity;
+
+import cn.ucai.fulicenter.activity.MainActivity;
+import cn.ucai.fulicenter.activity.NewFriendsMsgActivity;
+import cn.ucai.fulicenter.adapter.ContactAdapter;
+import cn.ucai.fulicenter.applib.controller.HXSDKHelper;
+import cn.ucai.fulicenter.applib.controller.HXSDKHelper.HXSyncListener;
+import cn.ucai.fulicenter.bean.Contact;
+import cn.ucai.fulicenter.data.ApiParams;
+import cn.ucai.fulicenter.data.GsonRequest;
+import cn.ucai.fulicenter.db.EMUserDao;
+import cn.ucai.fulicenter.db.InviteMessgeDao;
+import cn.ucai.fulicenter.domain.EMUser;
+import cn.ucai.fulicenter.utils.UserUtils;
+import cn.ucai.fulicenter.widget.Sidebar;
 
 /**
  * 联系人列表页
@@ -273,17 +273,6 @@ public class ContactlistFragment extends Fragment {
 					user.setUnreadMsgCount(0);
 					startActivity(new Intent(getActivity(), NewFriendsMsgActivity.class));
 
-				} else if (Constant.GROUP_USERNAME.equals(username)) {
-					// 进入群聊列表页面
-
-					startActivity(new Intent(getActivity(), GroupsActivity.class));
-
-//				} else if(Constant.CHAT_ROOM.equals(username)){
-//					//进入聊天室列表页面
-//					startActivity(new Intent(getActivity(), PublicChatRoomsActivity.class));
-//				}else if(Constant.CHAT_ROBOT.equals(username)){
-//					//进入Robot列表页面
-//					startActivity(new Intent(getActivity(), RobotsActivity.class));
 				}
 				else {
 					// demo中直接进入聊天页面，实际一般是进入用户详情页
@@ -317,7 +306,7 @@ public class ContactlistFragment extends Fragment {
 	@Override
 	public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
 		super.onCreateContextMenu(menu, v, menuInfo);
-		if (((AdapterContextMenuInfo) menuInfo).position > 1) {
+		if (((AdapterContextMenuInfo) menuInfo).position > 0) {
 			toBeProcessUser = adapter.getItem(((AdapterContextMenuInfo) menuInfo).position);
 			toBeProcessUsername = toBeProcessUser.getMContactCname();
 			getActivity().getMenuInflater().inflate(R.menu.context_contact_list, menu);
@@ -374,7 +363,7 @@ public class ContactlistFragment extends Fragment {
 		pd.show();
 		try {
 			String path = new ApiParams()
-					.with(I.Contact.USER_NAME, SuperweChatApplication.getInstance().getUserName())
+					.with(I.Contact.USER_NAME, FuLiCenterApplication.getInstance().getUserName())
 					.with(I.Contact.CU_NAME, tobeDeleteUser.getMContactCname())
 					.getRequestUrl(I.REQUEST_DELETE_CONTACT);
 
@@ -421,8 +410,8 @@ public class ContactlistFragment extends Fragment {
 			@Override
 			public void onResponse(Boolean response) {
 				if (response) {
-					SuperweChatApplication.getInstance().getUserList().remove(tobeDeleteUser.getMContactCname());
-					SuperweChatApplication.getInstance().getContactList().remove(tobeDeleteUser);
+					FuLiCenterApplication.getInstance().getUserList().remove(tobeDeleteUser.getMContactCname());
+					FuLiCenterApplication.getInstance().getContactList().remove(tobeDeleteUser);
 					getActivity().sendStickyBroadcast(new Intent("updapte_contact_list"));
 				}
 			}
@@ -518,7 +507,7 @@ public class ContactlistFragment extends Fragment {
 
 		//获取本地好友列表
 		mcontactList.clear();
-		ArrayList<Contact> contactList = SuperweChatApplication.getInstance().getContactList();
+		ArrayList<Contact> contactList = FuLiCenterApplication.getInstance().getContactList();
 		mcontactList.addAll(contactList);
 
 		// 添加"群聊"

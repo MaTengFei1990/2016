@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cn.ucai.superwechat"
+    package="cn.ucai.fulicenter"
     android:versionCode="25"
     android:versionName="2.2.5" >
 
@@ -38,22 +38,28 @@
 
     <uses-permission android:name="com.easemob.chatuidemo.permission.C2D_MESSAGE" />
 
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
-        android:name="cn.ucai.superwechat.SuperweChatApplication"
+        android:name="cn.ucai.fulicenter.FuLiCenterApplication"
         android:allowBackup="true"
         android:icon="@drawable/logo_uidemo"
         android:label="@string/app_name" >
         <activity
-            android:name="cn.ucai.superwechat.activity.MainActivity"
+            android:name="cn.ucai.fulicenter.activity.MainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="adjustPan" >
-        </activity>
-
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="cn.ucai.fulicenter.activity.FuliCenterMainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustPan" />
         <!-- 开屏页 -->
         <activity
-            android:name="cn.ucai.superwechat.activity.SplashActivity"
+            android:name="cn.ucai.fulicenter.activity.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" >
             <intent-filter>
@@ -65,226 +71,135 @@
 
         <!-- 登陆 -->
         <activity
-            android:name="cn.ucai.superwechat.activity.LoginActivity"
+            android:name="cn.ucai.fulicenter.activity.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="adjustResize|stateVisible" >
-        </activity>
+            android:windowSoftInputMode="adjustResize|stateVisible" />
 
         <!-- 注册 -->
         <activity
-            android:name="cn.ucai.superwechat.activity.RegisterActivity"
+            android:name="cn.ucai.fulicenter.activity.RegisterActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="adjustResize|stateVisible" >
-        </activity>
+            android:windowSoftInputMode="adjustResize|stateVisible" />
         <!-- 聊天页面 -->
         <activity
-            android:name="cn.ucai.superwechat.activity.ChatActivity"
+            android:name="cn.ucai.fulicenter.activity.ChatActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="adjustResize" >
-        </activity>
+            android:windowSoftInputMode="adjustResize" />
         <!-- 添加好友 -->
         <activity
-            android:name="cn.ucai.superwechat.activity.AddContactActivity"
+            android:name="cn.ucai.fulicenter.activity.AddContactActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="stateVisible" >
-        </activity>
-        <!-- 群组详情 -->
-        <activity
-            android:name="cn.ucai.superwechat.activity.GroupDetailsActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide" >
-        </activity>
-        <!-- 群组列表 -->
-        <activity
-            android:name="cn.ucai.superwechat.activity.GroupsActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="adjustPan" >
-        </activity>
-        <activity
-            android:name="cn.ucai.superwechat.activity.ChatRoomActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="adjustPan" >
-        </activity>
-        <!-- 聊天室详情 -->
-        <activity
-            android:name="cn.ucai.superwechat.activity.ChatRoomDetailsActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide" >
-        </activity>
+            android:windowSoftInputMode="stateVisible" />
 
-        <!-- 新建群组 -->
-        <activity
-            android:name="cn.ucai.superwechat.activity.NewGroupActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="adjustPan" >
-        </activity>
-        <!-- 退出群组提示框 -->
-        <activity
-            android:name="cn.ucai.superwechat.activity.ExitGroupDialog"
-            android:screenOrientation="portrait"
-            android:theme="@style/MyDialogStyleBottom" >
-        </activity>
-        <!-- 群组选人 -->
-        <activity
-            android:name="cn.ucai.superwechat.activity.GroupPickContactsActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="adjustPan" >
-        </activity>
         <!-- 地图 -->
         <activity
-            android:name="cn.ucai.superwechat.activity.BaiduMapActivity"
+            android:name="cn.ucai.fulicenter.activity.BaiduMapActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide" >
-        </activity>
+            android:theme="@style/horizontal_slide" />
 
         <!-- 新的朋友邀请消息页面 -->
         <activity
-            android:name="cn.ucai.superwechat.activity.NewFriendsMsgActivity"
+            android:name="cn.ucai.fulicenter.activity.NewFriendsMsgActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide" >
-        </activity>
+            android:theme="@style/horizontal_slide" />
         <!-- 转发消息用户列表页面 -->
         <activity
-            android:name="cn.ucai.superwechat.activity.ForwardMessageActivity"
+            android:name="cn.ucai.fulicenter.activity.ForwardMessageActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="adjustPan" >
-        </activity>
+            android:windowSoftInputMode="adjustPan" />
         <!-- 自定义的contextmenu -->
         <activity
-            android:name="cn.ucai.superwechat.activity.ContextMenu"
+            android:name="cn.ucai.fulicenter.activity.ContextMenu"
             android:screenOrientation="portrait"
-            android:theme="@style/MyDialogStyle" >
-        </activity>
+            android:theme="@style/MyDialogStyle" />
         <!-- 自定义的alertdialog -->
         <activity
-            android:name="cn.ucai.superwechat.activity.AlertDialog"
+            android:name="cn.ucai.fulicenter.activity.AlertDialog"
             android:screenOrientation="portrait"
-            android:theme="@style/MyDialogStyle" >
-        </activity>
+            android:theme="@style/MyDialogStyle" />
         <!-- 显示下载大图页面 -->
         <activity
-            android:name="cn.ucai.superwechat.activity.ShowBigImage"
+            android:name="cn.ucai.fulicenter.activity.ShowBigImage"
             android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide" >
-        </activity>
+            android:theme="@style/horizontal_slide" />
         <!-- 下载文件 -->
         <activity
-            android:name="cn.ucai.superwechat.activity.ShowNormalFileActivity"
+            android:name="cn.ucai.fulicenter.activity.ShowNormalFileActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide" >
-        </activity>
+            android:theme="@style/horizontal_slide" />
         <!-- 黑名单 -->
         <activity
-            android:name="cn.ucai.superwechat.activity.BlacklistActivity"
+            android:name="cn.ucai.fulicenter.activity.BlacklistActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide" >
-        </activity>
-
-        <!-- 公开的群聊列表 -->
+            android:theme="@style/horizontal_slide" />
         <activity
-            android:name="cn.ucai.superwechat.activity.PublicGroupsActivity"
+            android:name="cn.ucai.fulicenter.activity.PublicChatRoomsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="adjustPan" >
-        </activity>
-        <activity
-            android:name="cn.ucai.superwechat.activity.PublicChatRoomsActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="adjustPan" >
-        </activity>
+            android:windowSoftInputMode="adjustPan" />
 
         <!-- 语音通话 -->
         <activity
-            android:name="cn.ucai.superwechat.activity.VoiceCallActivity"
+            android:name="cn.ucai.fulicenter.activity.VoiceCallActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
-            android:theme="@style/nornal_style" >
-        </activity>
+            android:theme="@style/nornal_style" />
         <!-- 视频通话 -->
         <activity
-            android:name="cn.ucai.superwechat.activity.VideoCallActivity"
+            android:name="cn.ucai.fulicenter.activity.VideoCallActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide" >
-        </activity>
-        <!-- 群聊简单信息 -->
+            android:theme="@style/horizontal_slide" />
         <activity
-            android:name="cn.ucai.superwechat.activity.GroupSimpleDetailActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide" >
-        </activity>
-        <!-- 群组黑名单用户列表 -->
-        <activity
-            android:name="cn.ucai.superwechat.activity.GroupBlacklistActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide" >
-        </activity>
-        <activity
-            android:name="cn.ucai.superwechat.activity.PublicGroupsSeachActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide" >
-        </activity>
-        <activity
-            android:name="cn.ucai.superwechat.activity.EditActivity"
+            android:name="cn.ucai.fulicenter.activity.EditActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="stateVisible" >
-        </activity>
+            android:windowSoftInputMode="stateVisible" />
         <activity
-            android:name="cn.ucai.superwechat.activity.ShowVideoActivity"
+            android:name="cn.ucai.fulicenter.activity.ShowVideoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="stateAlwaysHidden" />
         <!-- choose video -->
         <activity
-            android:name="cn.ucai.superwechat.activity.ImageGridActivity"
+            android:name="cn.ucai.fulicenter.activity.ImageGridActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="cn.ucai.superwechat.activity.RecorderVideoActivity"
+            android:name="cn.ucai.fulicenter.activity.RecorderVideoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="stateAlwaysHidden" />
         <!-- upload error log -->
         <activity
-            android:name="cn.ucai.superwechat.activity.DiagnoseActivity"
+            android:name="cn.ucai.fulicenter.activity.DiagnoseActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="stateAlwaysHidden" />
 
         <!-- iOS offline push nick -->
         <activity
-            android:name="cn.ucai.superwechat.activity.OfflinePushNickActivity"
+            android:name="cn.ucai.fulicenter.activity.OfflinePushNickActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="stateAlwaysHidden" />
         <!-- robots list -->
         <activity
-            android:name="cn.ucai.superwechat.activity.RobotsActivity"
+            android:name="cn.ucai.fulicenter.activity.RobotsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <!-- user profile -->
         <activity
-            android:name="cn.ucai.superwechat.activity.UserProfileActivity"
+            android:name="cn.ucai.fulicenter.activity.UserProfileActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
 
@@ -312,11 +227,10 @@
 
         <service
             android:name="com.easemob.chat.EMGCMListenerService"
-            android:exported="false" >
-        </service>
+            android:exported="false" />
 
         <receiver
-            android:name="cn.ucai.superwechat.receiver.GCMPushBroadCast"
+            android:name="cn.ucai.fulicenter.receiver.GCMPushBroadCast"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.easemob.sdk.push" />
@@ -330,7 +244,7 @@
         <!-- 设置环信应用的appkey -->
         <meta-data
             android:name="EASEMOB_APPKEY"
-            android:value="123456789987654#2016superweichat" />
+            android:value="123456789987654#fulicenter" />
         <!-- 声明sdk所需的service -->
         <service android:name="com.easemob.chat.EMChatService" />
         <!-- 声明sdk所需的receiver -->
@@ -354,11 +268,65 @@
         <!-- umeng appkey，可忽略 -->
         <meta-data
             android:name="UMENG_APPKEY"
-            android:value="53912a3156240b01a7075ed1" >
-        </meta-data>
+            android:value="53912a3156240b01a7075ed1" />
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="3ecea51f560650b1ed8a4b99808f52e8" />
+
+        <activity
+            android:name="cn.ucai.fulicenter.activity.GoodDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+        <activity
+            android:name="cn.ucai.fulicenter.activity.BoutiqueChildActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+        <activity
+            android:name="cn.ucai.fulicenter.activity.CategoryChildActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+        <activity
+            android:name="cn.ucai.fulicenter.activity.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+        <activity
+            android:name="cn.ucai.fulicenter.activity.CollectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+
+        <!-- sharesdk-begin -->
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <data android:scheme="tencent100371282" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <!-- 调用新浪原生SDK，需要注册的回调activity -->
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 微信分享回调 -->
+        <activity
+            android:name="cn.ucai.fulicenter.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- sharesdk-end -->
     </application>
 
 </manifest>

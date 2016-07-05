@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_margin="5dp"
+    android:id="@+id/layout_collect"
+    android:weightSum="1">
+    
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/niv_collect_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:layout_weight="0.42"
+        />
+    <TextView
+        android:id="@+id/tv_collect_name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/item_good_text"
+        android:textSize="13dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="商品名称商品名称商品名称商品名称商品名称商品名称商品名称"/>
+</LinearLayout>
+    <ImageView
+        android:id="@+id/iv_del_collect"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:src="@drawable/delete"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

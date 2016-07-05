@@ -1,19 +1,7 @@
 [
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_contact.xml",
-        "source": "D:\\supperWechat\\res\\layout\\activity_add_contact.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\logout_actionsheet.xml",
         "source": "D:\\supperWechat\\res\\layout\\logout_actionsheet.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "D:\\supperWechat\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\main_init_view.xml",
-        "source": "D:\\supperWechat\\res\\layout\\main_init_view.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\context_menu_for_image.xml",
@@ -28,76 +16,44 @@
         "source": "D:\\supperWechat\\res\\layout\\activity_pick_contact_no_checkbox.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_public_groups_search.xml",
-        "source": "D:\\supperWechat\\res\\layout\\activity_public_groups_search.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\simple_grid_item.xml",
+        "source": "D:\\supperWechat\\res\\layout\\simple_grid_item.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_video.xml",
-        "source": "D:\\supperWechat\\res\\layout\\row_sent_video.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_groups.xml",
-        "source": "D:\\supperWechat\\res\\layout\\fragment_groups.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\choose_griditem.xml",
-        "source": "D:\\supperWechat\\res\\layout\\choose_griditem.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_invite_msg.xml",
-        "source": "D:\\supperWechat\\res\\layout\\row_invite_msg.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\item_cat_filter.xml",
+        "source": "D:\\supperWechat\\res\\layout\\item_cat_filter.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_emojicon.xml",
         "source": "D:\\supperWechat\\res\\layout\\fragment_emojicon.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_picture.xml",
-        "source": "D:\\supperWechat\\res\\layout\\row_sent_picture.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_invite_msg.xml",
+        "source": "D:\\supperWechat\\res\\layout\\row_invite_msg.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_expression.xml",
-        "source": "D:\\supperWechat\\res\\layout\\row_expression.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_picture.xml",
+        "source": "D:\\supperWechat\\res\\layout\\row_sent_picture.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_robots.xml",
         "source": "D:\\supperWechat\\res\\layout\\row_robots.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_file.xml",
-        "source": "D:\\supperWechat\\res\\layout\\row_sent_file.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_location.xml",
         "source": "D:\\supperWechat\\res\\layout\\row_sent_location.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\image_grid_fragment.xml",
-        "source": "D:\\supperWechat\\res\\layout\\image_grid_fragment.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_menu.xml",
         "source": "D:\\supperWechat\\res\\layout\\row_received_menu.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_contact_with_checkbox.xml",
-        "source": "D:\\supperWechat\\res\\layout\\row_contact_with_checkbox.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\image_grid_fragment.xml",
+        "source": "D:\\supperWechat\\res\\layout\\image_grid_fragment.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chatroom.xml",
-        "source": "D:\\supperWechat\\res\\layout\\fragment_chatroom.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_message.xml",
-        "source": "D:\\supperWechat\\res\\layout\\row_sent_message.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_robots.xml",
-        "source": "D:\\supperWechat\\res\\layout\\fragment_robots.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_file.xml",
-        "source": "D:\\supperWechat\\res\\layout\\row_received_file.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\common_head_back.xml",
+        "source": "D:\\supperWechat\\res\\layout\\common_head_back.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\search_bar_with_padding.xml",
@@ -112,32 +68,12 @@
         "source": "D:\\supperWechat\\res\\layout\\activity_offline_push.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_group.xml",
-        "source": "D:\\supperWechat\\res\\layout\\activity_new_group.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_voice_call.xml",
         "source": "D:\\supperWechat\\res\\layout\\row_received_voice_call.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_baidumap.xml",
-        "source": "D:\\supperWechat\\res\\layout\\activity_baidumap.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\recorder_activity.xml",
-        "source": "D:\\supperWechat\\res\\layout\\recorder_activity.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\search_bar.xml",
-        "source": "D:\\supperWechat\\res\\layout\\search_bar.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_details.xml",
-        "source": "D:\\supperWechat\\res\\layout\\activity_group_details.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_conversation_history.xml",
-        "source": "D:\\supperWechat\\res\\layout\\fragment_conversation_history.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_collect.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_collect.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_conversation_settings.xml",
@@ -148,12 +84,12 @@
         "source": "D:\\supperWechat\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit.xml",
-        "source": "D:\\supperWechat\\res\\layout\\activity_edit.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\common_refresh_hint.xml",
+        "source": "D:\\supperWechat\\res\\layout\\common_refresh_hint.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\main_botton_tab.xml",
-        "source": "D:\\supperWechat\\res\\layout\\main_botton_tab.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_good_details.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_good_details.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_picture.xml",
@@ -164,44 +100,24 @@
         "source": "D:\\supperWechat\\res\\layout\\popu_show_avatar.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_simle_details.xml",
-        "source": "D:\\supperWechat\\res\\layout\\activity_group_simle_details.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\listview_footer_view.xml",
-        "source": "D:\\supperWechat\\res\\layout\\listview_footer_view.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_null.xml",
         "source": "D:\\supperWechat\\res\\layout\\activity_null.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_message.xml",
-        "source": "D:\\supperWechat\\res\\layout\\row_received_message.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_friends_msg.xml",
-        "source": "D:\\supperWechat\\res\\layout\\activity_new_friends_msg.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contact_list.xml",
         "source": "D:\\supperWechat\\res\\layout\\fragment_contact_list.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_video_call.xml",
-        "source": "D:\\supperWechat\\res\\layout\\row_sent_video_call.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\chat_neterror_item.xml",
         "source": "D:\\supperWechat\\res\\layout\\chat_neterror_item.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
-        "source": "D:\\supperWechat\\res\\layout\\activity_chat.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_add_group.xml",
         "source": "D:\\supperWechat\\res\\layout\\row_add_group.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_chat.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_video.xml",
@@ -210,26 +126,6 @@
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_pick_contacts.xml",
         "source": "D:\\supperWechat\\res\\layout\\activity_group_pick_contacts.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_public_groups.xml",
-        "source": "D:\\supperWechat\\res\\layout\\activity_public_groups.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_voice_call.xml",
-        "source": "D:\\supperWechat\\res\\layout\\activity_voice_call.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\context_menu_for_video.xml",
-        "source": "D:\\supperWechat\\res\\layout\\context_menu_for_video.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
-        "source": "D:\\supperWechat\\res\\layout\\alert_dialog.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\showvideo_activity.xml",
-        "source": "D:\\supperWechat\\res\\layout\\showvideo_activity.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_history.xml",
@@ -252,32 +148,16 @@
         "source": "D:\\supperWechat\\res\\layout\\expression_gridview.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_location.xml",
-        "source": "D:\\supperWechat\\res\\layout\\row_received_location.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\context_menu_for_text.xml",
-        "source": "D:\\supperWechat\\res\\layout\\context_menu_for_text.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choosevideoactivity.xml",
-        "source": "D:\\supperWechat\\res\\layout\\activity_choosevideoactivity.xml"
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_category_child.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_category_child.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
         "source": "D:\\supperWechat\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\commom_back_btn.xml",
-        "source": "D:\\supperWechat\\res\\layout\\commom_back_btn.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_blacklist.xml",
         "source": "D:\\supperWechat\\res\\layout\\activity_group_blacklist.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_black_list.xml",
-        "source": "D:\\supperWechat\\res\\layout\\activity_black_list.xml"
     },
     {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_diagnose.xml",
@@ -296,14 +176,6 @@
         "source": "D:\\supperWechat\\res\\layout\\activity_video_call.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_voice.xml",
-        "source": "D:\\supperWechat\\res\\layout\\row_sent_voice.xml"
-    },
-    {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\context_menu_for_voice.xml",
-        "source": "D:\\supperWechat\\res\\layout\\context_menu_for_voice.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_profile.xml",
         "source": "D:\\supperWechat\\res\\layout\\activity_user_profile.xml"
     },
@@ -312,11 +184,239 @@
         "source": "D:\\supperWechat\\res\\layout\\activity_show_big_image.xml"
     },
     {
-        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_group.xml",
-        "source": "D:\\supperWechat\\res\\layout\\row_group.xml"
-    },
-    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_contact.xml",
         "source": "D:\\supperWechat\\res\\layout\\row_contact.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_contact.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_add_contact.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\main_init_view.xml",
+        "source": "D:\\supperWechat\\res\\layout\\main_init_view.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\item_footer.xml",
+        "source": "D:\\supperWechat\\res\\layout\\item_footer.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_public_groups_search.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_public_groups_search.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_cart.xml",
+        "source": "D:\\supperWechat\\res\\layout\\fragment_cart.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_video.xml",
+        "source": "D:\\supperWechat\\res\\layout\\row_sent_video.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_groups.xml",
+        "source": "D:\\supperWechat\\res\\layout\\fragment_groups.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\choose_griditem.xml",
+        "source": "D:\\supperWechat\\res\\layout\\choose_griditem.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_new_good.xml",
+        "source": "D:\\supperWechat\\res\\layout\\fragment_new_good.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_expression.xml",
+        "source": "D:\\supperWechat\\res\\layout\\row_expression.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\item_cart.xml",
+        "source": "D:\\supperWechat\\res\\layout\\item_cart.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_personal_center.xml",
+        "source": "D:\\supperWechat\\res\\layout\\fragment_personal_center.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_file.xml",
+        "source": "D:\\supperWechat\\res\\layout\\row_sent_file.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_contact_with_checkbox.xml",
+        "source": "D:\\supperWechat\\res\\layout\\row_contact_with_checkbox.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chatroom.xml",
+        "source": "D:\\supperWechat\\res\\layout\\fragment_chatroom.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\item_categroy_child.xml",
+        "source": "D:\\supperWechat\\res\\layout\\item_categroy_child.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_message.xml",
+        "source": "D:\\supperWechat\\res\\layout\\row_sent_message.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_file.xml",
+        "source": "D:\\supperWechat\\res\\layout\\row_received_file.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_robots.xml",
+        "source": "D:\\supperWechat\\res\\layout\\fragment_robots.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_group.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_new_group.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_baidumap.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_baidumap.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\recorder_activity.xml",
+        "source": "D:\\supperWechat\\res\\layout\\recorder_activity.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\search_bar.xml",
+        "source": "D:\\supperWechat\\res\\layout\\search_bar.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_details.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_group_details.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fuli_center_main.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_fuli_center_main.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_conversation_history.xml",
+        "source": "D:\\supperWechat\\res\\layout\\fragment_conversation_history.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_edit.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\main_botton_tab.xml",
+        "source": "D:\\supperWechat\\res\\layout\\main_botton_tab.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\item_categroy_group.xml",
+        "source": "D:\\supperWechat\\res\\layout\\item_categroy_group.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_simle_details.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_group_simle_details.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\item_color_filter.xml",
+        "source": "D:\\supperWechat\\res\\layout\\item_color_filter.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_category.xml",
+        "source": "D:\\supperWechat\\res\\layout\\fragment_category.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\listview_footer_view.xml",
+        "source": "D:\\supperWechat\\res\\layout\\listview_footer_view.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_message.xml",
+        "source": "D:\\supperWechat\\res\\layout\\row_received_message.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_friends_msg.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_new_friends_msg.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_video_call.xml",
+        "source": "D:\\supperWechat\\res\\layout\\row_sent_video_call.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\item_collect.xml",
+        "source": "D:\\supperWechat\\res\\layout\\item_collect.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_public_groups.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_public_groups.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_voice_call.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_voice_call.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\context_menu_for_video.xml",
+        "source": "D:\\supperWechat\\res\\layout\\context_menu_for_video.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
+        "source": "D:\\supperWechat\\res\\layout\\alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_boutique.xml",
+        "source": "D:\\supperWechat\\res\\layout\\fragment_boutique.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\showvideo_activity.xml",
+        "source": "D:\\supperWechat\\res\\layout\\showvideo_activity.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\common_head_title_white.xml",
+        "source": "D:\\supperWechat\\res\\layout\\common_head_title_white.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_location.xml",
+        "source": "D:\\supperWechat\\res\\layout\\row_received_location.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\context_menu_for_text.xml",
+        "source": "D:\\supperWechat\\res\\layout\\context_menu_for_text.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choosevideoactivity.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_choosevideoactivity.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\commom_back_btn.xml",
+        "source": "D:\\supperWechat\\res\\layout\\commom_back_btn.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_black_list.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_black_list.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\item_new_good.xml",
+        "source": "D:\\supperWechat\\res\\layout\\item_new_good.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\layout_property_color.xml",
+        "source": "D:\\supperWechat\\res\\layout\\layout_property_color.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\common_head_title.xml",
+        "source": "D:\\supperWechat\\res\\layout\\common_head_title.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_voice.xml",
+        "source": "D:\\supperWechat\\res\\layout\\row_sent_voice.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\context_menu_for_voice.xml",
+        "source": "D:\\supperWechat\\res\\layout\\context_menu_for_voice.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_boutique_child.xml",
+        "source": "D:\\supperWechat\\res\\layout\\activity_boutique_child.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\item_boutique.xml",
+        "source": "D:\\supperWechat\\res\\layout\\item_boutique.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\layout\\row_group.xml",
+        "source": "D:\\supperWechat\\res\\layout\\row_group.xml"
     }
 ]

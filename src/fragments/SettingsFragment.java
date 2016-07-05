@@ -33,16 +33,16 @@ import com.easemob.EMCallBack;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMChatOptions;
 
-import cn.ucai.superwechat.Constant;
-import cn.ucai.superwechat.DemoHXSDKHelper;
-import cn.ucai.superwechat.DemoHXSDKModel;
-import cn.ucai.superwechat.activity.BlacklistActivity;
-import cn.ucai.superwechat.activity.DiagnoseActivity;
-import cn.ucai.superwechat.activity.LoginActivity;
-import cn.ucai.superwechat.activity.MainActivity;
-import cn.ucai.superwechat.activity.OfflinePushNickActivity;
-import cn.ucai.superwechat.activity.UserProfileActivity;
-import cn.ucai.superwechat.applib.controller.HXSDKHelper;
+import cn.ucai.fulicenter.Constant;
+import cn.ucai.fulicenter.DemoHXSDKHelper;
+import cn.ucai.fulicenter.DemoHXSDKModel;
+import cn.ucai.fulicenter.activity.BlacklistActivity;
+import cn.ucai.fulicenter.activity.DiagnoseActivity;
+import cn.ucai.fulicenter.activity.LoginActivity;
+import cn.ucai.fulicenter.activity.MainActivity;
+import cn.ucai.fulicenter.activity.OfflinePushNickActivity;
+import cn.ucai.fulicenter.activity.UserProfileActivity;
+import cn.ucai.fulicenter.applib.controller.HXSDKHelper;
 
 /**
  * 设置界面
@@ -135,7 +135,7 @@ public class SettingsFragment extends Fragment implements OnClickListener {
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		return inflater.inflate(cn.ucai.superwechat.R.layout.fragment_conversation_settings, container, false);
+		return inflater.inflate(cn.ucai.fulicenter.R.layout.fragment_conversation_settings, container, false);
 	}
 
 	@Override
@@ -143,37 +143,37 @@ public class SettingsFragment extends Fragment implements OnClickListener {
 		super.onActivityCreated(savedInstanceState);
 		if(savedInstanceState != null && savedInstanceState.getBoolean("isConflict", false))
             return;
-		rl_switch_notification = (RelativeLayout) getView().findViewById(cn.ucai.superwechat.R.id.rl_switch_notification);
-		rl_switch_sound = (RelativeLayout) getView().findViewById(cn.ucai.superwechat.R.id.rl_switch_sound);
-		rl_switch_vibrate = (RelativeLayout) getView().findViewById(cn.ucai.superwechat.R.id.rl_switch_vibrate);
-		rl_switch_speaker = (RelativeLayout) getView().findViewById(cn.ucai.superwechat.R.id.rl_switch_speaker);
-		rl_switch_chatroom_leave = (RelativeLayout) getView().findViewById(cn.ucai.superwechat.R.id.rl_switch_chatroom_owner_leave);
+		rl_switch_notification = (RelativeLayout) getView().findViewById(cn.ucai.fulicenter.R.id.rl_switch_notification);
+		rl_switch_sound = (RelativeLayout) getView().findViewById(cn.ucai.fulicenter.R.id.rl_switch_sound);
+		rl_switch_vibrate = (RelativeLayout) getView().findViewById(cn.ucai.fulicenter.R.id.rl_switch_vibrate);
+		rl_switch_speaker = (RelativeLayout) getView().findViewById(cn.ucai.fulicenter.R.id.rl_switch_speaker);
+		rl_switch_chatroom_leave = (RelativeLayout) getView().findViewById(cn.ucai.fulicenter.R.id.rl_switch_chatroom_owner_leave);
 
-		iv_switch_open_notification = (ImageView) getView().findViewById(cn.ucai.superwechat.R.id.iv_switch_open_notification);
-		iv_switch_close_notification = (ImageView) getView().findViewById(cn.ucai.superwechat.R.id.iv_switch_close_notification);
-		iv_switch_open_sound = (ImageView) getView().findViewById(cn.ucai.superwechat.R.id.iv_switch_open_sound);
-		iv_switch_close_sound = (ImageView) getView().findViewById(cn.ucai.superwechat.R.id.iv_switch_close_sound);
-		iv_switch_open_vibrate = (ImageView) getView().findViewById(cn.ucai.superwechat.R.id.iv_switch_open_vibrate);
-		iv_switch_close_vibrate = (ImageView) getView().findViewById(cn.ucai.superwechat.R.id.iv_switch_close_vibrate);
-		iv_switch_open_speaker = (ImageView) getView().findViewById(cn.ucai.superwechat.R.id.iv_switch_open_speaker);
-		iv_switch_close_speaker = (ImageView) getView().findViewById(cn.ucai.superwechat.R.id.iv_switch_close_speaker);
+		iv_switch_open_notification = (ImageView) getView().findViewById(cn.ucai.fulicenter.R.id.iv_switch_open_notification);
+		iv_switch_close_notification = (ImageView) getView().findViewById(cn.ucai.fulicenter.R.id.iv_switch_close_notification);
+		iv_switch_open_sound = (ImageView) getView().findViewById(cn.ucai.fulicenter.R.id.iv_switch_open_sound);
+		iv_switch_close_sound = (ImageView) getView().findViewById(cn.ucai.fulicenter.R.id.iv_switch_close_sound);
+		iv_switch_open_vibrate = (ImageView) getView().findViewById(cn.ucai.fulicenter.R.id.iv_switch_open_vibrate);
+		iv_switch_close_vibrate = (ImageView) getView().findViewById(cn.ucai.fulicenter.R.id.iv_switch_close_vibrate);
+		iv_switch_open_speaker = (ImageView) getView().findViewById(cn.ucai.fulicenter.R.id.iv_switch_open_speaker);
+		iv_switch_close_speaker = (ImageView) getView().findViewById(cn.ucai.fulicenter.R.id.iv_switch_close_speaker);
 		
-		iv_switch_room_owner_leave_allow = (ImageView) getView().findViewById(cn.ucai.superwechat.R.id.iv_switch_chatroom_owner_leave_allow);
-		iv_switch_room_owner_leave_disallow = (ImageView) getView().findViewById(cn.ucai.superwechat.R.id.iv_switch_chatroom_owner_leave_not_allow);
+		iv_switch_room_owner_leave_allow = (ImageView) getView().findViewById(cn.ucai.fulicenter.R.id.iv_switch_chatroom_owner_leave_allow);
+		iv_switch_room_owner_leave_disallow = (ImageView) getView().findViewById(cn.ucai.fulicenter.R.id.iv_switch_chatroom_owner_leave_not_allow);
 		
 		
-		logoutBtn = (Button) getView().findViewById(cn.ucai.superwechat.R.id.btn_logout);
+		logoutBtn = (Button) getView().findViewById(cn.ucai.fulicenter.R.id.btn_logout);
 		if(!TextUtils.isEmpty(EMChatManager.getInstance().getCurrentUser())){
-			logoutBtn.setText(getString(cn.ucai.superwechat.R.string.button_logout) + "(" + EMChatManager.getInstance().getCurrentUser() + ")");
+			logoutBtn.setText(getString(cn.ucai.fulicenter.R.string.button_logout) + "(" + EMChatManager.getInstance().getCurrentUser() + ")");
 		}
 
-		textview1 = (TextView) getView().findViewById(cn.ucai.superwechat.R.id.textview1);
-		textview2 = (TextView) getView().findViewById(cn.ucai.superwechat.R.id.textview2);
+		textview1 = (TextView) getView().findViewById(cn.ucai.fulicenter.R.id.textview1);
+		textview2 = (TextView) getView().findViewById(cn.ucai.fulicenter.R.id.textview2);
 		
-		blacklistContainer = (LinearLayout) getView().findViewById(cn.ucai.superwechat.R.id.ll_black_list);
-		userProfileContainer = (LinearLayout) getView().findViewById(cn.ucai.superwechat.R.id.ll_user_profile);
-		llDiagnose=(LinearLayout) getView().findViewById(cn.ucai.superwechat.R.id.ll_diagnose);
-		pushNick=(LinearLayout) getView().findViewById(cn.ucai.superwechat.R.id.ll_set_push_nick);
+		blacklistContainer = (LinearLayout) getView().findViewById(cn.ucai.fulicenter.R.id.ll_black_list);
+		userProfileContainer = (LinearLayout) getView().findViewById(cn.ucai.fulicenter.R.id.ll_user_profile);
+		llDiagnose=(LinearLayout) getView().findViewById(cn.ucai.fulicenter.R.id.ll_diagnose);
+		pushNick=(LinearLayout) getView().findViewById(cn.ucai.fulicenter.R.id.ll_set_push_nick);
 		
 		blacklistContainer.setOnClickListener(this);
 		userProfileContainer.setOnClickListener(this);
@@ -244,7 +244,7 @@ public class SettingsFragment extends Fragment implements OnClickListener {
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
-		case cn.ucai.superwechat.R.id.rl_switch_notification:
+		case cn.ucai.fulicenter.R.id.rl_switch_notification:
 			if (iv_switch_open_notification.getVisibility() == View.VISIBLE) {
 				iv_switch_open_notification.setVisibility(View.INVISIBLE);
 				iv_switch_close_notification.setVisibility(View.VISIBLE);
@@ -268,7 +268,7 @@ public class SettingsFragment extends Fragment implements OnClickListener {
 				HXSDKHelper.getInstance().getModel().setSettingMsgNotification(true);
 			}
 			break;
-		case cn.ucai.superwechat.R.id.rl_switch_sound:
+		case cn.ucai.fulicenter.R.id.rl_switch_sound:
 			if (iv_switch_open_sound.getVisibility() == View.VISIBLE) {
 				iv_switch_open_sound.setVisibility(View.INVISIBLE);
 				iv_switch_close_sound.setVisibility(View.VISIBLE);
@@ -283,7 +283,7 @@ public class SettingsFragment extends Fragment implements OnClickListener {
 				HXSDKHelper.getInstance().getModel().setSettingMsgSound(true);
 			}
 			break;
-		case cn.ucai.superwechat.R.id.rl_switch_vibrate:
+		case cn.ucai.fulicenter.R.id.rl_switch_vibrate:
 			if (iv_switch_open_vibrate.getVisibility() == View.VISIBLE) {
 				iv_switch_open_vibrate.setVisibility(View.INVISIBLE);
 				iv_switch_close_vibrate.setVisibility(View.VISIBLE);
@@ -298,7 +298,7 @@ public class SettingsFragment extends Fragment implements OnClickListener {
 				HXSDKHelper.getInstance().getModel().setSettingMsgVibrate(true);
 			}
 			break;
-		case cn.ucai.superwechat.R.id.rl_switch_speaker:
+		case cn.ucai.fulicenter.R.id.rl_switch_speaker:
 			if (iv_switch_open_speaker.getVisibility() == View.VISIBLE) {
 				iv_switch_open_speaker.setVisibility(View.INVISIBLE);
 				iv_switch_close_speaker.setVisibility(View.VISIBLE);
@@ -313,7 +313,7 @@ public class SettingsFragment extends Fragment implements OnClickListener {
 				HXSDKHelper.getInstance().getModel().setSettingMsgVibrate(true);
 			}
 			break;
-		case cn.ucai.superwechat.R.id.rl_switch_chatroom_owner_leave:
+		case cn.ucai.fulicenter.R.id.rl_switch_chatroom_owner_leave:
 		    if(this.iv_switch_room_owner_leave_allow.getVisibility() == View.VISIBLE){
 		        iv_switch_room_owner_leave_allow.setVisibility(View.INVISIBLE);
                 iv_switch_room_owner_leave_disallow.setVisibility(View.VISIBLE);
@@ -329,19 +329,19 @@ public class SettingsFragment extends Fragment implements OnClickListener {
                 model.allowChatroomOwnerLeave(true);
 		    }
 		    break;
-		case cn.ucai.superwechat.R.id.btn_logout: //退出登陆
+		case cn.ucai.fulicenter.R.id.btn_logout: //退出登陆
 			logout();
 			break;
-		case cn.ucai.superwechat.R.id.ll_black_list:
+		case cn.ucai.fulicenter.R.id.ll_black_list:
 			startActivity(new Intent(getActivity(), BlacklistActivity.class));
 			break;
-		case cn.ucai.superwechat.R.id.ll_diagnose:
+		case cn.ucai.fulicenter.R.id.ll_diagnose:
 			startActivity(new Intent(getActivity(), DiagnoseActivity.class));
 			break;
-		case cn.ucai.superwechat.R.id.ll_set_push_nick:
+		case cn.ucai.fulicenter.R.id.ll_set_push_nick:
 			startActivity(new Intent(getActivity(), OfflinePushNickActivity.class));
 			break;
-		case cn.ucai.superwechat.R.id.ll_user_profile:
+		case cn.ucai.fulicenter.R.id.ll_user_profile:
 			startActivity(new Intent(getActivity(), UserProfileActivity.class).putExtra("setting", true));
 			break;
 		default:
@@ -352,7 +352,7 @@ public class SettingsFragment extends Fragment implements OnClickListener {
 
 	void logout() {
 		final ProgressDialog pd = new ProgressDialog(getActivity());
-		String st = getResources().getString(cn.ucai.superwechat.R.string.Are_logged_out);
+		String st = getResources().getString(cn.ucai.fulicenter.R.string.Are_logged_out);
 		pd.setMessage(st);
 		pd.setCanceledOnTouchOutside(false);
 		pd.show();

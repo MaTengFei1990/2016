@@ -1,6 +1,14 @@
 [
     {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\color\\wallet_base_dialog_btntext_color_selector.xml",
+        "source": "D:\\supperWechat\\res\\color\\wallet_base_dialog_btntext_color_selector.xml"
+    },
+    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\color\\main_botton_text_color.xml",
         "source": "D:\\supperWechat\\res\\color\\main_botton_text_color.xml"
+    },
+    {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\color\\wallet_base_click_text_color.xml",
+        "source": "D:\\supperWechat\\res\\color\\wallet_base_click_text_color.xml"
     }
 ]

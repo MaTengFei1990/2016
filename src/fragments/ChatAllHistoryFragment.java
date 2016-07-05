@@ -40,12 +40,12 @@ import java.util.Comparator;
 import java.util.Hashtable;
 import java.util.List;
 
-import cn.ucai.superwechat.Constant;
-import cn.ucai.superwechat.SuperweChatApplication;
-import cn.ucai.superwechat.activity.ChatActivity;
-import cn.ucai.superwechat.activity.MainActivity;
-import cn.ucai.superwechat.adapter.ChatAllHistoryAdapter;
-import cn.ucai.superwechat.db.InviteMessgeDao;
+import cn.ucai.fulicenter.Constant;
+import cn.ucai.fulicenter.FuLiCenterApplication;
+import cn.ucai.fulicenter.activity.ChatActivity;
+import cn.ucai.fulicenter.activity.MainActivity;
+import cn.ucai.fulicenter.adapter.ChatAllHistoryAdapter;
+import cn.ucai.fulicenter.db.InviteMessgeDao;
 
 
 /**
@@ -67,7 +67,7 @@ public class ChatAllHistoryFragment extends Fragment implements OnClickListener 
 		
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		return inflater.inflate(cn.ucai.superwechat.R.layout.fragment_conversation_history, container, false);
+		return inflater.inflate(cn.ucai.fulicenter.R.layout.fragment_conversation_history, container, false);
 	}
 
 	@Override
@@ -76,24 +76,24 @@ public class ChatAllHistoryFragment extends Fragment implements OnClickListener 
 		if(savedInstanceState != null && savedInstanceState.getBoolean("isConflict", false))
             return;
 		inputMethodManager = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
-		errorItem = (RelativeLayout) getView().findViewById(cn.ucai.superwechat.R.id.rl_error_item);
-		errorText = (TextView) errorItem.findViewById(cn.ucai.superwechat.R.id.tv_connect_errormsg);
+		errorItem = (RelativeLayout) getView().findViewById(cn.ucai.fulicenter.R.id.rl_error_item);
+		errorText = (TextView) errorItem.findViewById(cn.ucai.fulicenter.R.id.tv_connect_errormsg);
 		
 		conversationList.addAll(loadConversationsWithRecentChat());
-		listView = (ListView) getView().findViewById(cn.ucai.superwechat.R.id.list);
+		listView = (ListView) getView().findViewById(cn.ucai.fulicenter.R.id.list);
 		adapter = new ChatAllHistoryAdapter(getActivity(), 1, conversationList);
 		// 设置adapter
 		listView.setAdapter(adapter);
 				
 		
-		final String st2 = getResources().getString(cn.ucai.superwechat.R.string.Cant_chat_with_yourself);
+		final String st2 = getResources().getString(cn.ucai.fulicenter.R.string.Cant_chat_with_yourself);
 		listView.setOnItemClickListener(new OnItemClickListener() {
 
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				EMConversation conversation = adapter.getItem(position);
 				String username = conversation.getUserName();
-				if (username.equals(SuperweChatApplication.getInstance().getUserName()))
+				if (username.equals(FuLiCenterApplication.getInstance().getUserName()))
 					Toast.makeText(getActivity(), st2, Toast.LENGTH_SHORT).show();
 				else {
 				    // 进入聊天页面
@@ -131,11 +131,11 @@ public class ChatAllHistoryFragment extends Fragment implements OnClickListener 
 
 		});
 		// 搜索框
-		query = (EditText) getView().findViewById(cn.ucai.superwechat.R.id.query);
-		String strSearch = getResources().getString(cn.ucai.superwechat.R.string.search);
+		query = (EditText) getView().findViewById(cn.ucai.fulicenter.R.id.query);
+		String strSearch = getResources().getString(cn.ucai.fulicenter.R.string.search);
 		query.setHint(strSearch);
 		// 搜索框中清除button
-		clearSearch = (ImageButton) getView().findViewById(cn.ucai.superwechat.R.id.search_clear);
+		clearSearch = (ImageButton) getView().findViewById(cn.ucai.fulicenter.R.id.search_clear);
 		query.addTextChangedListener(new TextWatcher() {
 			public void onTextChanged(CharSequence s, int start, int before, int count) {
 				adapter.getFilter().filter(s);
@@ -173,7 +173,7 @@ public class ChatAllHistoryFragment extends Fragment implements OnClickListener 
 	public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
 		super.onCreateContextMenu(menu, v, menuInfo);
 		// if(((AdapterContextMenuInfo)menuInfo).position > 0){ m,
-		getActivity().getMenuInflater().inflate(cn.ucai.superwechat.R.menu.delete_message, menu);
+		getActivity().getMenuInflater().inflate(cn.ucai.fulicenter.R.menu.delete_message, menu);
 		// }
 	}
 
@@ -181,10 +181,10 @@ public class ChatAllHistoryFragment extends Fragment implements OnClickListener 
 	public boolean onContextItemSelected(MenuItem item) {
 		boolean handled = false;
 		boolean deleteMessage = false;
-		if (item.getItemId() == cn.ucai.superwechat.R.id.delete_message) {
+		if (item.getItemId() == cn.ucai.fulicenter.R.id.delete_message) {
 			deleteMessage = true;
 			handled = true;
-		} else if (item.getItemId() == cn.ucai.superwechat.R.id.delete_conversation) {
+		} else if (item.getItemId() == cn.ucai.fulicenter.R.id.delete_conversation) {
 			deleteMessage = false;
 			handled = true;
 		}

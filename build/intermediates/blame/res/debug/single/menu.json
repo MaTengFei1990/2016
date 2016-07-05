@@ -12,6 +12,10 @@
         "source": "D:\\supperWechat\\res\\menu\\context_contact_list.xml"
     },
     {
+        "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\menu\\category_child.xml",
+        "source": "D:\\supperWechat\\res\\menu\\category_child.xml"
+    },
+    {
         "merged": "D:\\supperWechat\\build\\intermediates\\res\\merged\\debug\\menu\\remove_from_blacklist.xml",
         "source": "D:\\supperWechat\\res\\menu\\remove_from_blacklist.xml"
     },

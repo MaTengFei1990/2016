@@ -22,6 +22,16 @@
           <theme>@android:style/Theme.Holo</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_fuli_center_main.xml">
+        <config>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_good_details.xml">
+        <config>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/res/layout/activity_login.xml">
         <config>
           <theme>@android:style/Theme.Holo</theme>
@@ -37,13 +47,295 @@
           <theme>@android:style/Theme.Holo</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/fragment_personal_center.xml">
+        <config>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/item_cart.xml">
+        <config>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7953cd2b-4cd9-44a6-9064-a8c056911866" name="Default" comment="" />
+    <list default="true" id="7953cd2b-4cd9-44a6-9064-a8c056911866" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jackson-core-asl-1.9.11.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/splash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/splash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/splash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxxhdpi/splash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_boutique_child.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_category_child.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_collect.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_fuli_center_main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_good_details.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/common_head_back.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/common_head_title.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/common_head_title_white.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/common_refresh_hint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fragment_boutique.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fragment_cart.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fragment_category.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fragment_new_good.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fragment_personal_center.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_boutique.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_cart.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_cat_filter.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_categroy_child.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_categroy_group.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_collect.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_color_filter.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_footer.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_new_good.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/layout_property_color.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/simple_grid_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/D.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/BoutiqueChildActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/CategoryChildActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/CollectActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/FuliCenterMainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/GoodDetailActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/SettingsActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/BoutiqueAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/CartAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/CategoryAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/CollectAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/GoodAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/AlbumBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/BoutiqueBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/CartBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/CategoryChildBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/CategoryGroupBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/CollectBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/ColorBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/GoodDetailsBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/MessageBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/NewGoodBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/PropertyBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/task/DownloadCartListTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/task/DownloadCollectCountTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/task/UpdateCartTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/view/CatChildFilterButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/view/ColorFilterButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/view/DisplayUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/view/FlowIndicator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/view/FooterViewHolder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/view/SlideAutoLoopView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fragments/BoutiqueFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fragments/CartFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fragments/CategoryFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fragments/NewGoodFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fragments/PersonalCenterFragment.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi-v4/splash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/android-support-v4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/splash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ChatRoomActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ChatRoomDetailsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ExitGroupDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupBlacklistActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupDetailsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupPickContactsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupSimpleDetailActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/NewGroupActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/PublicGroupsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/PublicGroupsSeachActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/GroupAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/bean/Group.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/bean/Location.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/bean/Member.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/task/DownLoadGroupMemberTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/task/DownloadAllGroupTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/task/DownloadPublicGroupTask.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi-v4/logo_uidemo.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi-v4/logo_uidemo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/logo_uidemo.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/logo_uidemo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/anim.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/color.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-nodpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-nodpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/menu.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/menu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/color/main_botton_text_color.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/color/main_botton_text_color.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_chat.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_chat.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_group_details.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_group_details.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_group_pick_contacts.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_group_pick_contacts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_login.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_pick_contact_no_checkbox.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_pick_contact_no_checkbox.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_register.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_register.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_show_big_image.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_show_big_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_splash.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_video_call.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_video_call.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_voice_call.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_voice_call.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/choose_griditem.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/choose_griditem.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/expression_gridview.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/expression_gridview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_contact_list.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_contact_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-zh-rCN/values-zh-rCN.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-zh-rCN/values-zh-rCN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/color/main_botton_text_color.xml" afterPath="$PROJECT_DIR$/res/color/main_botton_text_color.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_chat.xml" afterPath="$PROJECT_DIR$/res/layout/activity_chat.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_group_details.xml" afterPath="$PROJECT_DIR$/res/layout/activity_group_details.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_group_pick_contacts.xml" afterPath="$PROJECT_DIR$/res/layout/activity_group_pick_contacts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_pick_contact_no_checkbox.xml" afterPath="$PROJECT_DIR$/res/layout/activity_pick_contact_no_checkbox.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_register.xml" afterPath="$PROJECT_DIR$/res/layout/activity_register.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_show_big_image.xml" afterPath="$PROJECT_DIR$/res/layout/activity_show_big_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/res/layout/activity_splash.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_video_call.xml" afterPath="$PROJECT_DIR$/res/layout/activity_video_call.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_voice_call.xml" afterPath="$PROJECT_DIR$/res/layout/activity_voice_call.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/choose_griditem.xml" afterPath="$PROJECT_DIR$/res/layout/choose_griditem.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/expression_gridview.xml" afterPath="$PROJECT_DIR$/res/layout/expression_gridview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment_contact_list.xml" afterPath="$PROJECT_DIR$/res/layout/fragment_contact_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-zh-rCN/strings.xml" afterPath="$PROJECT_DIR$/res/values-zh-rCN/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/attrs.xml" afterPath="$PROJECT_DIR$/res/values/attrs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fragments/ChatAllHistoryFragment.java" afterPath="$PROJECT_DIR$/src/fragments/ChatAllHistoryFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fragments/ChatHistoryFragment.java" afterPath="$PROJECT_DIR$/src/fragments/ChatHistoryFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fragments/ContactlistFragment.java" afterPath="$PROJECT_DIR$/src/fragments/ContactlistFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fragments/ImageGridFragment.java" afterPath="$PROJECT_DIR$/src/fragments/ImageGridFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fragments/SettingsFragment.java" afterPath="$PROJECT_DIR$/src/fragments/SettingsFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supperWechat.iml" afterPath="$PROJECT_DIR$/supperWechat.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/Constant.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/Constant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/DemoHXSDKHelper.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/DemoHXSDKHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/DemoHXSDKModel.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/DemoHXSDKModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/I.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/I.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/SuperweChatApplication.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/FuLiCenterApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/UserProfileManager.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/UserProfileManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/AddContactActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/AddContactActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/AlertDialog.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/AlertDialog.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/BaiduMapActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/BaiduMapActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/BaseActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/BaseActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/BlacklistActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/BlacklistActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/CallActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/CallActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ChatActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/ChatActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ContextMenu.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/ContextMenu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/DiagnoseActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/DiagnoseActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/EditActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/EditActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ForwardMessageActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/ForwardMessageActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ImageGridActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/ImageGridActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/LoginActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/LoginActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/MainActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/NewFriendsMsgActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/NewFriendsMsgActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/OfflinePushNickActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/OfflinePushNickActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/PickContactNoCheckboxActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/PickContactNoCheckboxActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/PublicChatRoomsActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/PublicChatRoomsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/RecorderVideoActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/RecorderVideoActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/RegisterActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/RegisterActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/RobotsActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/RobotsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ShowBigImage.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/ShowBigImage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ShowNormalFileActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/ShowNormalFileActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ShowVideoActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/ShowVideoActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/SplashActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/SplashActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/UserProfileActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/UserProfileActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/VideoCallActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/VideoCallActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/VoiceCallActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/VoiceCallActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/ChatAllHistoryAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/ChatAllHistoryAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/ChatHistoryAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/ChatHistoryAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/ChatRoomAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/ChatRoomAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/ContactAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/ContactAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/ExpressionAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/ExpressionAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/ExpressionPagerAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/ExpressionPagerAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/MessageAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/MessageAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/NewFriendsMsgAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/VoicePlayClickListener.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/VoicePlayClickListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/applib/controller/HXSDKHelper.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/applib/controller/HXSDKHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/applib/model/DefaultHXSDKModel.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/applib/model/DefaultHXSDKModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/applib/model/GroupRemoveListener.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/applib/model/GroupRemoveListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/applib/model/HXNotifier.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/applib/model/HXNotifier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/applib/model/HXSDKModel.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/applib/model/HXSDKModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/applib/utils/HXPreferenceUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/applib/utils/HXPreferenceUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/bean/Avatar.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/Avatar.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/bean/Contact.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/Contact.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/bean/Message.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/Message.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/bean/User.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/data/ApiParams.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/data/ApiParams.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/data/BitmapLruCache.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/data/BitmapLruCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/data/GsonRequest.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/data/GsonRequest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/data/MultipartRequest.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/data/MultipartRequest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/data/OkHttpUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/data/OkHttpUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/data/RequestManager.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/data/RequestManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/db/DbOpenHelper.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/db/DbOpenHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/db/DemoDBManager.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/db/DemoDBManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/db/EMUserDao.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/db/EMUserDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/db/InviteMessgeDao.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/db/InviteMessgeDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/db/UserDao.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/db/UserDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/domain/EMUser.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/domain/EMUser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/domain/InviteMessage.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/domain/InviteMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/domain/RobotUser.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/domain/RobotUser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/domain/VideoEntity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/domain/VideoEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/listener/OnSetAvatarListener.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/listener/OnSetAvatarListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/parse/ParseManager.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/parse/ParseManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/receiver/CallReceiver.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/receiver/CallReceiver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/receiver/GCMPushBroadCast.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/receiver/GCMPushBroadCast.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/task/DownloadContactListTask.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/task/DownloadContactListTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/task/DownloadImageTask.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/task/DownloadImageTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/task/LoadImageTask.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/task/LoadImageTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/task/LoadLocalBigImgTask.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/task/LoadLocalBigImgTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/task/LoadVideoImageTask.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/task/LoadVideoImageTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/BitmapUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/BitmapUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/CameraHelper.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/CameraHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/CommonUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/CommonUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/DateUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/DateUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/FileUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/FileUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/HttpUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/HttpUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/ImageCache.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/ImageCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/ImageLoader.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/ImageLoader.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/ImageUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/ImageUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/MD5.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/MD5.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/PreferenceUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/PreferenceUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/SmileUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/SmileUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/UserUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/UserUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/Utils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/Utils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/video/util/ImageCache.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/video/util/ImageCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/video/util/ImageResizer.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/video/util/ImageResizer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/video/util/ImageWorker.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/video/util/ImageWorker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/video/util/RecyclingBitmapDrawable.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/video/util/RecyclingBitmapDrawable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/video/util/Utils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/video/util/Utils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/ExpandGridView.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/widget/ExpandGridView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/MyChronometer.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/widget/MyChronometer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/PasteEditText.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/widget/PasteEditText.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/RecyclingImageView.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/widget/RecyclingImageView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/Sidebar.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/widget/Sidebar.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/photoview/Compat.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/widget/photoview/Compat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/photoview/IPhotoView.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/widget/photoview/IPhotoView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/photoview/PhotoView.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/widget/photoview/PhotoView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/photoview/PhotoViewAttacher.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/widget/photoview/PhotoViewAttacher.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/photoview/SDK16.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/widget/photoview/SDK16.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/photoview/ScrollerProxy.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/widget/photoview/ScrollerProxy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/photoview/VersionedGestureDetector.java" afterPath="$PROJECT_DIR$/src/cn/ucai/fulicenter/widget/photoview/VersionedGestureDetector.java" />
+    </list>
     <ignored path="supperWechat.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -91,52 +383,141 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="GroupAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/GroupAdapter.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="149" column="25" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
+            <state vertical-scroll-proportion="-3.8181818">
+              <caret line="317" column="22" selection-start-line="317" selection-start-column="22" selection-end-line="317" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/activity/LoginActivity.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="89" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupPickContactsActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupPickContactsActivity.java">
+      <file leaf-file-name="OkHttpUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/data/OkHttpUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#8191#8192#0" expanded="false" />
+                <element signature="e#8232#8233#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#1147#1148#0" expanded="false" />
+                <element signature="e#1173#1174#0" expanded="false" />
+                <element signature="e#1217#1218#0" expanded="false" />
+                <element signature="e#1246#1247#0" expanded="false" />
+                <element signature="e#1279#1280#0" expanded="false" />
+                <element signature="e#1307#1308#0" expanded="false" />
+                <element signature="e#1354#1355#0" expanded="false" />
+                <element signature="e#1387#1388#0" expanded="false" />
+                <element signature="e#1424#1425#0" expanded="false" />
+                <element signature="e#1456#1457#0" expanded="false" />
+                <element signature="e#1511#1512#0" expanded="false" />
+                <element signature="e#1552#1553#0" expanded="false" />
+                <element signature="e#1585#1586#0" expanded="false" />
+                <element signature="e#1613#1614#0" expanded="false" />
+                <element signature="e#1660#1661#0" expanded="false" />
+                <element signature="e#1693#1694#0" expanded="false" />
+                <element signature="e#1737#1738#0" expanded="false" />
+                <element signature="e#1775#1776#0" expanded="false" />
+                <element signature="e#2183#2184#0" expanded="false" />
+                <element signature="e#2203#2204#0" expanded="false" />
+                <element signature="e#2244#2245#0" expanded="false" />
+                <element signature="e#2271#2272#0" expanded="false" />
+                <element signature="e#2519#2520#0" expanded="false" />
+                <element signature="e#2553#2554#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GsonRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/data/GsonRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding>
+                <element signature="e#1397#1398#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodDetailActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/GoodDetailActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+              <folding>
+                <element signature="e#2370#2615#0" expanded="true" />
+                <element signature="e#2709#4821#0" expanded="true" />
+                <element signature="e#4820#4821#0" expanded="true" />
+                <element signature="e#12584#12609#0" expanded="true" />
+                <element signature="e#13088#13116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HXSDKHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/applib/controller/HXSDKHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupsActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupsActivity.java">
+      <file leaf-file-name="DemoHXSDKHelper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/DemoHXSDKHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.13712375">
+              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupSimpleDetailActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupSimpleDetailActivity.java">
+      <file leaf-file-name="ShareSDK.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/ShareSDK.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6166365">
-              <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+            <state vertical-scroll-proportion="154.90909">
+              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DownloadCollectCountTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/task/DownloadCollectCountTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,6 +527,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="layoutResourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -624,6 +1007,16 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:23.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72330Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:23.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportV42330Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareDebugAndroidTestDependencies" />
               </ExternalTaskPojo>
@@ -811,7 +1204,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1463979164217" />
+        <entry key="$PROJECT_DIR$" value="1467702492884" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -826,19 +1219,38 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$MODULE_DIR$/libs/android-support-v4.jar" />
+                            <option value="D:/android-sdk-windows/extras/android/m2repository/com/android/support/recyclerview-v7/23.3.0/recyclerview-v7-23.3.0.aar" />
+                            <option value="D:/android-sdk-windows/extras/android/m2repository/com/android/support/support-v4/23.3.0/support-v4-23.3.0.aar" />
+                            <option value="D:/android-sdk-windows/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar" />
                             <option value="$MODULE_DIR$/libs/baidumapapi_v3_2_0.jar" />
                             <option value="$MODULE_DIR$/libs/bolts-android-1.2.0.jar" />
                             <option value="$MODULE_DIR$/libs/easemobchat_2.2.8.jar" />
                             <option value="$MODULE_DIR$/libs/google-play-services.jar" />
                             <option value="$MODULE_DIR$/libs/gson-2.2.4.jar" />
+                            <option value="$MODULE_DIR$/libs/jackson-core-asl-1.9.11.jar" />
                             <option value="$MODULE_DIR$/libs/locSDK_3.3.jar" />
                             <option value="$MODULE_DIR$/libs/MiPush_SDK_Client_2_2_19.jar" />
+                            <option value="$MODULE_DIR$/libs/MobCommons-2016.0426.1819.jar" />
+                            <option value="$MODULE_DIR$/libs/MobTools-2016.0426.1819.jar" />
                             <option value="$MODULE_DIR$/libs/okhttp-2.7.5.jar" />
+                            <option value="$MODULE_DIR$/libs/okhttp-urlconnection-2.7.5.jar" />
                             <option value="$MODULE_DIR$/libs/okio-1.6.0.jar" />
                             <option value="$MODULE_DIR$/libs/org.apache.http.legacy.jar" />
                             <option value="$MODULE_DIR$/libs/Parse-1.9.4.jar" />
                             <option value="$MODULE_DIR$/libs/picasso-2.4.0.jar" />
+                            <option value="$MODULE_DIR$/libs/ShareSDK-Core-2.7.2.jar" />
+                            <option value="$MODULE_DIR$/libs/ShareSDK-Email-2.7.2.jar" />
+                            <option value="$MODULE_DIR$/libs/ShareSDK-Facebook-2.7.2.jar" />
+                            <option value="$MODULE_DIR$/libs/ShareSDK-QQ-2.7.2.jar" />
+                            <option value="$MODULE_DIR$/libs/ShareSDK-QZone-2.7.2.jar" />
+                            <option value="$MODULE_DIR$/libs/ShareSDK-ShortMessage-2.7.2.jar" />
+                            <option value="$MODULE_DIR$/libs/ShareSDK-SinaWeibo-2.7.2.jar" />
+                            <option value="$MODULE_DIR$/libs/ShareSDK-TencentWeibo-2.7.2.jar" />
+                            <option value="$MODULE_DIR$/libs/ShareSDK-Twitter-2.7.2.jar" />
+                            <option value="$MODULE_DIR$/libs/ShareSDK-Wechat-2.7.2.jar" />
+                            <option value="$MODULE_DIR$/libs/ShareSDK-Wechat-Core-2.7.2.jar" />
+                            <option value="$MODULE_DIR$/libs/ShareSDK-Wechat-Favorite-2.7.2.jar" />
+                            <option value="$MODULE_DIR$/libs/ShareSDK-Wechat-Moments-2.7.2.jar" />
                             <option value="$MODULE_DIR$/libs/umeng-analytics-v5.2.4.jar" />
                             <option value="$MODULE_DIR$/libs/volley.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.1.0/gradle-2.1.0.jar" />
@@ -1004,65 +1416,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/row_received_file.xml" />
-        <option value="$PROJECT_DIR$/res/layout/row_sent_file.xml" />
-        <option value="$PROJECT_DIR$/res/layout/row_received_voice_call.xml" />
-        <option value="$PROJECT_DIR$/res/layout/row_sent_voice_call.xml" />
-        <option value="$PROJECT_DIR$/res/layout/row_received_video_call.xml" />
-        <option value="$PROJECT_DIR$/res/layout/row_sent_video_call.xml" />
-        <option value="$PROJECT_DIR$/res/layout/row_received_menu.xml" />
-        <option value="$PROJECT_DIR$/res/layout/row_sent_message.xml" />
-        <option value="$PROJECT_DIR$/res/layout/row_received_message.xml" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/MessageAdapter.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ForwardMessageActivity.java" />
-        <option value="$PROJECT_DIR$/src/fragments/ChatHistoryFragment.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/DemoHXSDKHelper.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/PickContactNoCheckboxActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/row_robots.xml" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/bean/User.java" />
-        <option value="$PROJECT_DIR$/res/values-zh-rCN/strings.xml" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/ChatActivity.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/task/DownloadContactListTask.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/data/ApiParams.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/AddContactActivity.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/MainActivity.java" />
-        <option value="$PROJECT_DIR$/src/fragments/ChatAllHistoryFragment.java" />
-        <option value="$PROJECT_DIR$/res/layout/activity_user_profile.xml" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/RegisterActivity.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/parse/ParseManager.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/UserProfileActivity.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/listener/OnSetAvatarListener.java" />
-        <option value="$PROJECT_DIR$/res/layout/activity_new_group.xml" />
-        <option value="$PROJECT_DIR$/res/layout/row_contact_with_checkbox.xml" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupPickContactsActivity.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/bean/Group.java" />
-        <option value="$PROJECT_DIR$/res/layout/row_group.xml" />
-        <option value="$PROJECT_DIR$/res/layout/activity_group_simle_details.xml" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupSimpleDetailActivity.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/PublicGroupsActivity.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/NewGroupActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/row_invite_msg.xml" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/UserUtils.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/I.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/task/DownLoadGroupMemberTask.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/SplashActivity.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/GroupAdapter.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/task/DownloadAllGroupTask.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/ContactAdapter.java" />
-        <option value="$PROJECT_DIR$/res/layout/activity_add_contact.xml" />
-        <option value="$PROJECT_DIR$/src/fragments/ContactlistFragment.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupsActivity.java" />
-        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+        <option value="$PROJECT_DIR$/res/layout/fragment_boutique_child.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_boutique_child.xml" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/BoutiqueAdapter.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/BoutiqueChildActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/item_categroy_child.xml" />
+        <option value="$PROJECT_DIR$/res/layout/fragment_category.xml" />
+        <option value="$PROJECT_DIR$/src/fragments/CategoryFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/item_categroy_group.xml" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/view/ColorFilterButton.java" />
+        <option value="$PROJECT_DIR$/src/fragments/NewGoodFragment.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/ImageUtils.java" />
+        <option value="$PROJECT_DIR$/res/layout/common_head_back.xml" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/GoodAdapter.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/CategoryAdapter.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_category_child.xml" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/view/CatChildFilterButton.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/NewGoodBean.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/CategoryChildActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/common_head_title_white.xml" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/MessageBean.java" />
+        <option value="$PROJECT_DIR$/res/layout/simple_grid_item.xml" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/task/DownloadContactListTask.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_register.xml" />
+        <option value="$PROJECT_DIR$/res/layout/fragment_personal_center.xml" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/SettingsActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/item_collect.xml" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/task/DownloadCartListTask.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/SplashActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/item_cart.xml" />
+        <option value="$PROJECT_DIR$/res/layout/fragment_cart.xml" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/I.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/CartBean.java" />
+        <option value="$PROJECT_DIR$/src/fragments/CartFragment.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/CartAdapter.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/task/UpdateCartTask.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/FuLiCenterApplication.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/FuliCenterMainActivity.java" />
+        <option value="$PROJECT_DIR$/src/fragments/PersonalCenterFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_collect.xml" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/CollectBean.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/CollectAdapter.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/CollectActivity.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/MD5.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/task/DownloadCollectCountTask.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/RegisterActivity.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/assets/ShareSDK.xml" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/GoodDetailActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="249" />
-    <option name="y" value="79" />
-    <option name="width" value="1622" />
-    <option name="height" value="852" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1618" />
+    <option name="height" value="870" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -1089,38 +1501,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supperWechat" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supperWechat" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1139,8 +1519,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supperWechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supperWechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supperWechat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supperWechat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supperWechat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supperWechat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supperWechat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1149,24 +1593,39 @@
     <property name="android.sdk.path" value="D:/android-sdk-windows" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/res/drawable" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/res/drawable-xhdpi" />
     <property name="device.picker.selection" value="iphone" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/okhttp-urlconnection-2.7.5.jar" />
-    <property name="SearchEverywhereHistoryKey" value="Login&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/activity/LoginActivity.java&#10;Register&#9;PSI&#9;JAVA://cn.ucai.superwechat.activity.RegisterActivity&#10;messageAda&#9;PSI&#9;JAVA://cn.ucai.superwechat.adapter.MessageAdapter&#10;conta&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/adapter/ContactAdapter.java&#10;ContactAda&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/adapter/ContactAdapter.java&#10;Conta&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/adapter/ContactAdapter.java&#10;GroupActi&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/activity/GroupsActivity.java&#10;Con&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/adapter/ContactAdapter.java&#10;User&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/utils/UserUtils.java&#10;newFr&#9;PSI&#9;JAVA://cn.ucai.superwechat.adapter.NewFriendsMsgAdapter&#10;NewFri&#9;PSI&#9;JAVA://cn.ucai.superwechat.activity.NewFriendsMsgActivity&#10;New&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/activity/NewGroupActivity.java&#10;groupAd&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/adapter/GroupAdapter.java&#10;GroupActiv&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/activity/GroupsActivity.java&#10;Groupsi&#9;PSI&#9;JAVA://cn.ucai.superwechat.activity.GroupSimpleDetailActivity&#10;public&#9;PSI&#9;JAVA://cn.ucai.superwechat.activity.PublicGroupsActivity&#10;Group&#9;PSI&#9;JAVA://cn.ucai.superwechat.bean.Group&#10;group&#9;PSI&#9;JAVA://cn.ucai.superwechat.bean.Group&#10;Contact&#9;PSI&#9;JAVA://cn.ucai.superwechat.adapter.ContactAdapter&#10;Ut&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/utils/UserUtils.java&#10;groupAdap&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/adapter/GroupAdapter.java&#10;newG&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/activity/NewGroupActivity.java&#10;contactList&#9;FILE&#9;file://D:/supperWechat/src/fragments/ContactlistFragment.java&#10;Groupp&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/activity/GroupPickContactsActivity.java&#10;GroupAd&#9;PSI&#9;JAVA://cn.ucai.superwechat.adapter.GroupAdapter&#10;task&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/task/DownloadPublicGroupTask.java&#10;ma&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/activity/MainActivity.java&#10;UserP&#9;PSI&#9;JAVA://cn.ucai.superwechat.activity.UserProfileActivity&#10;user&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/utils/UserUtils.java&#10;add_con&#9;PSI&#9;JAVA://cn.ucai.superwechat.R.layout#activity_add_contact&#10;Gson&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/data/GsonRequest.java&#10;u&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/superwechat/utils/UserUtils.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/ShareSDK-Wechat-Moments-2.7.2.jar" />
+    <property name="SearchEverywhereHistoryKey" value="Good&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/GoodDetailActivity.java&#10;PersonCenter&#9;FILE&#9;file://D:/supperWechat/src/fragments/PersonalCenterFragment.java&#10;Adapter&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/adapter/CollectAdapter.java&#10;collectA&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/CollectActivity.java&#10;Okh&#9;PSI&#9;JAVA://cn.ucai.fulicenter.data.OkHttpUtils&#10;Per&#9;FILE&#9;file://D:/supperWechat/src/fragments/PersonalCenterFragment.java&#10;Fu&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/FuliCenterMainActivity.java&#10;Login&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/LoginActivity.java&#10;GoodDetail&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/GoodDetailActivity.java&#10;Fulic&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/FuliCenterMainActivity.java&#10;CartF&#9;FILE&#9;file://D:/supperWechat/src/fragments/CartFragment.java&#10;mai&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/FuliCenterMainActivity.java&#10;CartAd&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/adapter/CartAdapter.java&#10;GoodA&#9;PSI&#9;JAVA://cn.ucai.fulicenter.adapter.GoodAdapter&#10;I&#9;PSI&#9;JAVA://cn.ucai.fulicenter.I&#10;Fuli&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/FuliCenterMainActivity.java&#10;setting&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/SettingsActivity.java&#10;co&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/CollectActivity.java&#10;Utils&#9;PSI&#9;JAVA://cn.ucai.fulicenter.utils.Utils&#10;Spl&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/SplashActivity.java&#10;Colle&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/adapter/CollectAdapter.java&#10;Ful&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/FuliCenterMainActivity.java&#10;Person&#9;FILE&#9;file://D:/supperWechat/src/fragments/PersonalCenterFragment.java&#10;God&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/GoodDetailActivity.java&#10;Downl&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/task/DownloadCollectCountTask.java&#10;per&#9;FILE&#9;file://D:/supperWechat/src/fragments/PersonalCenterFragment.java&#10;GoodDe&#9;PSI&#9;JAVA://cn.ucai.fulicenter.activity.GoodDetailActivity&#10;Download&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/task/DownloadCollectCountTask.java&#10;spl&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/SplashActivity.java&#10;Log&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/LoginActivity.java&#10;pe&#9;FILE&#9;file://D:/supperWechat/src/fragments/PersonalCenterFragment.java&#10;user_pr&#9;FILE&#9;file://D:/supperWechat/res/layout/activity_user_profile.xml&#10;Dis&#9;PSI&#9;JAVA://cn.ucai.fulicenter.view.DisplayUtils&#10;FuL&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/FuliCenterMainActivity.java&#10;Cat&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/adapter/CategoryAdapter.java&#10;activity_cate&#9;PSI&#9;JAVA://cn.ucai.fulicenter.R.string#title_activity_category_child&#10;NewGoo&#9;FILE&#9;file://D:/supperWechat/src/fragments/NewGoodFragment.java&#10;GoodAd&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/adapter/GoodAdapter.java&#10;goodA&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/adapter/GoodAdapter.java&#10;NewGood&#9;FILE&#9;file://D:/supperWechat/src/fragments/NewGoodFragment.java&#10;Main&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/MainActivity.java&#10;main&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/MainActivity.java&#10;Dao&#9;PSI&#9;JAVA://cn.ucai.fulicenter.activity.MainActivity#userDao&#10;cha&#9;PSI&#9;JAVA://cn.ucai.fulicenter.adapter.ChatAllHistoryAdapter&#10;Us&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/utils/UserUtils.java&#10;appli&#9;PSI&#9;JAVA://cn.ucai.fulicenter.SuperweChatApplication&#10;set&#9;PSI&#9;JAVA://fragments.SettingsFragment&#10;login&#9;FILE&#9;file://D:/supperWechat/src/cn/ucai/fulicenter/activity/LoginActivity.java&#10;sp&#9;PSI&#9;JAVA://cn.ucai.fulicenter.activity.SplashActivity&#10;Register&#9;PSI&#9;JAVA://cn.ucai.superwechat.activity.RegisterActivity" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="1045" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.SHOW" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\supperWechat\res\layout" />
+      <recent name="D:\supperWechat\src\cn\ucai\fulicenter\bean" />
+      <recent name="D:\supperWechat\src\cn\ucai\fulicenter\view" />
+      <recent name="D:\supperWechat\src\cn\ucai\fulicenter" />
+      <recent name="D:\supperWechat\libs" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="cn.ucai.fulicenter.activity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\supperWechat\src\cn\ucai\fulicenter" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.ucai.chatuidemo" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\supperWechat\src\fragments" />
-      <recent name="D:\supperWechat\src\cn\ucai\superwechat\activity" />
-      <recent name="D:\supperWechat\src\cn\ucai\superwechat\listener" />
-      <recent name="D:\supperWechat\libs" />
-      <recent name="D:\supperWechat\src\cn\ucai\superwechat\data" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fragments" />
+      <recent name="cn.ucai.fulicenter.adapter" />
+      <recent name="cn.ucai.fulicenter.task" />
+      <recent name="cn.ucai.fulicenter.activity" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.ucai.fulicenter.adapter" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.supperWechat">
@@ -1495,67 +1954,70 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="249" y="79" width="1622" height="852" extended-state="0" />
+    <frame x="-9" y="-9" width="1618" height="870" extended-state="7" />
     <editor active="false" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.49739245" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6560636" sideWeight="0.5838752" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32366413" sideWeight="0.49739245" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8167939" sideWeight="0.5567145" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6701389" sideWeight="0.23211963" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07535322" sideWeight="0.84139574" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7557252" sideWeight="0.49479845" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72824425" sideWeight="0.7678804" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.49219766" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9221374" sideWeight="0.19491525" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48854962" sideWeight="0.85462844" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73282444" sideWeight="0.31789282" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.65954196" sideWeight="0.20435968" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3129771" sideWeight="0.49219766" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29924244" sideWeight="0.5026702" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31553397" sideWeight="0.14537157" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27958387" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.027958388" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2731421" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24967405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.49732977" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35202086" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29478458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5923664" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54195803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05006502" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.049846627" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="934" y="345" width="666" height="241" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27178153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17399268" sideWeight="0.49732977" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16384916" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6701389" sideWeight="0.23211963" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18625954" sideWeight="0.84139574" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9221374" sideWeight="0.19491525" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.192607" sideWeight="0.85462844" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05006502" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2731421" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29478458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5923664" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.49739245" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.65954196" sideWeight="0.5838752" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3249476" sideWeight="0.49739245" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4247191" sideWeight="0.5567145" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="934" y="345" width="666" height="241" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27200633" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7557252" sideWeight="0.49479845" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73" sideWeight="0.7678804" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.49219766" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19854881" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7358491" sideWeight="0.31789282" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57078654" sideWeight="0.20435968" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31656185" sideWeight="0.49219766" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29924244" sideWeight="0.5026702" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16036506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17399268" sideWeight="0.49732977" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.028614458" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31553397" sideWeight="0.14537157" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25131926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21412301" sideWeight="0.49732977" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35202086" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1580,405 +2042,495 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/ucai/superwechat/listener/OnSetAvatarListener.java</url>
+          <url>file://$PROJECT_DIR$/src/cn/ucai/fulicenter/listener/OnSetAvatarListener.java</url>
           <line>201</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/FuliCenterMainActivity.java</url>
+          <line>174</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/row_group.xml">
-      <provider editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/MessageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33167082">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/item_new_good.xml">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7428572">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="37" />
-          <folding />
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_group_simle_details.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2714286">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/easemobchat_2.2.8.jar!/com/easemob/chat/EMGroupInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32951945">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/data/GsonRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05042017">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37659964">
-          <caret line="188" column="18" selection-start-line="188" selection-start-column="18" selection-end-line="188" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/db/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/db/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/activity/PublicGroupsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/row_invite_msg.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7142857">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#817#843#0" expanded="true" />
-            <element signature="e#882#908#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/row_contact.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2142856">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/I.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0">
-          <caret line="187" column="60" selection-start-line="187" selection-start-column="60" selection-end-line="187" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/task/DownloadContactListTask.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/SettingsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <caret line="359" column="35" selection-start-line="359" selection-start-column="35" selection-end-line="359" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/easemobchat_2.2.8.jar!/com/easemob/chat/EMGroupManager.class">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_fuli_center_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.119760476">
-          <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.33795014">
+          <caret line="68" column="50" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/item_cart.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21311475">
-          <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/task/DownLoadGroupMemberTask.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_category_child.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3469388">
-          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.9528536">
+          <caret line="82" column="51" selection-start-line="63" selection-start-column="4" selection-end-line="82" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/android-sdk-windows/sources/android-23/android/widget/ListView.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/BoutiqueAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.18052256">
+        <state vertical-scroll-proportion="0.3319239">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/GoodAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="165" column="13" selection-start-line="161" selection-start-column="12" selection-end-line="165" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fragment_cart.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/task/DownloadImageTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/task/LoadImageTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/task/LoadLocalBigImgTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/task/LoadVideoImageTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/android-sdk-windows/sources/android-23/android/content/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3319239">
+          <caret line="3157" column="31" selection-start-line="3157" selection-start-column="31" selection-end-line="3157" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/task/DownloadCartListTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7040169">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/CartBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/CartAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values-zh-rCN/strings.xml">
+    <entry file="file://$PROJECT_DIR$/src/fragments/CartFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39119804">
-          <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.28118393">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/GoodDetailsBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/task/UpdateCartTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/FuLiCenterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0366974">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding>
+            <element signature="e#2167#2168#0" expanded="false" />
+            <element signature="e#2189#2190#0" expanded="false" />
+            <element signature="e#3272#3282#0" expanded="false" />
+            <element signature="e#3538#3539#0" expanded="false" />
+            <element signature="e#3556#3557#0" expanded="false" />
+            <element signature="e#3591#3592#0" expanded="false" />
+            <element signature="e#3614#3615#0" expanded="false" />
+            <element signature="e#3661#3662#0" expanded="false" />
+            <element signature="e#3686#3687#0" expanded="false" />
+            <element signature="e#3749#3750#0" expanded="false" />
+            <element signature="e#3786#3787#0" expanded="false" />
+            <element signature="e#3836#3837#0" expanded="false" />
+            <element signature="e#3858#3859#0" expanded="false" />
+            <element signature="e#3921#3922#0" expanded="false" />
+            <element signature="e#3952#3953#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/FuliCenterMainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="138" column="47" selection-start-line="138" selection-start-column="47" selection-end-line="138" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_collect.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7714286">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/activity/NewGroupActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/ImageUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.710177">
-          <caret line="250" column="18" selection-start-line="250" selection-start-column="18" selection-end-line="250" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/bean/Group.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_boutique_child.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31858408">
+        <state vertical-scroll-proportion="0.6728232">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/item_collect.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.357143">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_good_details.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7621951">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fragment_personal_center.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0">
+          <caret line="97" column="66" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/android-sdk-windows/sources/android-23/android/util/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3326613">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/CollectBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.612903">
+          <caret line="116" column="40" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/CollectActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/adapter/CollectAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="129" column="59" selection-start-line="129" selection-start-column="59" selection-end-line="129" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fragments/PersonalCenterFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/task/DownloadContactListTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12227074">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/MD5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70428014">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/RegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58203125">
+          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#532#533#0" expanded="false" />
+            <element signature="e#579#580#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/I.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="414" column="49" selection-start-line="414" selection-start-column="35" selection-end-line="414" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/data/OkHttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#8191#8192#0" expanded="false" />
+            <element signature="e#8232#8233#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#1147#1148#0" expanded="false" />
+            <element signature="e#1173#1174#0" expanded="false" />
+            <element signature="e#1217#1218#0" expanded="false" />
+            <element signature="e#1246#1247#0" expanded="false" />
+            <element signature="e#1279#1280#0" expanded="false" />
+            <element signature="e#1307#1308#0" expanded="false" />
+            <element signature="e#1354#1355#0" expanded="false" />
+            <element signature="e#1387#1388#0" expanded="false" />
+            <element signature="e#1424#1425#0" expanded="false" />
+            <element signature="e#1456#1457#0" expanded="false" />
+            <element signature="e#1511#1512#0" expanded="false" />
+            <element signature="e#1552#1553#0" expanded="false" />
+            <element signature="e#1585#1586#0" expanded="false" />
+            <element signature="e#1613#1614#0" expanded="false" />
+            <element signature="e#1660#1661#0" expanded="false" />
+            <element signature="e#1693#1694#0" expanded="false" />
+            <element signature="e#1737#1738#0" expanded="false" />
+            <element signature="e#1775#1776#0" expanded="false" />
+            <element signature="e#2183#2184#0" expanded="false" />
+            <element signature="e#2203#2204#0" expanded="false" />
+            <element signature="e#2244#2245#0" expanded="false" />
+            <element signature="e#2271#2272#0" expanded="false" />
+            <element signature="e#2519#2520#0" expanded="false" />
+            <element signature="e#2553#2554#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_black_list.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06282722">
-          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/android-sdk-windows/sources/android-23/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/task/DownloadAllGroupTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3726938">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/task/DownloadImageTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12568305">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/activity/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5294118">
-          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/task/DownloadPublicGroupTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.4863388">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/task/LoadImageTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21857923">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/volley.jar!/com/android/volley/toolbox/ImageRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76537585">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/volley.jar!/com/android/volley/toolbox/ImageLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.948718">
-          <caret line="219" column="24" selection-start-line="219" selection-start-column="24" selection-end-line="219" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/volley.jar!/com/android/volley/toolbox/NetworkImageView.class">
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/data/GsonRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#1397#1398#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/volley.jar!/com/android/volley/Request.class">
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/task/DownloadCollectCountTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/activity/NewFriendsMsgActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_add_contact.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/activity/AddContactActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="57" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/android-sdk-windows/sources/android-23/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37353435">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/android-sdk-windows/sources/android-23/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="430" column="29" selection-start-line="430" selection-start-column="29" selection-end-line="430" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/ContactAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fragments/ContactlistFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="278" column="66" selection-start-line="278" selection-start-column="66" selection-end-line="278" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/easemobchat_2.2.8.jar!/com/easemob/chat/EMChatManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="133" column="50" selection-start-line="133" selection-start-column="50" selection-end-line="133" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/okhttp-2.7.5.jar!/com/squareup/okhttp/Request.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.4615383">
-          <caret line="139" column="36" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/data/OkHttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="26" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/utils/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09338521">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1400778">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/utils/UserUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.038911">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/activity/RegisterActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32684824">
-          <caret line="165" column="29" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28015563">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.046692606">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/MessageAdapter.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.046692606">
-          <caret line="1408" column="148" selection-start-line="1408" selection-start-column="148" selection-end-line="1408" selection-end-column="148" />
+        <state vertical-scroll-proportion="-3.8181818">
+          <caret line="317" column="22" selection-start-line="317" selection-start-column="22" selection-end-line="317" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/GroupAdapter.java">
+    <entry file="file://$PROJECT_DIR$/assets/ShareSDK.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="154.90909">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/activity/GoodDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="149" column="25" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
-          <folding />
+          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+          <folding>
+            <element signature="e#2370#2615#0" expanded="true" />
+            <element signature="e#2709#4821#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
+            <element signature="e#12584#12609#0" expanded="true" />
+            <element signature="e#13088#13116#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/activity/LoginActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/applib/controller/HXSDKHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupPickContactsActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/fulicenter/DemoHXSDKHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/activity/GroupSimpleDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6166365">
-          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.13712375">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
           <folding />
         </state>
       </provider>

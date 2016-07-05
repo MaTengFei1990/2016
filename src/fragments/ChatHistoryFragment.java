@@ -53,14 +53,14 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 
-import cn.ucai.superwechat.DemoHXSDKHelper;
-import cn.ucai.superwechat.SuperweChatApplication;
-import cn.ucai.superwechat.activity.ChatActivity;
-import cn.ucai.superwechat.activity.MainActivity;
-import cn.ucai.superwechat.adapter.ChatHistoryAdapter;
-import cn.ucai.superwechat.applib.controller.HXSDKHelper;
-import cn.ucai.superwechat.db.InviteMessgeDao;
-import cn.ucai.superwechat.domain.EMUser;
+import cn.ucai.fulicenter.DemoHXSDKHelper;
+import cn.ucai.fulicenter.FuLiCenterApplication;
+import cn.ucai.fulicenter.activity.ChatActivity;
+import cn.ucai.fulicenter.activity.MainActivity;
+import cn.ucai.fulicenter.adapter.ChatHistoryAdapter;
+import cn.ucai.fulicenter.applib.controller.HXSDKHelper;
+import cn.ucai.fulicenter.db.InviteMessgeDao;
+import cn.ucai.fulicenter.domain.EMUser;
 
 /**
  * 聊天记录Fragment
@@ -80,27 +80,27 @@ public class ChatHistoryFragment extends Fragment {
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		return inflater.inflate(cn.ucai.superwechat.R.layout.fragment_conversation_history, container, false);
+		return inflater.inflate(cn.ucai.fulicenter.R.layout.fragment_conversation_history, container, false);
 	}
 
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
 		inputMethodManager = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
-		errorText = (TextView) errorItem.findViewById(cn.ucai.superwechat.R.id.tv_connect_errormsg);
+		errorText = (TextView) errorItem.findViewById(cn.ucai.fulicenter.R.id.tv_connect_errormsg);
 		// contact list
 		contactList = ((DemoHXSDKHelper) HXSDKHelper.getInstance()).getContactList();
-		listView = (ListView) getView().findViewById(cn.ucai.superwechat.R.id.list);
+		listView = (ListView) getView().findViewById(cn.ucai.fulicenter.R.id.list);
 		adapter = new ChatHistoryAdapter(getActivity(), 1, loadUsersWithRecentChat());
 		// 设置adapter
 		listView.setAdapter(adapter);
-		final String st = getResources().getString(cn.ucai.superwechat.R.string.Cant_chat_with_yourself);
+		final String st = getResources().getString(cn.ucai.fulicenter.R.string.Cant_chat_with_yourself);
 		listView.setOnItemClickListener(new OnItemClickListener() {
 
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				EMContact emContact = adapter.getItem(position);
-				if (adapter.getItem(position).getUsername().equals(SuperweChatApplication.getInstance().getUserName()))
+				if (adapter.getItem(position).getUsername().equals(FuLiCenterApplication.getInstance().getUserName()))
 					Toast.makeText(getActivity(), st, Toast.LENGTH_SHORT).show();
 				else {
 					// 进入聊天页面
@@ -134,9 +134,9 @@ public class ChatHistoryFragment extends Fragment {
 			}
 		});
 		// 搜索框
-		query = (EditText) getView().findViewById(cn.ucai.superwechat.R.id.query);
+		query = (EditText) getView().findViewById(cn.ucai.fulicenter.R.id.query);
 		// 搜索框中清除button
-		clearSearch = (ImageButton) getView().findViewById(cn.ucai.superwechat.R.id.search_clear);
+		clearSearch = (ImageButton) getView().findViewById(cn.ucai.fulicenter.R.id.search_clear);
 		query.addTextChangedListener(new TextWatcher() {
 			public void onTextChanged(CharSequence s, int start, int before, int count) {
 				
@@ -168,13 +168,13 @@ public class ChatHistoryFragment extends Fragment {
 	public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
 		super.onCreateContextMenu(menu, v, menuInfo);
 		// if(((AdapterContextMenuInfo)menuInfo).position > 0){ m,
-		getActivity().getMenuInflater().inflate(cn.ucai.superwechat.R.menu.delete_message, menu);
+		getActivity().getMenuInflater().inflate(cn.ucai.fulicenter.R.menu.delete_message, menu);
 		// }
 	}
 
 	@Override
 	public boolean onContextItemSelected(MenuItem item) {
-		if (item.getItemId() == cn.ucai.superwechat.R.id.delete_message) {
+		if (item.getItemId() == cn.ucai.fulicenter.R.id.delete_message) {
 			EMContact tobeDeleteUser = adapter.getItem(((AdapterContextMenuInfo) item.getMenuInfo()).position);
 			boolean isGroup = false;
 			if(tobeDeleteUser instanceof EMGroup)
@@ -198,7 +198,7 @@ public class ChatHistoryFragment extends Fragment {
 	 * 刷新页面
 	 */
 	public void refresh() {
-		adapter = new ChatHistoryAdapter(getActivity(), cn.ucai.superwechat.R.layout.row_chat_history, loadUsersWithRecentChat());
+		adapter = new ChatHistoryAdapter(getActivity(), cn.ucai.fulicenter.R.layout.row_chat_history, loadUsersWithRecentChat());
 		listView.setAdapter(adapter);
 		adapter.notifyDataSetChanged();
 	}

@@ -1,0 +1,114 @@
+在value目录下的colors.xml中修改整体的颜色设置，统一修改为#fff
+
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color> 
+<color name="top_bar_normal_bg">#00acff</color>    
+<color name="bottom_bar_normal_bg">#2D2F31</color>
+   新增颜色
+    <color name="bottom_bar_taobao_bg">#F9F7F4</color> 
+    <color name="bottom_bar_normal_bg_top">#C0BFBF</color> 
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color> 
+	<drawable name="menu_item_normal">#6A7077</drawable>
+	<drawable name="menu_item_pressed">#FF7A49</drawable>
+	<drawable name="menu_item_selected">#FF7A49</drawable>
+    <color name="menu_item_normal">#6A7077</color>
+    <color name="menu_item_pressed">#FF7A49</color>
+    <color name="menu_item_selected">#FF7A49</color>
+	<color name="fragment_bg">#EFEFEF</color>
+    <color name="item_good_text">#313131</color>
+    <color name="item_good_price">#df3131</color>
+    <color name="list_background">#EFEFEF</color>
+    <color name="good_detail_title_bg">#FF5300</color>
+    <color name="good_detail_bg">#F2F2F2</color>
+    <color name="good_detail_bg_white">#FFFFFF</color>
+    <color name="good_detail_currency_price">#CC2E2E</color>
+    <color name="good_detaul_flow_indicator_focus">#FF5300</color>
+    <color name="cart_buy_bg">#FF8000</color>
+    <color name="list_item_title">#ED6F73</color>
+    <color name="list_item_name">#131313</color>
+    <color name="list_item_des">#DCDCDC</color>
+    <color name="personal_center_top_bg">#FF5000</color>
+    <color name="bg_gray_light">#EEEEEE</color>
+    <color name="google_red">#d62d20</color>
+    <color name="google_blue">#0057e7</color>
+    <color name="google_green">#008744</color>
+    <color name="google_yellow">#ffa700</color>
+    <color name="bluebg">#007edf</color>
+    <color name="greybg">#EEEEEE</color>
+    <color name="fontgrey">#999999</color>
+    <color name="main_orange">#FF6C2C</color>
+
+在style.xml中新增如下样式：
+
+<style name="style_menu_btn">
+      <item name="android:layout_width">match_parent</item>
+      <item name="android:layout_height">match_parent</item>
+      <item name="android:padding">2dp</item>
+      <item name="android:textColor">@color/main_botton_text_color</item>
+      <item name="android:textSize">10sp</item>
+      <item name="android:gravity">center</item>
+  </style>
+  <!-- 
+  android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerHorizontal="true"
+   -->
+   <style name="style_menu_iv">
+       <item name="android:layout_width">32dp</item>
+       <item name="android:layout_height">32dp</item>
+       <item name="android:layout_centerHorizontal">true</item>
+       <item name="android:layout_marginTop">2dp</item>
+   </style>
+  <style name="style_divide_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@drawable/divide_line_bg</item>
+    </style>
+ 
+   <style name="style_menu_item">
+       <item name="android:layout_width">0dp</item>
+       <item name="android:layout_height">match_parent</item>
+       <item name="android:layout_weight">1</item>
+   </style>
+    <!-- 菜单项属性的style-->
+    <style name="menu_item_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">7dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:onClick">onCheckedChange</item>
+    </style>
+    <style name="menu_item_style_cart">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">7dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:onClick">onCheckedChange</item>
+    </style>
+   <!-- 
+   android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" 
+        android:background="#fff"
+    -->
+    <style name="style_menu_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">#fff</item>
+    </style>
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+    </style>

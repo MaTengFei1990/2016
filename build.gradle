@@ -15,13 +15,31 @@ dependencies {
     compile files('libs/gson-2.2.4.jar')
     compile files('libs/volley.jar')
     compile files('libs/volley.jar')
+    compile files('libs/jackson-core-asl-1.9.11.jar')
+    compile 'com.android.support:recyclerview-v7:23.3.0'
+    compile 'com.android.support:support-v4:23.3.0'
+    compile files('libs/MobCommons-2016.0426.1819.jar')
+    compile files('libs/MobTools-2016.0426.1819.jar')
+    compile files('libs/ShareSDK-Core-2.7.2.jar')
+    compile files('libs/ShareSDK-Email-2.7.2.jar')
+    compile files('libs/ShareSDK-Facebook-2.7.2.jar')
+    compile files('libs/ShareSDK-QQ-2.7.2.jar')
+    compile files('libs/ShareSDK-QZone-2.7.2.jar')
+    compile files('libs/ShareSDK-ShortMessage-2.7.2.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.7.2.jar')
+    compile files('libs/ShareSDK-TencentWeibo-2.7.2.jar')
+    compile files('libs/ShareSDK-Twitter-2.7.2.jar')
+    compile files('libs/ShareSDK-Wechat-2.7.2.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.7.2.jar')
+    compile files('libs/ShareSDK-Wechat-Favorite-2.7.2.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.7.2.jar')
 }
 
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
     defaultConfig{
-        applicationId "cn.ucai.superwechat"
+        applicationId "cn.ucai.fulicenter"
     }
 
 
